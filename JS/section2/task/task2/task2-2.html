@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>根据时间提示问候语</title>
+    <script>
+        function myTime(){
+            var today = new Date();
+            var hh = today.getHours();//获取小时
+            var dd = today.getMinutes();//获取分钟
+            var ss = today.getSeconds();//获取秒
+            var year = today.getFullYear();//获取年份
+            var month = today.getMonth()+1;//获取月份
+            var day = today.getDate();//天数
+            if (hh <= 12){
+                document.getElementById("div3").innerHTML = "上午好!欢迎来到贵美";
+            }else if (hh > 12 && hh <= 18){
+                document.getElementById("div3").innerHTML = "下午好!欢迎来到贵美";
+            }else {
+                document.getElementById("div3").innerHTML = "晚上好!欢迎来到贵美";
+            }
+            document.getElementById("span1").innerHTML = year + '年' + month + '月' + day + '日';
+            document.getElementById("span2").innerHTML = hh + "：" + dd + "：" + ss;
+        }
+    </script>
+</head>
+<body onload="myTime()">
+<div>今天日期:<span id="span1"></span></div>
+<div>现在时间:<span id="span2"></span></div>
+<div id="div3"></div>
+</body>
+</html>

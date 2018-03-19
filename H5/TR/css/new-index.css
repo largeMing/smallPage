@@ -1,0 +1,137 @@
+.box {
+    width: 1000px;
+    margin: 0 auto;
+}
+.header-box {
+    position: relative;
+    background: url("../img/header_bg.gif") repeat-x;
+    height: 58px;
+    margin-left: 5px;
+}
+
+.header-r-top {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+}
+
+.header-r-top li {
+    float: left;
+    margin-left: 10px;
+}
+
+.header-r-top li:not(:last-child) a {
+    border-right: solid 1px #98B0BE;
+    padding-right: 10px;
+}
+
+.header-r-top li img {
+    margin-right: 5px;
+}
+
+.header-r-btm {
+    position: absolute;
+    right: 25px;
+    bottom: 5px;
+}
+
+.header-r-btm input {
+    width: 153px;
+    height: 20px;
+    box-sizing: border-box;
+    border: solid 1px #70A1E2;
+    margin-right: 5px;
+}
+
+.header-r-btm select {
+    width: 71px;
+    height: 20px;
+    box-sizing: border-box;
+    border: solid 1px #70A1E2;
+    margin-right: 5px;
+}
+
+.header-title {
+    font-size: 30px;
+    padding: 15px 29px;
+}
+
+.header_tlist {
+    min-height: 65px;
+    padding: 10px;
+    background: #E1F2FA;
+}
+
+.header_tul {
+    margin-left: 60px;
+}
+
+.tul_li1 {
+    display: inline-block;
+    position: absolute;
+}
+
+.header_tul li a {
+    color: #676666;
+    white-space: nowrap;
+    padding: 2px 5px;
+    margin-right: 20px;
+}
+
+.header_tul li a:hover {
+    background: #1583C5;
+    color: #fff;
+}
+
+.main-box {
+    position: relative;
+    margin-top: 10px;
+    background: url("../img/bg_3.gif") repeat-y;
+    height: 500px;
+    border: solid 1px #77B1E8;
+}
+
+.main-l-cont {
+    width: 220px;
+    box-sizing: border-box;
+}
+
+.main-l-ul {
+    margin-top: 10px;
+}
+
+.main-l-ul li {
+    position: relative;
+}
+
+.main-l-li1 {
+    text-indent: 35px;
+    height: 28px;
+    line-height: 28px;
+    background: url("../img/bg_2.gif") no-repeat;
+}
+
+.main-l-li2 {
+    text-indent: 50px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.main-l-li3 {
+    text-indent: 65px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.main-l-li4 {
+    text-indent: 80px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.main-l-li-img {
+    position: absolute;
+    top: 8px;
+    right: 7px;
+    cursor: pointer;
+}

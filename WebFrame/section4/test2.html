@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>搜狐新闻选项卡</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        .nav-box {
+            display: flex;
+            padding-top: 5px;
+            width: 400px;
+            margin: 40px auto 0;
+            border: solid 1px #C9CDD1;
+        }
+        .nav-box li {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        .tab-box {
+            width: 350px;
+            margin: 20px auto 0;
+        }
+        .tab-box img {
+            width: 350px;
+            height: 130px;
+        }
+    </style>
+</head>
+<body>
+<!--选项卡-->
+<ul class="nav nav-tabs nav-box">
+    <li><a href="#name1">新闻</a></li>
+    <li><a href="#name2">娱乐</a></li>
+    <li class="active"><a href="#name3">军事</a></li>
+    <li><a href="#name4">社会</a></li>
+    <li><a href="#name5">体育</a></li>
+</ul>
+<!--选项卡面板-->
+<div class="tab-content tab-box">
+    <div class="tab-pane fade in" id="name1">
+        <img src="img/1.jpg" alt="">
+        <h4>一列火车与校车相撞致多名儿童死伤网曝一老汉公交车上强抱猥亵少女24小时连遭空袭 人们挖出被压男孩</h4>
+        <ul>
+            <li>村主任看风水收费一万不算违纪？</li>
+            <li>女经理色诱警官卖17台伪劣安检机</li>
+            <li>男子一夜情后疑染病将女子推下楼</li>
+            <li>网传四川成都一女性头部被人割掉</li>
+            <li>游客遭老虎咬死专家称园方无责任</li>
+        </ul>
+    </div>
+    <div class="tab-pane fade in" id="name2">
+        <img src="img/2.jpg" alt="">
+        <h4>曾红遍中韩范冰冰为她龙套却因这陨落他曾是超级男模 与陈冠希老爸同性恋谢娜素颜吓人似村姑 让人不忍直视</h4>
+        <ul>
+            <li>尺度大！陈乔恩录节目现场脱胸罩</li>
+            <li>赵薇凭什么首任威尼斯电影节评委</li>
+            <li>他是中国首位入狱童星今二度被捕</li>
+            <li>天这么热吴尊却不爱洗澡杨幂脚臭</li>
+            <li>辣眼睛！女主播直播风油精滴下体</li>
+        </ul>
+    </div>
+    <div class="tab-pane fade in  active" id="name3">
+        <img src="img/3.jpg" alt="">
+        <h4>第二艘国产航母开建 地点曝光南海局势突变：美认怂北京大胜不止辽宁舰！中国竟藏了6艘航母</h4>
+        <ul>
+            <li>斯诺登再曝绝密 美暗中攻击他们</li>
+            <li>菲对比中菲军力 曝结果令其绝望</li>
+            <li>中国使必杀一招 美在南海投降了</li>
+            <li>红旗9突然撤下永兴岛 绝密曝光</li>
+            <li>张召忠对南海霸气表态 美日胆寒</li>
+        </ul>
+    </div>
+    <div class="tab-pane fade in" id="name4">
+        <img src="img/4.jpg" alt="">
+        <ul>
+            <li>夫妻后院发现巨型鸵鸟蛋真相惊呆</li>
+            <li>YY直播不雅视频10岁女孩现场脱衣</li>
+            <li>抢劫犯弃新婚妻带小姨子潜逃28年</li>
+            <li>婆婆与儿媳同生娃孙子比儿子还大</li>
+            <li>网红生产线：21岁小伙年入百万元</li>
+        </ul>
+    </div>
+    <div class="tab-pane fade in" id="name5">
+        <img src="img/5.jpg" alt="">
+        <h4>曼联全队 离京穆帅告别红魔球迷</h4>
+        <ul>
+            <li>十大看点引爆国安恒大工体对决</li>
+            <li>国足集训名单：没球踢3将入选</li>
+            <li>中超赛场暴力冲突堪比格斗大赛</li>
+            <li>巴萨赴英国备战 梅西换新造型</li>
+        </ul>
+    </div>
+</div>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/bootstrap.js"></script>
+<script>
+    $(function () {
+        $(".nav a").click(function (e) {
+            e.preventDefault();
+            $(this).tab("show");
+        })
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+dl {
+    width: 180px;
+}
+
+dt {
+    line-height: 30px;
+    padding-left: 30px;
+    border-left: solid 10px #f00;
+    cursor: pointer;
+}
+
+dd {
+    line-height: 45px;
+    display: none;
+}
+
+img,
+a {
+    vertical-align: middle;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
+}

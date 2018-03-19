@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.box{
+    width: 1012px;
+    margin: 0 auto;
+    position: relative;
+}
+.img2{
+    position: absolute;
+    top: 200px;
+    left: -250px;
+}
+.img3{
+    position: absolute;
+    right: -250px;
+    top: 200px;
+}
+.img4{
+    position: fixed;
+    right: 0px;
+    bottom: 330px;
+}
+.img5{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}

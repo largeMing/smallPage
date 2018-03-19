@@ -1,0 +1,18 @@
+.number {
+    padding: 1.5px 15px;
+    border: solid 1px #000;
+    text-align: center;
+}
+
+table {
+    text-align: center;
+}
+
+td {
+    width: 220px;
+    height: 30px;
+}
+
+.dom:hover span {
+    cursor: pointer;
+}

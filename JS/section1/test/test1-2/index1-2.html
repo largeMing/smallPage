@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>调试</title>
+    <script type="text/javascript">
+        var time =prompt("请输入当前小时数：");
+        if(time >= 6 && time <= 12){
+            alert("上午好！欢迎来到贵美");
+            document.write("<h1>上午好!欢迎来到贵美</h1>");
+            for (var i = 1;i <= time;i++){
+                document.write("手动笑脸" + i + "<br/>");
+            }
+        }else if(time >= 13 && time <= 20){
+            alert("下午好！欢迎来到贵美");
+            document.write("<h1>下午好!欢迎来到贵美</h1>");
+            for (var j = 1;j <= time;j++){
+                document.write("手动喇叭" + j + "<br/>");
+            }
+        }else{
+            alert("晚上好！欢迎来到贵美");
+            document.write("<h1>夜深了,该休息了!</h1>");
+            for (var k = 1;k <= time;k++){
+                document.write("手动月亮" + k + "<br/>");
+            }
+        }
+    </script>
+</head>
+<body>
+<header></header>
+<main></main>
+<footer></footer>
+</body>
+</html>

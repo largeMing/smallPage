@@ -1,0 +1,31 @@
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    color: #fff;
+    line-height: 100px;
+    text-align: center;
+}
+
+.title {
+    color: #00A080;
+}
+
+.small-title {
+    color: #666;
+    margin: 30px 0 35px 0;
+}
+
+.img-position {
+    margin: 0 auto;
+}
+
+.li-bg-one {
+    background: #DE6A87;
+}
+
+.li-bg-two {
+    background: #E68DA3;
+}

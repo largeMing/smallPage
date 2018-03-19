@@ -1,0 +1,153 @@
+article{
+    position: relative;
+    background: #FCFCFC url("../img/loadimg.jpg") 30% 30% no-repeat;
+    min-width: 1200px;
+    width: 100%;
+    height: 500px;
+}
+/*表单开始*/
+.article_form{
+    position: absolute;
+    width: 280px;
+    right: 300px;
+    top: 50px;
+    padding: 20px;
+}
+/*京东会员*/
+.left{
+    float: left;
+    color: #7E7E7E;
+    font-size: 16px;
+    font-weight: 700;
+}
+/*立即注册*/
+.right{
+    float: right;
+}
+.right a{
+    font-size: 12px;
+    color: #277ED3;
+}
+/*第一个文本框*/
+.form_input1{
+    margin-top: 40px;
+    border: solid 1px #BEBEBE;
+}
+/*第二个文本框*/
+.form_input2{
+    margin-top: 20px;
+    border: solid 1px #BEBEBE;
+}
+.input_img{
+    vertical-align: middle;
+    padding: 10px;
+}
+.input{
+    vertical-align: middle;
+    border: none;
+    outline: none;
+}
+/*自动登录单选框*/
+.form_radio{
+    margin-top: 20px;
+    line-height: 25px;
+}
+.form_radio_left{
+    float: left;
+    font-size: 12px;
+    color: #9C9FA4;
+}
+.check{
+    margin: 6px 10px 0 0;
+    display: block;
+    float: left;
+}
+/*忘记密码*/
+.form_radio_right{
+    float: right;
+}
+.form_radio_right > a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #9C9FA4;
+}
+/*登录按钮*/
+.button{
+    background: #FF3C3C;
+    color: #ffffff;
+    border-radius: 3px;
+    display: block;
+    width: 280px;
+    padding: 10px 0;
+    font-weight: 700;
+    margin-top: 15px;
+    line-height: 30px;
+    border: none;
+}
+/*合作网站*/
+.teamwork,
+.teamwork_span{
+    margin-top: 10px;
+    color: #77797A;
+    font-size: 12px;
+}
+.teamwork_span a{
+    display: inline-block;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+.teamwork_span a:nth-of-type(1){
+    background: url("../img/qqf.png") no-repeat;
+    background-size: contain;
+}
+.teamwork_span a:nth-of-type(2){
+    background: url("../img/wbf.png") no-repeat;
+    background-size: contain;
+}
+.teamwork_span a:nth-of-type(3){
+    background: url("../img/zhif.png") no-repeat;
+    background-size: contain;
+}
+.teamwork_span a:nth-of-type(4){
+    background: url("../img/wxf.png") no-repeat;
+    background-size: contain;
+}
+.teamwork_span a:nth-of-type(5){
+    background: url("../img/loadMore.png")right center no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    width: 80px;
+    height: 15px;
+    padding-right: 15px;
+    color: #77797A;
+    font-size: 12px;
+}
+.teamwork_span a:nth-of-type(1):hover{
+    background: url("../img/qqt.png");
+    background-size: contain;
+}
+.teamwork_span a:nth-of-type(2):hover{
+    background: url("../img/wbt.png");
+    background-size: contain;
+}
+.teamwork_span a:nth-of-type(3):hover{
+    background: url("../img/zhit.png");
+    background-size: contain;
+}
+.teamwork_span a:nth-of-type(4):hover{
+    background: url("../img/wxt.png");
+    background-size: contain;
+}
+
+/*清除浮动*/
+.form_radio:after,
+.from_top:after{
+    display: block;/*使生成的元素以块级元素显示,占满空间*/
+    clear: both;/*清除浮动*/
+    content: ".";/*生成内容作为最后一个元素,至于content里面是点还是其他都可以.不推荐为空*/
+    visibility: hidden;/*使生成的内容不可见,并允许可能被生成内容盖住的内容可以进行点击和交互*/
+    height: 0;/*避免生成内容破坏原有布局的高度*/
+}

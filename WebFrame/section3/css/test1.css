@@ -1,0 +1,27 @@
+.header-ul {
+    display: flex;
+    padding: 0 35px;
+    background: #003;
+}
+
+.header-ul>li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 50px;
+    color: #fff;
+}
+
+.header-ul li span {
+    margin-right: 5px;
+}
+
+.header-ul a {
+    color: #fff;
+    font-size: 13px;
+}
+
+.dropdown-bg li {
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+@media (min-width: 1050px) {
+    .nav-box {
+        padding: 0 64px;
+    }
+}
+
+@media (max-width: 767px) {
+    .nav-form {
+        display: none;
+    }
+
+    .nav-login {
+        position: absolute;
+        top: 0;
+        left: 50%;
+    }
+
+    .nav-login li {
+        float: left;
+    }
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}

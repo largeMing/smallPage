@@ -1,0 +1,500 @@
+.header-box {
+    min-width: 1190px;
+    width: 100%;
+    height: 48px;
+    background: #FFF;
+    box-shadow: 0 3px 5px #E6EDF1;
+}
+
+.header-cont {
+    position: relative;
+    width: 1190px;
+    margin: 0 auto;
+    line-height: 48px;
+}
+
+.top-log {
+    position: relative;
+    top: -1px;
+}
+
+.header-ul {
+    position: absolute;
+    left: 240px;
+    top: 0;
+}
+
+.header-ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.header-ul a {
+    color: #333;
+}
+
+.header-r {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: url("../img/index-img1.gif") no-repeat 5px 2px;
+    background-size: 40px 15px;
+}
+
+.header-r a {
+    color: #333;
+    margin-left: 15px;
+}
+
+.header-r a:last-child {
+    background: #3B83CB;
+    color: #fff;
+    padding: 2px 5px;
+}
+
+.main-box {
+    min-width: 1190px;
+    width: 100%;
+    background: #E6EDF1;
+}
+
+.main-cont {
+    width: 1190px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.main-img-div {
+    position: absolute;
+    top: 78px;
+    left: 0;
+    right: 0;
+}
+
+.main-img-div img {
+    width: 100%;
+    height: 48px;
+}
+
+.select {
+    padding: 14px 18px;
+    margin-top: 58px;
+    background: #B1C7D6;
+}
+
+.select input,
+.select button {
+    width: 173px;
+    height: 35px;
+    border: solid 1px #DDD;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding: 8px;
+    text-align: left;
+    margin-right: 8px;
+}
+
+.select input[value=长沙] {
+    background: #FFF url("../img/index-img11.gif") no-repeat 145px;
+}
+
+.select input[value="2017-05-27"],
+.select input[placeholder=退房] {
+    background: #FFF url("../img/index-img10.gif") no-repeat 145px;
+}
+
+.select button {
+    position: relative;
+    top: 3px;
+    background: #FFF url("../img/index-img10.gif") no-repeat 145px;
+    color: #999;
+}
+
+.select button span {
+    padding-left: 20px;
+    color: #000;
+}
+
+.select input[value*=位置] {
+    background: #FFF url("../img/index-img12.gif") no-repeat 145px;
+    color: #999;
+}
+
+.select input[value=搜索] {
+    background: #3B83CB;
+    color: #fff;
+    width: 90px;
+    border: none;
+    text-align: center;
+    font-size: 14px;
+}
+
+.table-box {
+    width: 1190px;
+    background: #fff;
+}
+
+.main-table {
+    width: 1150px;
+    margin: 0 20px;
+    background: #fff;
+    text-align: left;
+    font-weight: 100;
+    box-sizing: border-box;
+}
+
+.main-table tr:not(:last-child) {
+    border-bottom: solid 1px #EFEFEF;
+}
+
+.main-table td,
+.main-table th {
+    font-weight: 100;
+    padding: 15px 0 12px 0;
+}
+
+.main-table th:nth-child(1) {
+    width: 60px;
+    color: #9E9E9E;
+    font-weight: 700;
+}
+
+.main-table th:nth-child(1) ~ th a {
+    padding-right: 19px;
+    background: url("../img/changsha-img3.gif") no-repeat right;
+}
+
+.main-table th:nth-child(2) {
+    width: 80px;
+}
+
+.main-table th:nth-child(2) ~ th {
+    width: 110px;
+}
+
+.td2-a {
+    background: #3B83CB;
+    color: #fff;
+    padding: 5px 4px 6px 5px;
+    border-radius: 4px;
+}
+
+.main-table input[type=checkbox] {
+    position: relative;
+    top: -1px;
+}
+
+.td-div {
+    padding: 5px 4px 6px 0;
+}
+
+.td-div:hover {
+    background: #3B83CB;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.tr2-lastTD input,
+.tr3-lastTd select {
+    width: 50px;
+    height: 16px;
+    border: solid 1px #DADDE4;
+}
+
+.no-alike {
+    color: #f60;
+}
+
+.hot-recommend {
+    position: relative;
+    height: 132px;
+    border: solid 1px #E6EDF1;
+    background: #fff;
+}
+
+.hot-recommend-l {
+    width: 40px;
+    padding: 12px;
+    height: 132px;
+    background: #B1C7D6;
+}
+
+.hot-recommend-l div {
+    width: 0;
+    color: #fff;
+}
+
+.hot-recommend-r {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 56px;
+}
+
+.hot-home {
+    position: relative;
+    flex: 1;
+}
+
+.hot-home-font {
+    position: absolute;
+    top: 0;
+    left: 135px;
+    width: 155px;
+}
+
+.hot-home-font a {
+    color: #2E7DCD;
+}
+
+.house-t-r span {
+    color: #f30;
+    font-weight: 700;
+}
+
+.symbol {
+    position: relative;
+    bottom: 3px;
+}
+
+.num {
+    font-size: 18px;
+}
+
+.hot-recommend-l-arr,
+.hot-recommend-r-arr {
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+.hot-recommend-l-arr {
+    left: 17px;
+}
+
+.hot-recommend-r-arr {
+    right: 17px;
+}
+
+.business {
+    display: flex;
+    justify-content: space-between;
+    width: 1190px;
+    margin-top: 20px;
+}
+
+.business li {
+    width: 370px;
+    box-shadow: 3px 3px 5px #dedede;
+}
+
+.business li:hover {
+    box-shadow: 3px 3px 8px #999;
+}
+
+.business-img {
+    position: relative;
+    height: 234px;
+    overflow: hidden;
+}
+
+.business-img img {
+    transition: all 0.5s linear;
+}
+
+.business-img:hover img {
+    transform: scale(1.1);
+}
+
+.business-img span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background: #f90;
+    padding: 2px 5px;
+}
+
+.business-font {
+    position: relative;
+    padding: 20px 15px;
+    background: #fff;
+}
+
+.business-font h1 {
+    width: 230px;
+    font-size: 16px;
+    padding-left: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.business-font-p1 {
+    margin-top: 15px;
+}
+
+.business-font-p1 span {
+    color: #333;
+}
+
+.business-font-p1 a {
+    color: #666;
+    background: url("../img/changsha-img13.gif") no-repeat right;
+    padding: 0 15px 5px 0;
+}
+
+.business-7font-p2 {
+    margin-top: 10px;
+}
+
+.business-font-p2 span {
+    margin-right: 5px;
+    color: #999;
+}
+
+.business-font-r {
+    position: absolute;
+    top: 25px;
+    right: 15px;
+}
+
+.business-font-r div {
+    color: #f30;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.business-font-r div span {
+    position: relative;
+    bottom: 4px;
+    font-size: 10px;
+}
+
+.business-font-r a {
+    color: #fff;
+    padding: 2px 9px 5px 9px;
+    background: #FF5756;
+    border-radius: 4px;
+}
+
+.main-img-div3 {
+    padding: 70px 0 25px 0;
+}
+
+.footer-box {
+    width: 1190px;
+    margin: 35px auto;
+    color: #999;
+}
+
+.footer-box h1 {
+    font-size: 14px;
+}
+
+.footer-p1 {
+    margin-top: 5px;
+}
+
+.footer-center {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.footer-ul {
+    margin-bottom: 10px;
+}
+
+.footer-ul li {
+    display: inline-block;
+}
+
+.footer-ul li a {
+    color: #666;
+    padding: 0 10px 0 7px;
+    border-right: solid 1px #666;
+}
+
+#footer-last-a {
+    border: none;
+}
+
+.footer-font {
+    color: #666;
+}
+
+.footer-font span {
+    margin-left: 20px;
+}
+
+.copy-size {
+    position: relative;
+    top: 4px;
+    right: 5px;
+    font-size: 20px;
+}
+
+.footer-img {
+    margin: 30px 0 37px 0;
+}
+
+.footer-img img {
+    margin-right: 12px;
+}
+
+.fixed-r {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+
+.fixed-r ul {
+    border: solid 1px #ddd;
+}
+
+.fixed-r li a {
+    padding: 18px 11px 13px 16px;
+    background: #fff;
+    display: block;
+}
+
+.fixed-r li:not(:last-child) {
+    border-bottom: solid 1px #ddd;
+}
+
+.fixed-l {
+    position: fixed;
+    left: 0;
+    bottom: 50px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.fixed-l-2 {
+    position: fixed;
+    left: -2000px;
+    bottom: 50px;
+    min-width: 952px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.close {
+    position: relative;
+    left: 20px;
+    bottom: 50px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.close:hover {
+    transform: rotate(180deg);
+}
+

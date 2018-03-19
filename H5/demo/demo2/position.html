@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绝对定位 父级</title>
+    <style>
+        .rel-fa {
+            position: relative;
+            width: 800px;
+            height: 1000px;
+            border: solid 2px black;
+        }
+        .abs-fa {
+            position: absolute;
+            top: 50%;
+            margin: -250px auto 0;
+            width: 500px;
+            height: 500px;
+
+            border: solid 1px red;
+        }
+
+        .abs-son1 {
+            position: absolute;
+            top: 50%;
+            margin-top: -50px;
+            width: 100px;
+            height: 100px;
+            background: #0d7114;
+        }
+    </style>
+</head>
+<body>
+<!--使用绝对定位时,如果父级标签中没有定位元素时,就会找祖先级元素定位元素,
+如果父级的定位元素为absolute时,它也会根据absolute来定位
+如果父级和祖先级元素都没有定位元素时,才会根据浏览器来定位-->
+<div class="rel-fa">
+    <div class="abs-fa">
+        <div class="abs-son1"></div>
+    </div>
+</div>
+</body>
+</html>

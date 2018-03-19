@@ -1,0 +1,212 @@
+.content {
+    position: relative;
+    margin-top: 10px;
+}
+
+.content-left {
+    width: 700px;
+}
+
+.content-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 265px;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+/*出发*/
+
+.left-title {
+    font-size: 18px;
+}
+
+.left-minTitle {
+    margin-top: 5px;
+    font-weight: 100;
+    color: #969696;
+}
+
+.content-imgFont {
+    margin-top: 10px;
+    position: relative;
+    font-size: 14px;
+}
+
+.right-font {
+    position: absolute;
+    left: 326px;
+    top: 0;
+    width: 374px;
+}
+
+.right-font-ul li {
+    line-height: 30px;
+}
+
+.right-font-ul li:nth-child(4) {
+    padding-bottom: 10px;
+    border-bottom: dashed 1px #74A2E6;
+}
+
+.font-li-span1 {
+    font-weight: 700;
+    color: #333;
+}
+
+.day-number {
+    color: #257ADD;
+}
+
+.font-li5-span2 {
+    font-size: 12px;
+}
+
+.money-number {
+    color: #F60;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 5px;
+}
+
+.font-li5,
+.font-li6,
+.font-li7 {
+    margin-top: 10px;
+}
+
+.font-li6 a {
+    background: #257ADD url("../img/route-bg1.gif") 15px center no-repeat;
+    padding: 10px 15px 10px 45px;
+    font-size: 16px;
+    color: #FFF;
+}
+
+.li7-div {
+    font-weight: 700;
+    color: #F60;
+}
+
+.li7-span1 {
+    font-size: 18px;
+}
+
+.li7-span2 {
+    font-size: 22px;
+}
+
+/*参考*/
+
+.left-reference {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.left-reference-block {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    text-align: center;
+    border-top: solid 3px #0D8FE5;
+    padding: 5px 0;
+    background: #E3EDF3;
+}
+
+.left-reference-block:hover {
+    cursor: pointer;
+    border-top: solid 3px #FEBE00;
+}
+
+.block1 {
+    cursor: pointer;
+    border-top: solid 3px #FEBE00;
+}
+
+.block-div {
+    color: #0D8FE5;
+    border-left: solid 1px #B3D0ED;
+}
+
+/*参考,特别提醒*/
+
+.reference-title,
+.remind-title {
+    margin-top: 10px;
+    border-bottom: solid 3px #257ADD;
+}
+
+.reference-title>h3,
+.remind-title>h3 {
+    width: 90px;
+    padding: 3px 0;
+    text-align: center;
+    background: #257ADD;
+    color: #FFF;
+}
+
+.h4-title {
+    margin-top: 10px;
+    background: #DCF2FF;
+    padding: 5px 15px;
+    color: #F60;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.small-title-font {
+    margin-top: 10px;
+    line-height: 25px;
+    text-indent: 2em;
+    color: #666;
+}
+
+.small-title-boon {
+    color: #4FA7FF;
+    margin: 3px 0;
+}
+
+.small-title-boon span {
+    margin-right: 30px;
+}
+
+.remind-content {
+    color: #666;
+    padding: 10px 5px;
+}
+
+.remind-content li {
+    line-height: 25px;
+}
+
+.remind-bottom {
+    position: relative;
+    margin-top: 20px;
+}
+
+.remind-bottom a {
+    color: #4FA7FF;
+}
+
+.remind-bottom-right {
+    position: absolute;
+    right: 0;
+}
+
+.content-img {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.box{
+    position: absolute;
+    width: 100%;
+    height: 46px;
+    background: linear-gradient(to bottom,#fff,#EAEAEA);
+    padding: 30px 0 10px;
+}
+.logo{
+    margin-left: 150px;
+    float: left;
+}
+.box_nav{
+    position: relative;
+    left: 100px;
+}
+.li_img1{
+    width: 38px;
+    height: 23px;
+    background: url("../img/header_03.png") 0 0 no-repeat;
+    position: absolute;
+    top: -10px;
+}
+.li_img2{
+    width: 37px;
+    height: 23px;
+    background: url("../img/header_07.png") 0 0 no-repeat;
+    position: absolute;
+    top: -10px;
+}
+li{
+    line-height: 46px;
+    list-style: none;
+    float: left;
+    margin-left: 8px;
+    font-weight: 700;
+}
+li > a{
+    text-decoration: none;
+    color: #1C1B89;
+}
+.a_img{
+    position: relative;
+    left: 120px;
+    top: 10px;
+    display: table-cell;
+}
+.icon1{
+    position: absolute;
+    width: 23px;
+    height: 24px;
+    background: url("../img/iconsB_11.gif") no-repeat;
+}
+.icon2{
+    position: absolute;
+    width: 23px;
+    height: 24px;
+    left: 35px;
+    background: url("../img/iconsB_12.gif") no-repeat;
+}
+.icon3{
+    position: absolute;
+    width: 23px;
+    height: 24px;
+    left: 67px;
+    background: url("../img/iconsB_13.png") no-repeat;
+}
+@keyframes spread{
+    0%{
+        width:0;/*动画在0%(第一帧)时元素宽度为0px*/
+    }
+    33%{
+        width:23px;/*动画在33%(第二帧)时元素宽度为23px*/
+    }
+    100%{
+        width:46px;/*动画在66%(第三帧)时元素宽度为46px*/
+    }
+    100%{
+        width:69px;/*动画在100%(第四帧)时元素宽度为69px*/
+    }
+}
+a:hover .li_img1{
+    -webkit-animation: spread 0.3s linear both;
+         -o-animation: spread 0.3s linear both;
+            animation: spread 0.3s linear both;
+    background: url("../img/header_05.png") 0 0 no-repeat;
+}
+a:hover .li_img2{
+    -webkit-animation: spread 0.3s linear both;
+    -o-animation: spread 0.3s linear both;
+    animation: spread 0.3s linear both;
+    background: url("../img/header_09.png") 0 0 no-repeat;
+}
+a:hover{
+    -webkit-transform: rotate(360deg);
+       -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg);
+}
+.icon1{
+    -webkit-transition: all 0.3s linear;
+       -moz-transition: all 0.3s linear;
+        -ms-transition: all 0.3s linear;
+         -o-transition: all 0.3s linear;
+            transition: all 0.3s linear;
+}
+

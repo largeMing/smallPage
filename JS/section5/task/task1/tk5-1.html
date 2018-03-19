@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用CSS()为图片添加边框</title>
+    <script src="../../jQuery/jquery-3.2.1.js"></script>
+    <script>
+        $(document).ready(function (){
+            $("img").click(function () {
+                $(this).css("border","solid 1px #000");
+            });
+        });
+    </script>
+</head>
+<body>
+<img src="img/img3.gif" height="300" width="300"/>
+</body>
+</html>

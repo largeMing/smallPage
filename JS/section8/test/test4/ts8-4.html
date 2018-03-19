@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>凡客诚品</title>
+    <script src="../../../jQuery/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="css/public-style.css">
+    <link rel="stylesheet" href="css/ts8-4.css">
+</head>
+<body>
+<div class="bg">
+    <input type="text" value="请输入需要搜索的内容" class="help-input">
+    <div class="left-nav">
+        <ul class="one-List">
+            <li>
+                <div class="title">账户管理</div>
+                <ul class="second">
+                    <li>账户管理1</li>
+                    <li>账户管理2</li>
+                    <li>账户管理3</li>
+                    <li>账户管理4</li>
+                </ul>
+            </li>
+            <li>
+                <div class="title">购物指南</div>
+                <ul class="second">
+                    <li>购物指南1</li>
+                    <li>购物指南2</li>
+                    <li>购物指南3</li>
+                    <li>购物指南4</li>
+                </ul>
+            </li>
+            <li>
+                <div class="title">配送方式</div>
+                <ul class="second">
+                    <li>配送方式1</li>
+                    <li>配送方式2</li>
+                    <li>配送方式3</li>
+                    <li>配送方式4</li>
+                </ul>
+            </li>
+            <li>
+                <div class="title">支付方式</div>
+                <ul class="second">
+                    <li>支付方式1</li>
+                    <li>支付方式2</li>
+                    <li>支付方式3</li>
+                    <li>支付方式4</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div class="lc">
+        <div id="lc_bg" class="lc_bg0">
+            <div class="lc_common">
+                <a name="index0" class="track aColor" href="#">1.新用户注册</a>
+            </div>
+            <div class="lc_common">
+                <a name="index1" class="track" href="#">2.挑选商品</a>
+            </div>
+            <div class="lc_common">
+                <a name="index2" class="track" href="#">3.确认下单</a>
+            </div>
+            <div class="lc_common">
+                <a name="index3" class="track" href="#">4.订单跟踪</a>
+            </div>
+            <div class="lc_common">
+                <a name="index4" class="track" href="#">5.验货签收</a>
+            </div>
+        </div>
+    </div>
+    <div class="jiejue">
+
+        <h4>这条帮助是否解决了您的问题？</h4>
+        <div class="qiehuan">
+            <input name="IsAvail" type="radio" value="1" checked="checked"/> 已解决
+            <input name="IsAvail" type="radio" value="0"/> 未解决
+            <input id="ContID" type="hidden" value="1"/>
+        </div>
+
+        <div class="wenti" style="display:none">
+            <p>问题没解决？请选择原因:</p>
+            <p><select name="TrackID" id="TrackID">
+                <option value="1">文字太多，阅读困难</option>
+                <option value="2">内容复杂，看不懂</option>
+                <option value="3">描述不清楚</option>
+                <option value="99">其他原因</option>
+            </select></p>
+            <div id="TrackContentDiv" style=" display:none;">
+                <p>也可以直接填写原因:</p>
+                <p><textarea name="TrackContent" id="TrackContent" cols="45" rows="5"></textarea></p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/ts8-4.js"></script>
+</body>
+</html>

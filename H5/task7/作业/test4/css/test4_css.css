@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-size: 12px;
+}
+.box{
+    width: 990px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+header{
+    padding-left: 35px;
+}
+/*名人名言*/
+.header_font1{
+    margin-top: 5px;
+    line-height: 30px;
+}
+/*分享...*/
+.header_font2{
+    font-style: italic;
+    color: #706F6E;
+    line-height: 20px;
+}
+/*无序列表*/
+.header_ul{
+    list-style: none;
+    margin-top: 20px;
+}
+ul li{
+    float: left;
+    border: solid 1px #CDCDCD;
+    border-bottom: none;
+}
+ul li:first-child~li{
+    border-left: none;
+}
+li>a{
+    font-size: 12px;
+    display: block;
+    padding: 5px;
+    color: #716D7D;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.left1_span{
+    font-size: 12px;
+}
+/*主体部分 左边*/
+.article_left{
+    float: left;
+    width: 500px;
+    margin: 20px;
+}
+/*左边的内容*/
+/*有边框的*/
+.article_left1{
+    border: solid 1px #D3D3D3;
+    padding: 5px;
+}
+/*没边框的*/
+.article_left2{
+    font-size: 12px;
+}
+.left2_p1{
+    margin-top: 5px;
+    font-weight: bold;
+    line-height: 20px;
+}
+/*左边的图片*/
+.left_img{
+    padding: 5px;
+    border: solid 1px #D3D3D3;
+}
+.img_p{
+    font-style: italic;
+    font-size: 13px;
+    line-height: 30px;
+}
+/*主体部分 右边*/
+.article_right{
+    float: right;
+    border: solid 1px #D3D3D3;
+    width: 300px;
+    margin-top: 20px;
+    padding: 15px;
+    margin-right: 10px;
+}
+.right_p{
+    font-style: italic;
+    line-height: 30px;
+    font-size: 12px;
+    color: #464B52;
+    font-weight: bold;
+}
+/*文本框*/
+.right_p1{
+    font-size: 10px;
+    font-weight: bold;
+}
+.right_p2{
+    font-style: italic;
+    color: #6D6E85;
+    font-size: 10px;
+    font-weight: bold;
+}
+.footer_font{
+    text-align: center;
+    color: #ABAABF;
+    padding: 5px;
+    font-size: 10px;
+}

@@ -1,0 +1,27 @@
+.h2_color{
+    color: #003580;
+}
+p{
+    font-size: 14px;
+    color: #000033;
+}
+.p_a1{
+    color: #f00;
+}
+.p_a2{
+    color: #1f87cc;
+}
+.p_a3,.p_a5{
+    color: #faa53b;
+}
+.p_a4{
+    color: #0d7114;
+}
+.img1{
+    width: 100px;
+    height: 160px;
+}
+.img2,.img3{
+    width: 200px;
+    height: 130px;
+}

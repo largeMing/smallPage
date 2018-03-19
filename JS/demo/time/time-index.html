@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        /* function checkTime(){
+         var today = new Date();
+         var year = today.getFullYear();//获取年份
+         var month = today.getMonth();//获取月份
+         var goodMonth = month + 1;
+         var day = today.getDate();//获取天数
+         var hh = today.getHours();//获取小时数
+         var mm = today.getMinutes();//获取分钟数
+         var ss = today.getSeconds();//获取秒数
+         document.write("今天是" + year + "年\t" + goodMonth +"月" + day + "日" + hh + "时" + mm + "分" + ss + "秒");
+         }*/
+        function disptime(){
+            var today = new Date();
+            var year = today.getFullYear();//获取年份
+            var month = today.getMonth();//获取月份
+            var goodMonth = month + 1;
+            var day = today.getDate();//获取天数
+            var hh = today.getHours();//获取小时数
+            var mm = today.getMinutes();//获取分钟数
+            var ss = today.getSeconds();//获取秒数
+            document.getElementById("block").innerHTML = "今天是" + year + "年\t" + goodMonth +"月" + day + "日" + hh + "时" + mm + "分" + ss + "秒";
+        }
+        var mytime = setInterval("disptime()",100);
+        function outTime(){
+            clearInterval(mytime);
+        }
+    </script>
+</head>
+<body>
+<div id="block"></div>
+<input type="button" value="时间静止" onclick="outTime()">
+</body>
+</html>

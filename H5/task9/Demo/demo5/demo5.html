@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>animation的使用</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background: #f00;
+            /*调用动画*/
+            -webkit-animation: spread 2s linear infinite;
+                 -o-animation: spread 2s linear infinite;
+                    animation: spread 2s linear infinite;
+        }
+        @keyframes spread {
+            0%{
+                width: 0;
+                transform: translate(100px,0);
+            }
+            25%{
+                width: 20px;
+                transform: translate(200px,0);
+            }
+            50%{
+                width: 50px;
+                transform: translate(300px,0);
+            }
+            75%{
+                width: 70px;
+                transform: translate(200px,0);
+            }
+            100%{
+                width: 100px;
+                transform: translate(100px,0);
+            }
+        }
+        @-webkit-keyframes spread{
+            0%{
+                width: 0;
+                transform: translate(100px,0);
+            }
+            25%{
+                width: 20px;
+                transform: translate(200px,0);
+            }
+            50%{
+                width: 50px;
+                transform: translate(300px,0);
+            }
+            75%{
+                width: 70px;
+                transform: translate(200px,0);
+            }
+            100%{
+                width: 100px;
+                transform: translate(100px,0);
+            }
+        }
+    </style>
+</head>
+<body>
+<div>
+</div>
+</body>
+</html>

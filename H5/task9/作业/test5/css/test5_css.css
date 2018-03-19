@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.box{
+    position: relative;
+    width: 1181px;
+    height: 600px;
+    background: #B2B8CA;
+    overflow: hidden;
+}
+img{
+    position: absolute;
+}
+/*中间的小山丘*/
+.img1{
+    bottom: -30px;
+    left: 50%;
+    margin-left: -400px;
+}
+/*房子*/
+.img2{
+    right: 0;
+    bottom: 150px;
+}
+.img2_left{
+    left: 0;
+    bottom: 150px;
+}
+.img2_center{
+    left: 50%;
+    margin-left: -260px;
+    bottom: 150px;
+}
+/*烟囱*/
+.img3{
+    right: 100px;
+    bottom: 100px;
+}
+/*草原*/
+.img4{
+    bottom: 0;
+}
+/*兔子*/
+.img5{
+    right: 450px;
+    bottom: 200px;
+}
+/*圆形建筑*/
+.img6{
+    left: 25px;
+    bottom: 100px;
+}
+/*箭塔*/
+.img7{
+    bottom: 130px;
+    left: 470px;
+}
+/*椭圆*/
+.img8{
+    bottom: 100px;
+    left: 260px;
+}
+/*一棵树的小山丘*/
+.img9{
+    bottom: -30px;
+    left: 0;
+}
+/*左下角的树*/
+.img10{
+    left: -550px;
+    bottom: -30px;
+}
+.img9_right{
+    right: -430px;
+    bottom: 0;
+}
+.img11{
+    right: -550px;
+    bottom: 0;
+}
+.balloon{
+    top: 30px;
+    right: -157px;
+    -webkit-transform: rotate(30deg);
+       -moz-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+         -o-transform: rotate(30deg);
+            transform: rotate(30deg);
+}
+@keyframes spread{
+    25%{
+        right: 25%;
+        -webkit-transform: rotate(30deg);
+           -moz-transform: rotate(30deg);
+            -ms-transform: rotate(30deg);
+             -o-transform: rotate(30deg);
+                transform: rotate(30deg);
+    }
+    50%{
+        right: 50%;
+        -webkit-transform: rotate(45deg);
+           -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+             -o-transform: rotate(45deg);
+                transform: rotate(45deg);
+    }
+    75%{
+        right: 75%;
+        -webkit-transform: rotate(15deg);
+           -moz-transform: rotate(15deg);
+            -ms-transform: rotate(15deg);
+             -o-transform: rotate(15deg);
+                transform: rotate(15deg);
+    }
+    100%{
+        right: 100%;
+    }
+}
+@keyframes back {
+    25%{
+        background: #280E3E;
+    }
+    50%{
+        background: #6F5F5D;
+    }
+    75%{
+        background: #F3CCB9;
+    }
+    100%{
+        background: #C1CFDB;
+    }
+}
+body:hover .balloon{
+    -webkit-animation: spread 25s infinite alternate both;
+         -o-animation: spread 25s infinite alternate both;
+            animation: spread 25s infinite alternate both;
+}
+body:hover .box{
+    -webkit-animation: back 25s infinite alternate both;
+         -o-animation: back 25s infinite alternate both;
+            animation: back 25s infinite alternate both;
+}

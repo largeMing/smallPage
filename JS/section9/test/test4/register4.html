@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用HTML5方式验证注册页面</title>
+    <link rel="stylesheet" href="css/register4.css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/register4.js"></script>
+</head>
+
+<body>
+<section id="register">
+    <div><img src="images/logo.jpg" alt="logo"/><img src="images/banner.jpg" alt="banner"/></div>
+    <h1 class="hr_1">新用户注册</h1>
+    <form action="register_success.htm" method="post" name="myform" id="myForm">
+        <dl>
+            <dt>用户名：</dt>
+            <dd><input id="user" type="text" required placeholder="以英文字母开头4-16个英文字母或者数字" pattern="[A-Za-z][A-Za-z0-9]{3,15}"/></dd>
+        </dl>
+        <dl>
+            <dt>密码：</dt>
+            <dd><input id="pwd" type="password" required placeholder="4-10个英文字母或数字" pattern="[A-Za-z0-9]{4,10}"/></dd>
+        </dl>
+        <dl>
+            <dt>确认密码：</dt>
+            <dd><input id="repwd" type="password" required/></dd>
+        </dl>
+        <dl>
+            <dt>电子邮箱：</dt>
+            <dd><input id="email" type="email"/></dd>
+        </dl>
+        <dl>
+            <dt>手机号码：</dt>
+            <dd><input id="mobile" type="text" pattern="[1][0-9]{10}" required/></dd>
+        </dl>
+        <dl>
+            <dt>生日：</dt>
+            <dd><input id="birth" type="text" required pattern="/^(19\d{2})|(200\d)|(201[0-8])-(1[0-2]|0?[1-9])-(0?[1-9]|[1-2][0-9]|3[0-1])$/"/></dd>
+        </dl>
+        <dl>
+            <dt>&nbsp;</dt>
+            <dd><input name="" type="image" src="images/register.jpg" class="btn"/></dd>
+        </dl>
+    </form>
+</section>
+</body>
+</html>

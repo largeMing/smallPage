@@ -1,0 +1,94 @@
+#article-form {
+    bottom: 40px;
+}
+
+.article-form-note {
+    position: relative;
+    line-height: 20px;
+    height: 20px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.article-form-note div {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.article-form-note input {
+    position: relative;
+    top: -3px;
+}
+
+.form-name,
+.form-pas,
+.form-phone {
+    padding-left: 50px;
+    border: solid 1px #BABABA;
+}
+
+.name,
+.pas,
+.phone {
+    width: 230px;
+    height: 39px;
+    color: #A9A9A9;
+    padding-left: 10px;
+    border-left: solid 1px #BABABA;
+}
+
+.form-name {
+    margin-top: 10px;
+    background: url("../img/uname.gif")no-repeat 10px;
+}
+
+.not-font,
+.not-font2 {
+    height: 20px;
+    font-size: 14px;
+}
+
+.form-pas {
+    background: url("../img/upas.gif")no-repeat 10px;
+}
+
+.form-phone {
+    background: url("../img/phone.gif") no-repeat 10px;
+}
+
+.verification {
+    width: 175px;
+    height: 40px;
+    font-size: 16px;
+    color: #A9A9A9;
+    padding-left: 10px;
+    margin-right: 10px;
+    border: solid 1px #BABABA;
+    box-sizing: border-box;
+}
+
+.code {
+    width: 115px;
+    height: 40px;
+    font-size: 14px;
+    background: #FFF;
+    color: #000;
+    font-weight: 700;
+    border: solid 1px #BABABA;
+    cursor: pointer;
+}
+
+.form-sub input {
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    color: #FFF;
+    background: #28B0BA;
+    border-radius: 3px;
+}
+
+.form2 {
+    display: none;
+}

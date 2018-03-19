@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.today-go-ul {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin: 50px auto;
+}
+
+.today-go-ul li {
+    width: 295px;
+    border: solid 1px #eee;
+    box-shadow: 3px 3px 5px #ddd;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.title {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.big-span {
+    font-size: 30px;
+    font-weight: 700;
+    color: #f90;
+}
+
+.btm-div {
+    padding: 10px 0;
+}
+
+.money {
+    font-size: 20px;
+    color: #f90;
+}
+
+.del-span {
+    text-decoration: line-through;
+}
+
+.top-div {
+    width: 295px;
+    height: 251px;
+    cursor: pointer;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.new-top-div {
+    color: #fff;
+    background: #d51938;
+    border: solid 3px #d51938;
+}

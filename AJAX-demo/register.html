@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+<h2>JavaScript 创建 JSON对象</h2>
+<p>
+    网站名称: <span id="jname"></span><br>
+    网站地址: <span id="jurl"></span><br>
+    网站 slogan: <span id="jslogan"></span><br>
+</p>
+<script>
+    var JSONBbject = {
+        "name": "嗯哼那个",
+        "url": "www.runoob.com",
+        "slogan": "学的不仅是技术,更是梦想!"
+    };
+    document.getElementById("jname").innerHTML = JSONBbject.name;
+    document.getElementById("jurl").innerHTML = JSONBbject.url;
+    document.getElementById("jslogan").innerHTML = JSONBbject.slogan
+</script>
+</body>
+</html>

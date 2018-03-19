@@ -1,0 +1,107 @@
+
+
+.article-form-note {
+    position: relative;
+    height: 18px;
+}
+
+.article-form-note span {
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+    color: #F00;
+    font-weight: 700;
+    background: url("../img/bg1.gif")no-repeat left top;
+    padding-left: 23px;
+    cursor: pointer;
+}
+
+.form-name,
+.form-pas{
+    padding-left: 50px;
+    margin-top: 10px;
+    border: solid 1px #BABABA;
+}
+
+.accept-font {
+    height: 20px;
+    font-size: 14px;
+}
+
+.form-name {
+    background: url("../img/uname.gif")no-repeat 10px;
+}
+
+.name,
+.pas {
+    width: 230px;
+    height: 42px;
+    color: #A9A9A9;
+    padding-left: 10px;
+    border-left: solid 1px #BABABA;
+}
+
+.form-pas {
+    background: url("../img/upas.gif")no-repeat 10px;
+}
+
+.verification {
+    width: 175px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #A9A9A9;
+    border: solid 1px #BABABA;
+    box-sizing: border-box;
+}
+
+.code {
+    float: right;
+    width: 110px;
+    height: 40px;
+    background: #D3E7C1;
+    font-size: 14px;
+    color: #5E810E;
+    border: solid 1px #BABABA;
+    cursor: pointer;
+}
+
+.form-rememberPas {
+    position: relative;
+    color: #686868;
+    margin: 10px 0 20px 0;
+}
+
+.check {
+    position: relative;
+    top: -2px;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background: url("../img/bg2.gif")left;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+.check:checked {
+    background: url("../img/bg2.gif")right;
+}
+
+.form-rememberPas span {
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.form-sub input {
+    width: 300px;
+    height: 40px;
+    text-align: center;
+    color: #FFF;
+    background: #28B0BA;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+

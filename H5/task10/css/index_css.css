@@ -1,0 +1,587 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 625%;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-size: .12rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box {
+    width: 10.24rem;
+    margin: 0 auto;
+}
+
+/*头部*/
+
+.header_box {
+    position: relative;
+    background: linear-gradient(to bottom, #D31333, #D05770);
+    height: .45rem;
+    border-radius: .05rem;
+}
+
+/*头部logo部分*/
+
+.header_left {
+    background: url("../img/gameLogo.png") no-repeat;
+    width: 2.47rem;
+    height: .45rem;
+    float: left;
+}
+
+/*首页*/
+
+.show {
+    position: relative;
+    left: 2.47rem;
+    width: .8rem;
+    top: .05rem;
+    line-height: .4rem;
+    bottom: 0;
+    border-radius: .05rem .05rem 0 0;
+    text-align: center;
+    font-size: .16rem;
+    background: #fff;
+    color: #CC4442;
+    font-family: 华文宋体;
+    font-weight: 700;
+    display: block;
+}
+
+/*头部登录部分*/
+
+.header_right {
+    float: right;
+}
+
+.header_ul {
+    margin-right: .5rem;
+}
+
+.header_ul > li {
+    line-height: 0.45rem;
+    display: inline-block;
+}
+
+.header_ul a {
+    margin-left: .05rem;
+    text-decoration: none;
+    color: #FBF7F4;
+}
+
+/*主体内容开始*/
+
+.article_box {
+    margin-top: .2rem;
+    position: relative;
+}
+
+.article_left {
+    width: 7.5rem;
+    float: left;
+}
+
+/*主题内容左边的第一个框*/
+
+section {
+    float: left;
+    width: 1.9rem;
+}
+
+section ul {
+    border-radius: .08rem;
+    border: solid .01rem #D2D2D2;
+}
+
+section img {
+    vertical-align: middle;
+    margin-left: .05rem;
+}
+
+section span {
+    margin-left: .1rem;
+}
+
+section li:first-child {
+    border-radius: .08rem .08rem 0 0;
+}
+
+section li:last-child {
+    border-radius: 0 0 .08rem .08rem;
+}
+
+section li {
+    background: linear-gradient(to bottom, #fff, #f8f8f8, #e8e8e8, #eaeaae);
+    line-height: .3rem;
+}
+
+section a {
+    background: url("../img/rightA.png") 1.7rem center no-repeat;
+    text-decoration: none;
+    display: block;
+    color: #000;
+}
+
+section li:hover {
+    background: linear-gradient(to bottom, #ed9774, #e98b67, #d0501f, #cf4916);
+}
+
+/*焦点图*/
+
+aside {
+    float: right;
+    position: relative;
+}
+
+aside img {
+    margin-top: .06rem;
+    margin-left: .2rem;
+    width: 5.34rem;
+    height: 2rem;
+    border-radius: .08rem;
+}
+
+aside li {
+    float: left;
+}
+
+aside a {
+    margin-left: 0.1rem;
+    display: block;
+    width: 0.2rem;
+    line-height: 0.2rem;
+    text-align: center;
+    border-radius: 50%;
+    background: #CACAC9;
+    text-decoration: none;
+}
+
+aside ul {
+    position: absolute;
+    right: .35rem;
+    bottom: .1rem;
+}
+
+aside a:hover {
+    background: #B51C15;
+    color: #fff;
+}
+
+/*清除浮动*/
+
+.article_left1:after {
+    display: block;
+    clear: both;
+    content: ".";
+    visibility: hidden;
+    height: 0;
+}
+
+/*主题内容左边的第二个框*/
+
+.article_left2 {
+    border: solid .01rem #d3d3d3;
+    border-radius: .08rem;
+    margin-top: .2rem;
+    position: relative;
+}
+
+/*全部游戏&角色扮演*/
+
+.left2_head {
+    position: relative;
+    z-index: -1;
+    top: 0;
+    background: linear-gradient(to top, #eeefef, #f8f8f8);
+    line-height: .25rem;
+}
+
+.left2_head span {
+    color: #750101;
+    font-weight: 700;
+    margin-left: .1rem;
+}
+
+.left2_head a {
+    color: #666;
+    font-weight: 700;
+}
+
+.left2_head a:nth-of-type(1) {
+    margin-left: .2rem;
+}
+
+/*中间的两个图文混排*/
+
+.left2_center {
+    width: 6.5rem;
+    padding: .2rem 0;
+    margin: 0 auto;
+}
+
+.center_content {
+    border: solid .01rem #d4d4d4;
+    border-radius: .08rem;
+    display: inline-block;
+    width: 3rem;
+    padding: .2rem .1rem;
+}
+
+.center_content img {
+    width: 1.5rem;
+    float: left;
+    transition: all 0.5s ease-in-out;
+}
+
+.center_content ul {
+    line-height: .2rem;
+    margin-left: 1.6rem;
+}
+
+.red_number {
+    color: #AF115B;
+}
+
+.last_li {
+    margin-top: .1rem;
+}
+
+.last_li a:first-of-type {
+    padding: .08rem;
+    background: #fff;
+    border: solid .01rem #666;
+    border-radius: .05rem;
+    color: #000;
+}
+
+.last_li a:last-of-type {
+    padding: .08rem;
+    border-radius: 0.05rem;
+    border: solid .01rem #255D92;
+    background: linear-gradient(to top, #376C9C, #83C6D7);
+    color: #fff;
+    font-weight: 700;
+    margin-left: .1rem;
+}
+
+/*图片动画效果*/
+
+.center_content img:hover {
+    transform: translateX(-.08rem);
+
+}
+
+/*角色扮演部分*/
+
+.article_left3 {
+    border: solid .01rem #d3d3d3;
+    border-radius: .08rem;
+    margin-top: .2rem;
+    position: relative;
+    height: 4rem;
+}
+
+.article_left3 ul {
+    float: left;
+    margin: .3rem 0 0 .3rem;
+    text-align: center;
+}
+
+.left3_ul {
+    width: 6.4rem;
+    margin: 0 auto;
+    padding-right: .3rem;
+}
+
+/*图片动画效果*/
+.article_left3 img {
+    transition: all 0.5s ease-in-out;
+}
+
+.article_left3 img:hover {
+    transform: translateX(-.08rem);
+
+}
+
+/*开心网登录框*/
+
+.article_right {
+    float: right;
+}
+
+.article_right1 {
+    background: #fafafa;
+    border: solid .01rem #d6d6d6;
+    border-radius: .08rem;
+    width: 2.5rem;
+    height: 2.1rem;
+    padding: .2rem;
+    box-sizing: border-box;
+}
+
+.right1_span {
+    color: #6A6E77;
+    font-weight: 700;
+    font-size: .14rem;
+}
+
+.uid {
+    margin-top: .2rem;
+}
+
+.upass {
+    margin-top: .1rem;
+}
+
+.uid > span {
+    color: #000;
+    font-weight: 700;
+}
+
+.upass > span {
+    color: #000;
+    font-weight: 700;
+}
+
+/*文本输入框*/
+
+.right1_input {
+    width: 1.4rem;
+    padding: .05rem;
+}
+
+/*登录按钮*/
+
+.sub {
+    border: solid .01rem #FC7575;
+    padding: .01rem;
+    border-radius: .02rem;
+    width: .57rem;
+    text-align: center;
+    margin: .1rem auto 0;
+}
+
+.sub > input {
+    background: #CE1B39;
+    color: #fff;
+    border-radius: .02rem;
+    padding: .03rem .15rem;
+    outline: none;
+    border: none;
+}
+
+/*立即注册&忘记密码*/
+
+.bottom_a {
+    width: 1.2rem;
+    margin: .1rem auto 0;
+}
+
+.bottom_a > a {
+    color: #2970B7;
+}
+
+.bottom_a a:first-of-type {
+    float: left;
+}
+
+.bottom_a a:last-of-type {
+    float: right;
+}
+
+/*新闻公告部分*/
+
+.article_right2 {
+    position: relative;
+    border: solid .01rem #d3d3d3;
+    border-radius: .08rem;
+    margin-top: .2rem;
+    box-sizing: border-box;
+    width: 2.5rem;
+}
+
+.right2_head {
+    position: relative;
+    z-index: -1;
+    top: 0;
+    background: linear-gradient(to top, #eeefef, #f8f8f8);
+    line-height: .25rem;
+}
+
+.right2_head span {
+    color: #750101;
+    font-weight: 700;
+    margin-left: .1rem;
+}
+
+.right2_ul li {
+    background: url("../img/rightTwo.png") .15rem center no-repeat;
+    line-height: .28rem;
+    border-bottom: dashed .01rem #d1d1d1;
+}
+
+.right2_ul li:last-of-type {
+    border: none;
+}
+
+.right2_ul span {
+    color: #666;
+    padding-left: .45rem;
+}
+
+/*制作过渡动画*/
+
+.right2_ul li {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+/*制作鼠标移入新闻公告列表时,产生文字向上移动,放大的动画*/
+
+.right2_ul li:hover {
+    -webkit-transform: translate(0, .04rem) scale(1.1);
+    -moz-transform: translate(0, .04rem) scale(1.1);
+    -ms-transform: translate(0, .04rem) scale(1.1);
+    -o-transform: translate(0, .04rem) scale(1.1);
+    transform: translate(0, .04rem) scale(1.1);
+}
+
+/*微博部分*/
+
+.article_right3 {
+    margin-top: .3rem;
+}
+
+.right3_img2 {
+    margin-top: .1rem;
+}
+
+/*游戏视频部分*/
+
+.right4_content {
+    padding: .08rem .06rem;
+}
+
+dt {
+    float: left;
+}
+
+dd {
+    line-height: .3rem;
+    margin-left: 1.4rem;
+}
+
+dd a {
+    color: #386FAE;
+}
+
+.dl1 {
+    border-bottom: dashed .01rem #d2d2d2;
+    margin-bottom: .02rem;
+}
+
+.dl2 {
+    margin-top: .04rem;
+}
+
+/*清除主体部分的浮动*/
+
+.article_box:after {
+    clear: both;
+    height: 0;
+    content: ".";
+    visibility: hidden;
+    display: block;
+}
+
+/*浮动广告*/
+
+.cha {
+    position: absolute;
+    right: 0;
+    top: 4.2rem;
+    background: url("../img/ad3.jpg") no-repeat;
+    background-size: 200px;
+    width: 2rem;
+    height: 2rem;
+    color: #3C72AE;
+}
+
+.cha span {
+    position: absolute;
+    top: -.3rem;
+    right: 0;
+    background: #dfdfdf;
+    line-height: .3rem;
+    padding: 0 .05rem;
+    opacity: 0.8;
+    font-weight: 700;
+    font-size: .18rem;
+    cursor: pointer;
+}
+
+/*浮动广告动画*/
+
+/*10s*/
+
+@keyframes spread {
+    0% {
+        right: 0;
+        top: 0;
+    }
+    50% {
+        transform: translate(-8.3rem, 4.5rem);
+    }
+    100% {
+        transform: translate(0, 0rem);
+    }
+}
+
+body:hover .cha {
+    animation: spread 5s linear both;
+}
+
+/*底部*/
+
+footer {
+    padding: .2rem 0;
+}
+
+.footer_left a {
+    color: #467CB6;
+}
+
+.footer_left {
+    float: left;
+    border-bottom: solid .01rem #E6E6E6;
+}
+
+.footer_right {
+    float: right;
+}
+
+.footer_right a {
+    color: #787A7A;
+}

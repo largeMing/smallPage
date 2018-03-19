@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>简易购物车</title>
+    <link rel="stylesheet" href="css/css1-1.css">
+</head>
+<body>
+<table cellspacing="0" border="1" id="mytable" class="mytable">
+    <tr>
+        <td>商品信息</td>
+        <td>单价(元)</td>
+        <td>数量</td>
+        <td>金额(元)</td>
+        <td>操作</td>
+    </tr>
+    <tr id="mytr1">
+        <td class="td1">这里是一本书</td>
+        <td>￥<span class="unit-price">21.90</span></td>
+        <td><input type="button" value="-" onclick="subtract()"><input type="text" id="num1" class="number" value="1"><input type="button" value="+" onclick="plus();"></td>
+        <td>￥<span id="money" class="money">21.90</span></td>
+        <td class="dom">
+            <span onclick="checkCollect();">移入收藏</span>
+            <span onclick="checkDelet();">删除</span>
+        </td>
+    </tr>
+    <tr id="mytr2">
+        <td class="td1">这里是第二本书</td>
+        <td>￥<span class="unit-price">24.10</span></td>
+        <td><input type="button" value="-" onclick="subtract2()"><input type="text" id="num2" class="number" value="1"><input type="button" value="+" onclick="plus2();"></td>
+        <td>￥<span class="money" id="money2">24.10</span></td>
+        <td class="dom">
+            <span onclick="checkCollect2();">移入收藏</span>
+            <span onclick="checkDelet2();">删除</span>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="4">
+            <input type="button" value="结算" onclick="checkOut();">
+            <input type="button" value="关闭" onclick="checkClose();">
+        </td>
+        <td>金额总计:<span id="sum">46</span>元</td>
+    </tr>
+</table>
+<div id="result"></div>
+<script src="js/js2-1.js"></script>
+</body>
+</html>

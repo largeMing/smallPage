@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>论坛帖子页面</title>
+    <script src="../../../jQuery/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="css/public-style.css">
+    <link rel="stylesheet" href="css/ts8-3.css">
+    <script src="js/ts8-3.js"></script>
+</head>
+<body>
+<div class="box">
+    <ul>
+        <li><input type="button" value="我要发帖" class="myPost"></li>
+        <li>
+            <img src="img/headImg1.webp" alt="" class="head-img">
+            <div class="li-content">
+                <a href="">如何学习Web前端开发课程</a>
+                <div><span class="span-left">板块：新课来了</span><span class="span-right">发表时间：2018-1-6&nbsp;08:46</span></div>
+            </div>
+        </li>
+        <li>
+            <img src="img/headImg2.webp" alt="" class="head-img">
+            <div class="li-content">
+                <a href="">女性职业规划，两条腿走路</a>
+                <div><span class="span-left">板块：职业规划</span><span class="span-right">发表时间：2018-1-6&nbsp;08:44</span></div>
+            </div>
+        </li>
+    </ul>
+    <div class="popup">
+        <div><input type="text" placeholder="请输入标题(1-50个字符)" class="title"></div>
+        <div>
+            所属板块：
+            <select>
+                <option value="请选择板块" selected>请选择板块</option>
+                <option value="新手报道">新手报道</option>
+                <option value="新课来了">新课来了</option>
+                <option value="职业规划">职业规划</option>
+                <option value="其他">其他</option>
+            </select>
+        </div>
+        <div><textarea rows="8" cols="40"></textarea></div>
+        <div><input type="button" class="myPost1" value="发布"></div>
+        <div id="time"></div>
+        <span class="popup-close"><img src="img/a_close.png" alt=""></span>
+    </div>
+</div>
+</body>
+</html>

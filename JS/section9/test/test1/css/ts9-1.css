@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.l-font {
+    text-align: right;
+    width: 200px;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+form > div {
+    margin-top: 20px;
+}
+
+.form-div5 input {
+    width: 40px;
+}

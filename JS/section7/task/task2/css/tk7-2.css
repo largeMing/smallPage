@@ -1,0 +1,49 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 25px;
+}
+
+.ul-box {
+    position: relative;
+    border: solid 1px #ddd;
+    width: 300px;
+}
+
+.new-ul-box {
+    border-bottom: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+li {
+    padding: 5px 20px;
+}
+
+li:not(:last-child) {
+    border-bottom: solid 1px #ddd;
+}
+
+.arr {
+    position: absolute;
+    left: 50%;
+    bottom: -10px;
+    transform: translate(-50%, 0);
+    width: 50px;
+    height: 10px;
+    border: solid 1px #ddd;
+    border-top: none;
+    background: url("../img/b_arrow.gif") no-repeat center;
+    cursor: pointer;
+}
+
+.new-arr {
+    background: url("../img/t_arrow.gif") no-repeat center;
+}
+
+ul .border-btm {
+    border: none;
+}

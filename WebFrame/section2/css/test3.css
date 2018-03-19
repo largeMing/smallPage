@@ -1,0 +1,60 @@
+.header-box {
+    margin: 0 auto;
+    padding-top: 18px;
+}
+
+.text-sosuo {
+    width: 175px;
+    height: 34px;
+    display: inline-block;
+    margin-bottom: 22px;
+}
+
+.list-inline li:first-child a {
+    color: #DA001C;
+}
+
+.section-box {
+    background: url("../img/adbg.png") no-repeat;
+    width: 100%;
+    height: 385px;
+    background-size: cover;
+}
+
+.publicity {
+    margin-top: 20px;
+}
+
+.liucheng {
+    margin: 40px 0 0 80px;
+}
+
+.publicity img,
+.liucheng img {
+    width: 100%;
+    height: 100%;
+}
+
+.form-height {
+    height: 275px;
+    background: #fff;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding: 20px 30px 0 25px;
+}
+
+.common {
+    margin-bottom: 30px;
+}
+
+.btn-width {
+    width: 100%;
+}
+
+.footer-box {
+    width: 100%;
+    height: 130px;
+    background: #E0E0E0;
+    color: #414141;
+    padding-top: 25px;
+}

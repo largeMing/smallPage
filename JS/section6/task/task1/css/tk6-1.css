@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #000;
+}
+
+.ul-box {
+    width: 800px;
+    margin: 50px auto;
+}
+
+.flex-box {
+    display: flex;
+    list-style: none;
+    line-height: 35px;
+}
+
+.flex-box-div1,
+.flex-box-div3 {
+    flex: 1;
+    text-align: left;
+}
+
+.flex-box-div2 {
+    flex: 6;
+}

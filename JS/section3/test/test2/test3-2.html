@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>论坛发帖</title>
+    <link rel="stylesheet" href="css/css3-2.css">
+    <link rel="stylesheet" href="css/public-style.css">
+    <script src="js/js3-2.js"></script>
+</head>
+<body>
+<div class="box">
+    <ul>
+        <li><input type="button" value="我要发帖" class="myPost" id="pushPost" onclick="pushPost();"></li>
+        <li>
+            <div class="head-img"></div>
+            <div class="li-content">
+                <h3>如何学习Web前端开发课程</h3>
+                <div><span class="span-left">板块：新课来了</span><span class="span-right">发表时间：2016-7-13&nbsp;14:25:59</span></div>
+            </div>
+        </li>
+        <li>
+            <div class="head-img1"></div>
+            <div class="li-content">
+                <h3>如何学习课工场课程?</h3>
+                <div><span class="span-left">板块：新手报道</span><span class="span-right">发表时间：2016-7-13&nbsp;14:25:45</span></div>
+            </div>
+        </li>
+    </ul>
+    <div class="popup" id="popup">
+        <div><input type="text" placeholder="请输入标题(1-50个字符)" id="title"></div>
+        <div>
+            所属板块：
+            <select>
+                <option value="请选择板块" selected>请选择板块</option>
+                <option value="新手报道">新手报道</option>
+                <option value="新课来了">新课来了</option>
+                <option value="其他">其他</option>
+            </select>
+        </div>
+        <div><textarea rows="8" cols="40"></textarea></div>
+        <div><input type="button" class="myPost" value="发布" onclick="myPush();"></div>
+        <div id="time"></div>
+    </div>
+</div>
+</body>
+</html>

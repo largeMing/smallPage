@@ -1,0 +1,1654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/JS/section10/shoppingCar/myCart.html" line="7" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="566c3a39-9808-42b5-ace8-60c51425c6dd" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AJAX-demo/bilibili.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/AJAX-demo/userData.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section2/css/task1.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section2/css/task2.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section2/css/task3.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section2/img/01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section2/img/02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section2/img/03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section2/task3.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section2/task4.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section2/task5.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/css/bootstrap.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/css/task1.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/css/task2.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/css/test1.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/css/test2.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/css/test4.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/4-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/4-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/4-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/4-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/4-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/4-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/4-7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/logo_09.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/task5-1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/task5-10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/task5-11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/task5-12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/task5-2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/task5-3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/task5-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/task5-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/task5-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/task5-7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/task5-8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/img/task5-9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/js/jquery-3.2.1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/js/jquery-3.2.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/js/npm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/task3.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/task4.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/task5.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/test1.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/test2.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/test3.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section3/test4.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/css/bootstrap.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/css/task4.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/css/test3.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/css/test4.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/analysis.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/antiterrorism.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/financial.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/forecast.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/gov.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/header-bg.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/img1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/img2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/img3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/medical.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/onestack.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/peng.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/pic1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/pic2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/pic3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/pic4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/pic5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/recommendation.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/salesforecast.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/shengchao.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/task4-4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/task4-5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/img/task4-6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/js/jquery-3.2.1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/js/jquery-3.2.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/js/npm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/task4.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/task5.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/test1.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/test2.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/test3&amp;task3.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section4/test4.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/60stimeDemo.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/css/bootstrap.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/css/bootstrap.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/css/bootstrap.min.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/css/index.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/10.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/11.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/12.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/13.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/14.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/15.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/16.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/5.1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/ad1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/bannerbg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/f_app_ecode.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/f_wpr.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/f_wpr_ecode.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/f_wpr_h.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/f_wx.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/f_wx_h.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/footer_line.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/footer_logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/img1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/img2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/img3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/img4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/img5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/img6.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/img7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/img8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/img9.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/logoMsg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/img/phoneIcon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/js/bootstrap.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/js/jquery-3.2.1.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/js/jquery-3.2.1.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section5/js/npm.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/AJAX-demo/city.html" afterPath="$PROJECT_DIR$/AJAX-demo/city.html" />
+      <change beforePath="$PROJECT_DIR$/AJAX-demo/js/city.js" afterPath="$PROJECT_DIR$/AJAX-demo/js/city.js" />
+      <change beforePath="$PROJECT_DIR$/JS/JQ AJAX扩展 1/01 提供给教员的内容/01 教学演示案例/示例1：使用Ajax实现用户名验证（教材示例1-2）/示例1-2：使用Ajax实现用户名验证/chapter10_01/WebRoot/index.html" afterPath="$PROJECT_DIR$/JS/JQ AJAX扩展 1/01 提供给教员的内容/01 教学演示案例/示例1：使用Ajax实现用户名验证（教材示例1-2）/示例1-2：使用Ajax实现用户名验证/chapter10_01/WebRoot/index.html" />
+      <change beforePath="$PROJECT_DIR$/JS/JQ AJAX扩展 1/01 提供给教员的内容/01 教学演示案例/示例2：使用jQuery.ajax() 实现用户名验证（教材示例3）/示例3：使用jQuery.ajax() 实现用户名验证/chapter10_02/WebRoot/index.html" afterPath="$PROJECT_DIR$/JS/JQ AJAX扩展 1/01 提供给教员的内容/01 教学演示案例/示例2：使用jQuery.ajax() 实现用户名验证（教材示例3）/示例3：使用jQuery.ajax() 实现用户名验证/chapter10_02/WebRoot/index.html" />
+      <change beforePath="$PROJECT_DIR$/JS/JQ AJAX扩展 1/01 提供给教员的内容/01 教学演示案例/示例3：使用jQuery处理JSON数据（教材示例4）/示例4：使用jQuery处理JSON数据/chapter10_03/index.html" afterPath="$PROJECT_DIR$/JS/JQ AJAX扩展 1/01 提供给教员的内容/01 教学演示案例/示例3：使用jQuery处理JSON数据（教材示例4）/示例4：使用jQuery处理JSON数据/chapter10_03/index.html" />
+      <change beforePath="$PROJECT_DIR$/JS/JQ AJAX扩展 1/01 提供给教员的内容/02 上机练习参考答案/练习3：以常见页面元素展示JSON数据/练习3：以常见页面元素展示JSON数据/chapter10_ex03/index.html" afterPath="$PROJECT_DIR$/JS/JQ AJAX扩展 1/01 提供给教员的内容/02 上机练习参考答案/练习3：以常见页面元素展示JSON数据/练习3：以常见页面元素展示JSON数据/chapter10_ex03/index.html" />
+      <change beforePath="$PROJECT_DIR$/JS/JQ AJAX扩展 1/01 提供给教员的内容/02 上机练习参考答案/练习4：在Ajax中使用JSON生成管理员新闻页面/练习4：在Ajax中使用JSON生成管理员新闻页面/news_chapter10_ex04/WebRoot/index-elements/index_bottom.html" afterPath="$PROJECT_DIR$/JS/JQ AJAX扩展 1/01 提供给教员的内容/02 上机练习参考答案/练习4：在Ajax中使用JSON生成管理员新闻页面/练习4：在Ajax中使用JSON生成管理员新闻页面/news_chapter10_ex04/WebRoot/index-elements/index_bottom.html" />
+      <change beforePath="$PROJECT_DIR$/JS/JQ AJAX扩展 1/01 提供给教员的内容/02 上机练习参考答案/练习4：在Ajax中使用JSON生成管理员新闻页面/练习4：在Ajax中使用JSON生成管理员新闻页面/news_chapter10_ex04/WebRoot/newspages/console_element/bottom.html" afterPath="$PROJECT_DIR$/JS/JQ AJAX扩展 1/01 提供给教员的内容/02 上机练习参考答案/练习4：在Ajax中使用JSON生成管理员新闻页面/练习4：在Ajax中使用JSON生成管理员新闻页面/news_chapter10_ex04/WebRoot/newspages/console_element/bottom.html" />
+      <change beforePath="$PROJECT_DIR$/JS/JQ AJAX扩展 1/01 提供给教员的内容/02 上机练习参考答案/练习5：在Ajax中使用JSON生成主题管理页面/练习5：在Ajax中使用JSON生成主题管理页面/news_chapter10_ex05/WebRoot/index-elements/index_bottom.html" afterPath="$PROJECT_DIR$/JS/JQ AJAX扩展 1/01 提供给教员的内容/02 上机练习参考答案/练习5：在Ajax中使用JSON生成主题管理页面/练习5：在Ajax中使用JSON生成主题管理页面/news_chapter10_ex05/WebRoot/index-elements/index_bottom.html" />
+      <change beforePath="$PROJECT_DIR$/JS/JQ AJAX扩展 1/01 提供给教员的内容/02 上机练习参考答案/练习5：在Ajax中使用JSON生成主题管理页面/练习5：在Ajax中使用JSON生成主题管理页面/news_chapter10_ex05/WebRoot/js/admin.js" afterPath="$PROJECT_DIR$/JS/JQ AJAX扩展 1/01 提供给教员的内容/02 上机练习参考答案/练习5：在Ajax中使用JSON生成主题管理页面/练习5：在Ajax中使用JSON生成主题管理页面/news_chapter10_ex05/WebRoot/js/admin.js" />
+      <change beforePath="$PROJECT_DIR$/JS/JQ AJAX扩展 1/01 提供给教员的内容/02 上机练习参考答案/练习5：在Ajax中使用JSON生成主题管理页面/练习5：在Ajax中使用JSON生成主题管理页面/news_chapter10_ex05/WebRoot/newspages/console_element/bottom.html" afterPath="$PROJECT_DIR$/JS/JQ AJAX扩展 1/01 提供给教员的内容/02 上机练习参考答案/练习5：在Ajax中使用JSON生成主题管理页面/练习5：在Ajax中使用JSON生成主题管理页面/news_chapter10_ex05/WebRoot/newspages/console_element/bottom.html" />
+      <change beforePath="$PROJECT_DIR$/JS/JQ AJAX扩展 2/01 提供给教员的内容/01 教学演示案例/示例1：使用jQuery.get()实现用户名验证/示例1：使用jQuery.get()实现用户名验证/chapter11_01/WebRoot/index.html" afterPath="$PROJECT_DIR$/JS/JQ AJAX扩展 2/01 提供给教员的内容/01 教学演示案例/示例1：使用jQuery.get()实现用户名验证/示例1：使用jQuery.get()实现用户名验证/chapter11_01/WebRoot/index.html" />
+      <change beforePath="$PROJECT_DIR$/JS/JQ AJAX扩展 2/01 提供给教员的内容/01 教学演示案例/示例3：使用jQuery.getJSON()生成管理员新闻页面/示例3：使用jQuery.getJSON()生成管理员新闻页面/news_chapter11_01/WebRoot/index-elements/index_bottom.html" afterPath="$PROJECT_DIR$/JS/JQ AJAX扩展 2/01 提供给教员的内容/01 教学演示案例/示例3：使用jQuery.getJSON()生成管理员新闻页面/示例3：使用jQuery.getJSON()生成管理员新闻页面/news_chapter11_01/WebRoot/index-elements/index_bottom.html" />
+      <change beforePath="$PROJECT_DIR$/JS/JQ AJAX扩展 2/01 提供给教员的内容/01 教学演示案例/示例3：使用jQuery.getJSON()生成管理员新闻页面/示例3：使用jQuery.getJSON()生成管理员新闻页面/news_chapter11_01/WebRoot/js/admin.js" afterPath="$PROJECT_DIR$/JS/JQ AJAX扩展 2/01 提供给教员的内容/01 教学演示案例/示例3：使用jQuery.getJSON()生成管理员新闻页面/示例3：使用jQuery.getJSON()生成管理员新闻页面/news_chapter11_01/WebRoot/js/admin.js" />
+      <change beforePath="$PROJECT_DIR$/JS/JQ AJAX扩展 2/01 提供给教员的内容/01 教学演示案例/示例3：使用jQuery.getJSON()生成管理员新闻页面/示例3：使用jQuery.getJSON()生成管理员新闻页面/news_chapter11_01/WebRoot/newspages/console_element/bottom.html" afterPath="$PROJECT_DIR$/JS/JQ AJAX扩展 2/01 提供给教员的内容/01 教学演示案例/示例3：使用jQuery.getJSON()生成管理员新闻页面/示例3：使用jQuery.getJSON()生成管理员新闻页面/news_chapter11_01/WebRoot/newspages/console_element/bottom.html" />
+      <change beforePath="$PROJECT_DIR$/JS/section11/css/layout.css" afterPath="$PROJECT_DIR$/JS/section11/css/layout.css" />
+      <change beforePath="$PROJECT_DIR$/JS/section11/index.html" afterPath="$PROJECT_DIR$/JS/section11/index.html" />
+      <change beforePath="$PROJECT_DIR$/JS/section11/js/header.js" afterPath="$PROJECT_DIR$/JS/section11/js/header.js" />
+      <change beforePath="$PROJECT_DIR$/JS/section11/js/index.js" afterPath="$PROJECT_DIR$/JS/section11/js/index.js" />
+      <change beforePath="$PROJECT_DIR$/JS/section11/js/login.js" afterPath="$PROJECT_DIR$/JS/section11/js/login.js" />
+      <change beforePath="$PROJECT_DIR$/JS/section11/js/product.js" afterPath="$PROJECT_DIR$/JS/section11/js/product.js" />
+      <change beforePath="$PROJECT_DIR$/JS/section11/js/register.js" afterPath="$PROJECT_DIR$/JS/section11/js/register.js" />
+      <change beforePath="$PROJECT_DIR$/JS/section5/newTest/newTest4/adver.html" afterPath="$PROJECT_DIR$/JS/section5/newTest/newTest4/adver.html" />
+      <change beforePath="$PROJECT_DIR$/JS/section9/test/test1/foot.htm" afterPath="$PROJECT_DIR$/JS/section9/test/test1/foot.htm" />
+      <change beforePath="$PROJECT_DIR$/JS/section9/test/test1/head.htm" afterPath="$PROJECT_DIR$/JS/section9/test/test1/head.htm" />
+      <change beforePath="$PROJECT_DIR$/JS/section9/test/test1/register_success.htm" afterPath="$PROJECT_DIR$/JS/section9/test/test1/register_success.htm" />
+      <change beforePath="$PROJECT_DIR$/JS/section9/test/test2/register2.html" afterPath="$PROJECT_DIR$/JS/section9/test/test2/register2.html" />
+      <change beforePath="$PROJECT_DIR$/JS/section9/test/test2/register_success.htm" afterPath="$PROJECT_DIR$/JS/section9/test/test2/register_success.htm" />
+      <change beforePath="$PROJECT_DIR$/JS/section9/test/test3/register_success.htm" afterPath="$PROJECT_DIR$/JS/section9/test/test3/register_success.htm" />
+      <change beforePath="$PROJECT_DIR$/JS/section9/test/test4/register_success.htm" afterPath="$PROJECT_DIR$/JS/section9/test/test4/register_success.htm" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section1/test2/css/test2.css" afterPath="$PROJECT_DIR$/WebFrame/section1/test2/css/test2.css" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section1/test3/css/test3.css" afterPath="$PROJECT_DIR$/WebFrame/section1/test3/css/test3.css" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/css/bootstrap.css" afterPath="$PROJECT_DIR$/WebFrame/section2/css/bootstrap.css" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/css/task1.css" afterPath="$PROJECT_DIR$/AJAX-demo/js/bilibili.js" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/css/test1.css" afterPath="$PROJECT_DIR$/WebFrame/section2/css/test1.css" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/css/test2.css" afterPath="$PROJECT_DIR$/WebFrame/section2/css/test2.css" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/css/test3.css" afterPath="$PROJECT_DIR$/WebFrame/section2/css/test3.css" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/css/test4.css" afterPath="$PROJECT_DIR$/WebFrame/section2/css/test4.css" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/img/3.png" afterPath="$PROJECT_DIR$/WebFrame/section2/img/3.png" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/img/4.jpg" afterPath="$PROJECT_DIR$/WebFrame/section2/img/4.jpg" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/img/4.png" afterPath="$PROJECT_DIR$/WebFrame/section2/img/4.png" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/img/5.jpg" afterPath="$PROJECT_DIR$/WebFrame/section2/img/5.jpg" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/img/5.png" afterPath="$PROJECT_DIR$/WebFrame/section2/img/5.png" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/img/6.jpg" afterPath="$PROJECT_DIR$/WebFrame/section2/img/6.jpg" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/img/6.png" afterPath="$PROJECT_DIR$/WebFrame/section2/img/6.png" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/img/7.gif" afterPath="$PROJECT_DIR$/WebFrame/section2/img/7.gif" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/img/7.jpg" afterPath="$PROJECT_DIR$/WebFrame/section2/img/7.jpg" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/img/adbg.png" afterPath="$PROJECT_DIR$/WebFrame/section2/img/adbg.png" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/img/bg3.jpg" afterPath="$PROJECT_DIR$/WebFrame/section2/img/bg3.jpg" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/img/block-split.png" afterPath="$PROJECT_DIR$/WebFrame/section2/img/block-split.png" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/img/cover.png" afterPath="$PROJECT_DIR$/WebFrame/section2/img/cover.png" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/img/ewelina.png" afterPath="$PROJECT_DIR$/WebFrame/section2/img/ewelina.png" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/img/ghs.png" afterPath="$PROJECT_DIR$/WebFrame/section2/img/ghs.png" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/img/juraj.png" afterPath="$PROJECT_DIR$/WebFrame/section2/img/juraj.png" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/img/liucheng.png" afterPath="$PROJECT_DIR$/WebFrame/section2/img/liucheng.png" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/img/logo.png" afterPath="$PROJECT_DIR$/WebFrame/section2/img/logo.png" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/img/oksana.png" afterPath="$PROJECT_DIR$/WebFrame/section2/img/oksana.png" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/img/oleg.png" afterPath="$PROJECT_DIR$/WebFrame/section2/img/oleg.png" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/img/tmore.png" afterPath="$PROJECT_DIR$/WebFrame/section2/img/tmore.png" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/img/xcy.png" afterPath="$PROJECT_DIR$/WebFrame/section2/img/xcy.png" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/js/bootstrap.js" afterPath="$PROJECT_DIR$/WebFrame/section2/js/bootstrap.js" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/WebFrame/section2/js/bootstrap.min.js" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/js/jquery-3.2.1.js" afterPath="$PROJECT_DIR$/WebFrame/section2/js/jquery-3.2.1.js" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/js/jquery-3.2.1.min.js" afterPath="$PROJECT_DIR$/WebFrame/section2/js/jquery-3.2.1.min.js" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/task1.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/test1.html" afterPath="$PROJECT_DIR$/WebFrame/section2/test1.html" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/test2.html" afterPath="$PROJECT_DIR$/WebFrame/section2/test2.html" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/test3.html" afterPath="$PROJECT_DIR$/WebFrame/section2/test3.html" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section2/test&amp;task/test4.html" afterPath="$PROJECT_DIR$/WebFrame/section2/test4.html" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/.idea/Winter vacation homework.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/css/head&amp;foot.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/css/index.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/css/integral.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/css/login.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/css/register.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/css/reservation.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/css/reset.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/10.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/11.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/12.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/13.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/14.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/15.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/16.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/arr-dow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/arrowleft_gray.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/arrowright_gray.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/banner_download.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/bg-list.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/bg-list.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/botao-logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/brand_list.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/checkbox.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/checkbox_checked.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/copy.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/del.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/discounts1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/discounts2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/discounts3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/ewm_app.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/ewm_wecha.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/hotel-img1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/hotel-img2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/hotel-img3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/hotel-img4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/hotel-img5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/hotel-img6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/hotel-img7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/hotel-img8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/hotel-logo1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/hotel-logo10.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/hotel-logo2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/hotel-logo3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/hotel-logo4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/hotel-logo5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/hotel-logo6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/hotel-logo7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/hotel-logo8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/hotel-logo9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/index-footer1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/index-footer2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/index-footer3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/index-footer4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/itg-img.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/iu.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/left-arr.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/lf.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/login-img.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/pai.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/qtjz.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/radio-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/radio-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/right-arr.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/room1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/room2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/room3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/room4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/room5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/sign.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/sosuo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/swiper1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/swiper2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/swiper3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/swiper4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/xana.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/xedhp.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/img/zf.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/integral.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/js/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/js/integral.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/js/jquery-3.2.1.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/js/login.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/js/register.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/js/reservation.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/login.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/register.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework1/reservation.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/css/foot.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/css/head&amp;foot.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/css/index.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/css/login.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/css/ordering.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/css/register.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/b1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/b2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/b3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/b4.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/b5.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/b6.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/bxslidercontrols.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/change-1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/change-2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/change-3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/download.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/download10.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/download11.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/download12.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/download2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/download3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/download4.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/download5.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/download6.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/download7.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/download8.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/download9.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/login-bg.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/nav1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/nav2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/nav3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/nav4.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/nav5.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/nav6.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/img/备案图标.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/js/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/js/jquery-3.2.1.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/js/login.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/js/register.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/login.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/ordering.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Winter vacation homework/homework2/register.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/article.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/contrast.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/css/article.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/css/contrast.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/css/domestic-travel.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/css/index.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/css/public-page.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/css/public-pageStyle.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/css/public-style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/css/route.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/css/visa.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/css/visaDetail.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/domestic-travel.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/article-img1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/contrast-img1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/contrast-img2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/domestic-bg1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/domestic-bg2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/domestic-bg3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/domestic-bg4.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/domestic-bg5.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/domestic-bg6.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/domestic-bg7.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/domestic-bg8.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/domestic-img1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/domestic-img2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/domestic-img3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/domestic-img4.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/domestic-img5.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/domestic-img6.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/domestic-img7.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/domestic-img8.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-bg1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-bg2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-bg3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-bg4.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-bg5.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-bg6.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-bg7.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-bottom1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-bottom2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-bottom3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-img1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-img2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-img3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-img4.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-img5.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-img6.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-img7.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-img8.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-state1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-state2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-state3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-state4.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-state5.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-state6.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-state7.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-state8.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/index-top.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/route-bg1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/route-img1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/solid.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/state-bg1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/state-bg10.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/state-bg2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/state-bg3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/state-bg4.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/state-bg5.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/state-bg6.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/state-bg7.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/state-bg8.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/state-bg9.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/visa-bg1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/visa-img1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/visa-img2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/visa-img3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/visa-img4.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/visa-img5.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/visa-img6.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/visa-img7.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/img/visaDetail-img1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/route.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/visa.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/神舟国旅/visaDetail.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/.idea/途家.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/changSha.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/css/changSha.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/css/index.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/css/jquery.idcode.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/css/public-style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/css/ring-up.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/css/sign-in.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/2017-12-28_141538.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/Android.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/a_close.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/app-download300.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/body01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/body05.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/btn-arr.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/changsha-img1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/changsha-img10.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/changsha-img11.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/changsha-img12.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/changsha-img13.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/changsha-img14.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/changsha-img15.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/changsha-img16.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/changsha-img17.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/changsha-img18.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/changsha-img19.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/changsha-img2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/changsha-img20.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/changsha-img21.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/changsha-img22.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/changsha-img23.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/changsha-img3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/changsha-img4.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/changsha-img5.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/changsha-img6.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/changsha-img7.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/changsha-img8.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/changsha-img9.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/fixed-l.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/footer-img1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/footer-img2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/footer-img3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/footer_no1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/iPhone.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img10.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img11.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img12.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img13.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img14.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img15.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img16.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img17.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img18.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img19.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img20.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img21.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img22.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img23.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img24.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img25.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img26.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img27.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img28.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img29.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img30.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img31.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img32.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img33.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img35.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img36.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img37.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img38.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img39.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img4.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img40.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img41.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img42.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img43.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img44.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img45.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img46.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img47.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img48.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img49.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img5.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img50.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img51.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img52.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img53.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img54.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img55.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img56.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img57.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img58.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img59.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img6.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img7.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img8.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/index-img9.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/qq.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/section_no34.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/sing-img.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/tujia-log.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/tujia-logo-1.f9cc087.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/up-code.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/up-img.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/weixin.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/img/xinlang.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/jQuery-3.2.1/jquery-3.2.1.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/jQuery-3.2.1/jquery-3.2.1.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/js/changSha.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/js/index.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/js/jquery.idcode.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/ring-up.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/途家/sign-in.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/.idea/extracurricular.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/.idea/workspace.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/TOEFL.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/css/TOEFL.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/css/open-class.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/css/public-page.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/css/public-style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/css/ring-up.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/css/sign-in.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/1452062779262331.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/1452063360475971.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/1452136139576220.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/1481182628299940.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/47295.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/app-img.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/app-img2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/bg-arr1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/bg-arr2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/bg-img.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/bg1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/bg2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/bg3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/bg4.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/bg5.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/bg6.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/bg7.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/ellipsis_bg01.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/ellipsis_bg02.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/ellipsis_bg03.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/ellipsis_bg04.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/ellipsis_bg05.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/img1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/index_ewmGmat.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/index_ewmTeofl.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/j-img1.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/j-img2.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/j-img3.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/newIndex_footImg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/newIndex_footerbg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/openClass-bg1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/openClass-img1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/openClass-img2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/openClass-img3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/openClass-img4.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/phone.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/qq.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/refer_icon01.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/refer_icon02.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/refer_icon03.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/refer_icon04.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/refer_icon05.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/refer_icon06.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/refer_topImg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/tofel-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/tofel-img1.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/tofel-img10.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/tofel-img11.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/tofel-img12.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/tofel-img13.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/tofel-img14.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/tofel-img15.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/tofel-img16.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/tofel-img17.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/tofel-img18.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/tofel-img19.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/tofel-img2.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/tofel-img20.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/tofel-img3.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/tofel-img4.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/tofel-img5.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/tofel-img6.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/tofel-img7.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/tofel-img8.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/tofel-img9.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/uname.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/img/upas.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/js/in-js.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/js/tofel-js.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/js/up-js.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/ok.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/open-class.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/ring-up.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/雷哥网/sign-in.html" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="web10-2" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package_json" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>left-box-title</find>
+      <find>hot-ul-li2</find>
+      <find>5</find>
+      <find>nice-select4-ul-two</find>
+      <find>1192</find>
+      <find>img-bottom-bg</find>
+      <find>on</find>
+      <find>changeTo</find>
+      <find>class=&quot;money&quot;</find>
+      <find>id</find>
+      <find>shop</find>
+      <find>em</find>
+      <find>`</find>
+      <find>cartCheckBox</find>
+      <find>删除所选</find>
+      <find>display</find>
+      <find>1071</find>
+      <find>flex</find>
+      <find>downH</find>
+      <find>leftA</find>
+      <find>images</find>
+      <find>imag</find>
+      <find>media</find>
+      <find>@media</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/JS/section11/js/header.js" />
+        <option value="$PROJECT_DIR$/JS/section11/js/product.js" />
+        <option value="$PROJECT_DIR$/JS/section11/js/index.js" />
+        <option value="$PROJECT_DIR$/JS/section11/index.html" />
+        <option value="$PROJECT_DIR$/JS/section11/json/fujian" />
+        <option value="$PROJECT_DIR$/JS/section11/json/cityData.html" />
+        <option value="$PROJECT_DIR$/JS/section11/js/register.js" />
+        <option value="$PROJECT_DIR$/WebFrame/section3/test1/css/test2.css" />
+        <option value="$PROJECT_DIR$/WebFrame/section3/test1/test2.html" />
+        <option value="$PROJECT_DIR$/WebFrame/section3/test/test1.html" />
+        <option value="$PROJECT_DIR$/WebFrame/section3/test/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/WebFrame/section3/test/css/test4.css" />
+        <option value="$PROJECT_DIR$/WebFrame/section3/test/test4.html" />
+        <option value="$PROJECT_DIR$/AJAX-demo/js/bilibili.css" />
+        <option value="$PROJECT_DIR$/JS/section11/js/shopping.js" />
+        <option value="$PROJECT_DIR$/AJAX-demo/bilibili.html" />
+        <option value="$PROJECT_DIR$/AJAX-demo/js/bilibili.js" />
+        <option value="$PROJECT_DIR$/WebFrame/section3/test/test3.html" />
+        <option value="$PROJECT_DIR$/WebFrame/section4/test1/test1.html" />
+        <option value="$PROJECT_DIR$/WebFrame/section4/test1/test2.html" />
+        <option value="$PROJECT_DIR$/WebFrame/section4/test1/css/test3.css" />
+        <option value="$PROJECT_DIR$/WebFrame/section4/test1/test3.html" />
+        <option value="$PROJECT_DIR$/WebFrame/section1/test1/css/test1.css" />
+        <option value="$PROJECT_DIR$/WebFrame/section4/test1/css/test4.html" />
+        <option value="$PROJECT_DIR$/WebFrame/section4/test1/css/test4.css" />
+        <option value="$PROJECT_DIR$/WebFrame/section4/test1/test4.html" />
+        <option value="$PROJECT_DIR$/WebFrame/section4/test1/task.html" />
+        <option value="$PROJECT_DIR$/WebFrame/section1/test2/css/test2.css" />
+        <option value="$PROJECT_DIR$/WebFrame/section3/task1.html" />
+        <option value="$PROJECT_DIR$/WebFrame/section3/css/task1.css" />
+        <option value="$PROJECT_DIR$/WebFrame/section2/test&amp;task/css/test2.css" />
+        <option value="$PROJECT_DIR$/WebFrame/section2/test&amp;task/test2.html" />
+        <option value="$PROJECT_DIR$/WebFrame/section3/task2.html" />
+        <option value="$PROJECT_DIR$/WebFrame/section3/task4.html" />
+        <option value="$PROJECT_DIR$/WebFrame/section3/task5.html" />
+        <option value="$PROJECT_DIR$/WebFrame/section4/task3.html" />
+        <option value="$PROJECT_DIR$/WebFrame/section4/test3&amp;task3.html" />
+        <option value="$PROJECT_DIR$/WebFrame/section3/test2.html" />
+        <option value="$PROJECT_DIR$/WebFrame/section4/123.html" />
+        <option value="$PROJECT_DIR$/WebFrame/section4/css/task4.css" />
+        <option value="$PROJECT_DIR$/WebFrame/section4/task4.html" />
+        <option value="$PROJECT_DIR$/WebFrame/section4/test2.html" />
+        <option value="$PROJECT_DIR$/WebFrame/section4/task5.html" />
+        <option value="$PROJECT_DIR$/AJAX-demo/city.html" />
+        <option value="$PROJECT_DIR$/AJAX-demo/userData.html" />
+        <option value="$PROJECT_DIR$/AJAX-demo/js/city.js" />
+        <option value="$PROJECT_DIR$/WebFrame/section5/demo'.html" />
+        <option value="$PROJECT_DIR$/WebFrame/section5/demo.html" />
+        <option value="$PROJECT_DIR$/WebFrame/section5/css/index.css" />
+        <option value="$PROJECT_DIR$/WebFrame/section5/index.html" />
+        <option value="$PROJECT_DIR$/WebFrame/section1/test3/css/test3.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="152" />
+    <option name="y" value="35" />
+    <option name="width" value="1641" />
+    <option name="height" value="960" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="web10-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web10-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web10-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web10-2" type="462c0819:PsiDirectoryNode" />
+              <item name="WebFrame" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web10-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web10-2" type="462c0819:PsiDirectoryNode" />
+              <item name="WebFrame" type="462c0819:PsiDirectoryNode" />
+              <item name="section1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JS_task/task4/demo/原型链/index.html" />
+    <property name="nodejs_interpreter_path" value="F:/nodejs/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\web10-2\WebFrame\section5" />
+      <recent name="D:\web10-2\WebFrame\section5\img" />
+      <recent name="D:\web10-2\WebFrame\section4" />
+      <recent name="D:\web10-2\WebFrame\section4\img" />
+      <recent name="D:\web10-2\WebFrame\section4\test1\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\web10-2\WebFrame\section4\img" />
+      <recent name="D:\web10-2\WebFrame\section4" />
+      <recent name="D:\web10-2\WebFrame\section2" />
+      <recent name="D:\web10-2\WebFrame\section3" />
+      <recent name="D:\web10-2\WebFrame\section3\test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.bilibili.html">
+    <configuration name="bilibili.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web10-2/AJAX-demo/bilibili.html" />
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="js1-2.js" working-dir="$PROJECT_DIR$/JS_task/task1/test1-2/js" />
+    <configuration name="js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="$PROJECT_DIR$/JS_task/demo/原型链/index.html" working-dir="$PROJECT_DIR$/JS_task/section1/test/test1-1/js" />
+    <configuration name="tk4-1.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="$PROJECT_DIR$/JS_task/section4/task/task1/js/tk4-1.js" working-dir="$PROJECT_DIR$/JS_task/task1/test1-2/js" />
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSRemoteDebug" factoryName="Node.js Remote Debug">
+      <node-js-remote-debug />
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeunitConfigurationType" factoryName="Nodeunit">
+      <setting name="nodePath" value="project" />
+      <envs />
+      <setting name="nodeunitModuleDir" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="testType" value="JS_FILE" />
+      <setting name="jsFile" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.js" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.tk4-1.js" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.bilibili.html" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.bilibili.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="566c3a39-9808-42b5-ace8-60c51425c6dd" name="Default" comment="" />
+      <created>1511578046729</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1511578046729</updated>
+      <workItem from="1511578048057" duration="6455000" />
+      <workItem from="1511721483221" duration="3415000" />
+      <workItem from="1511724932470" duration="57000" />
+      <workItem from="1511742511549" duration="35590000" />
+      <workItem from="1511853406652" duration="1726000" />
+      <workItem from="1511863244324" duration="3071000" />
+      <workItem from="1511914703243" duration="36279000" />
+      <workItem from="1512020090688" duration="24137000" />
+      <workItem from="1512087385102" duration="5896000" />
+      <workItem from="1512096628996" duration="114000" />
+      <workItem from="1512097160857" duration="55932000" />
+      <workItem from="1512241827606" duration="1197000" />
+      <workItem from="1512293448960" duration="1233000" />
+      <workItem from="1512295038085" duration="15255000" />
+      <workItem from="1512315339087" duration="63621000" />
+      <workItem from="1512519339234" duration="62715000" />
+      <workItem from="1512794172802" duration="40454000" />
+      <workItem from="1513124342484" duration="10843000" />
+      <workItem from="1513230922859" duration="983000" />
+      <workItem from="1513240864042" duration="728000" />
+      <workItem from="1513383629068" duration="4234000" />
+      <workItem from="1513388527245" duration="2040000" />
+      <workItem from="1513452687611" duration="28000" />
+      <workItem from="1513493483487" duration="43342000" />
+      <workItem from="1513785027595" duration="274000" />
+      <workItem from="1513785314193" duration="45929000" />
+      <workItem from="1513957943372" duration="68131000" />
+      <workItem from="1514298124921" duration="49000" />
+      <workItem from="1514298185996" duration="77898000" />
+      <workItem from="1514789250114" duration="31079000" />
+      <workItem from="1514963361836" duration="58740000" />
+      <workItem from="1515207252564" duration="17653000" />
+      <workItem from="1515310855225" duration="2243000" />
+      <workItem from="1515370791504" duration="2348000" />
+      <workItem from="1515373182974" duration="62254000" />
+      <workItem from="1515551449284" duration="8222000" />
+      <workItem from="1515568795341" duration="68420000" />
+      <workItem from="1515770887786" duration="64000" />
+      <workItem from="1515770959234" duration="16193000" />
+      <workItem from="1515945498531" duration="58703000" />
+      <workItem from="1516178392196" duration="20772000" />
+      <workItem from="1516253397547" duration="8105000" />
+      <workItem from="1516265163062" duration="1358000" />
+      <workItem from="1516361075184" duration="21000" />
+      <workItem from="1516585410971" duration="6100000" />
+      <workItem from="1516688640298" duration="15065000" />
+      <workItem from="1516810468926" duration="4993000" />
+      <workItem from="1517185666519" duration="1227000" />
+      <workItem from="1517187297069" duration="588000" />
+      <workItem from="1517324091755" duration="736000" />
+      <workItem from="1517379661283" duration="4228000" />
+      <workItem from="1517446195599" duration="59000" />
+      <workItem from="1517923938317" duration="54000" />
+      <workItem from="1517924015867" duration="32867000" />
+      <workItem from="1518188674198" duration="35228000" />
+      <workItem from="1518505467909" duration="1535000" />
+      <workItem from="1519125535099" duration="412000" />
+      <workItem from="1519126992277" duration="35000" />
+      <workItem from="1519127092329" duration="851000" />
+      <workItem from="1519129576876" duration="129000" />
+      <workItem from="1519136152070" duration="3482000" />
+      <workItem from="1519194325112" duration="987000" />
+      <workItem from="1519269304230" duration="6826000" />
+      <workItem from="1519439332891" duration="1387000" />
+      <workItem from="1519704551330" duration="3462000" />
+      <workItem from="1519708472073" duration="11328000" />
+      <workItem from="1519801784994" duration="98000" />
+      <workItem from="1519864819166" duration="3969000" />
+      <workItem from="1519951404847" duration="46551000" />
+      <workItem from="1520216604364" duration="79696000" />
+      <workItem from="1520554867505" duration="37781000" />
+      <workItem from="1520817651854" duration="30807000" />
+      <workItem from="1520986050135" duration="69539000" />
+      <workItem from="1521264673503" duration="11860000" />
+      <workItem from="1521419370528" duration="1487000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1381168000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="7" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16331924" sideWeight="0.48513675" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.497669" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.502331" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22014925" sideWeight="0.497669" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.497669" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16637681" sideWeight="0.51486325" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39817232" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32738853" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="18" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WebFrame/section1/test2/test2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section3/img/logo_09.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section3/css/task1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="641">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section3/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1353">
+          <caret line="1429" column="1" lean-forward="false" selection-start-line="1429" selection-start-column="1" selection-end-line="1429" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section3/test4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="776">
+          <caret line="50" column="74" lean-forward="false" selection-start-line="50" selection-start-column="74" selection-end-line="50" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section3/test1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="13" column="26" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section2/task3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section2/task4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section2/task5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section2/test1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section2/css/test2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section3/css/task2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section2/test2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1656">
+          <caret line="46" column="47" lean-forward="false" selection-start-line="46" selection-start-column="47" selection-end-line="46" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section3/img/2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section3/js/jquery-3.2.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section3/js/jquery-3.2.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section4/js/jquery-3.2.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section3/task5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section4/task3.html" />
+    <entry file="file://$PROJECT_DIR$/WebFrame/section3/css/test2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section4/123.html" />
+    <entry file="file://$PROJECT_DIR$/WebFrame/section4/test4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="803">
+          <caret line="160" column="22" lean-forward="true" selection-start-line="160" selection-start-column="22" selection-end-line="160" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section4/img/6.jpg" />
+    <entry file="file://$PROJECT_DIR$/WebFrame/section4/img/5.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section4/test3&amp;task3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="62" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section4/css/task4.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section4/task4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="7" column="19" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section4/test2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="41" column="24" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section4/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="4483" column="3" lean-forward="false" selection-start-line="4483" selection-start-column="3" selection-end-line="4483" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section4/task5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="76" column="15" lean-forward="false" selection-start-line="76" selection-start-column="15" selection-end-line="76" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section4/test1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section5/css/task4.css" />
+    <entry file="file://$PROJECT_DIR$/AJAX-demo/ajaxTest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AJAX-demo/ajax.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AJAX-demo/jsonShow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AJAX-demo/json/userData">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AJAX-demo/userData.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="749">
+          <caret line="34" column="107" lean-forward="false" selection-start-line="34" selection-start-column="107" selection-end-line="34" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AJAX-demo/js/city.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AJAX-demo/city.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section3/task3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="48" column="85" lean-forward="false" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section3/test3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section3/test2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section3/task4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section5/demo'.html" />
+    <entry file="file://$PROJECT_DIR$/JS/section11/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="108" column="22" lean-forward="false" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section5/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="5223" column="1" lean-forward="false" selection-start-line="5223" selection-start-column="1" selection-end-line="5223" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section5/60stimeDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="19" column="9" lean-forward="false" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section5/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="711" column="22" lean-forward="true" selection-start-line="711" selection-start-column="22" selection-end-line="711" selection-end-column="22" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#3;n#ul#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#7;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#6;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#7;n#div#1;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#6;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#7;n#div#2;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#6;n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#7;n#div#3;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#6;n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#7;n#div#4;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#5;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#5;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#5;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#5;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#div#5;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#div#5;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#4;n#div#5;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#5;n#div#5;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#5;n#div#5;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#6;n#div#5;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#6;n#div#5;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#7;n#div#5;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#7;n#div#5;n#div#0;n#div#0;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h4#0;n#div#1;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#h4#0;n#div#1;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#label#0;n#p#0;n#div#1;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#label#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#div#1;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#label#0;n#p#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#2;n#div#1;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#label#0;n#p#0;n#div#1;n#div#2;n#div#1;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#3;n#div#1;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#label#0;n#p#0;n#div#1;n#div#3;n#div#1;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#div#4;n#div#1;n#div#0;n#div#3;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#div#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#a#0;n#h3#0;n#div#0;n#div#0;n#div#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#label#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#4;n#article#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section5/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="713">
+          <caret line="194" column="0" lean-forward="false" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section1/test3/css/test3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="253" column="25" lean-forward="true" selection-start-line="253" selection-start-column="25" selection-end-line="253" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section1/test3/test3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="36" column="28" lean-forward="false" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

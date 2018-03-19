@@ -1,0 +1,159 @@
+input {
+    outline: none;
+}
+
+.main-box {
+    min-width: 1070px;
+    width: 100%;
+    background: #EEEEEE;
+}
+
+.main-content {
+    position: relative;
+    width: 1070px;
+    margin: 0 auto;
+    padding: 90px 0 135px 0;
+}
+
+.main-content-r {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    width: 405px;
+    height: 426px;
+    box-sizing: border-box;
+}
+
+.login-way {
+    position: relative;
+}
+
+.login-way div {
+    width: 203px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.login-way-r {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.login-way-def {
+    background: #F5F5F5;
+    color: #666;
+    cursor: pointer;
+}
+
+/*登录方式选中*/
+.login-way-pitch {
+    background: #FC4F08;
+    color: #fff;
+}
+
+
+.main-content-form {
+    width: 405px;
+    height: 372px;
+    padding: 63px 0 0 41px;
+    background: #fff;
+}
+
+.main-content-form-phone {
+    width: 405px;
+    height: 372px;
+    padding: 63px 0 0 41px;
+    background: #fff;
+    display: none;
+}
+
+.userInput {
+    width: 324px;
+    height: 36px;
+    margin-bottom: 25px;
+    border: solid 1px #DDDDDD;
+    padding: 11px 13px;
+}
+
+.phone-code {
+    position: relative;
+    margin-bottom: 25px;
+    width: 324px;
+}
+
+.userCode {
+    width: 200px;
+    height: 36px;
+    border: solid 1px #DDDDDD;
+    padding: 11px 13px;
+}
+
+.phone-code-r {
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 36px;
+    border: solid 1px #DDDDDD;
+    padding: 11px 13px;
+}
+
+.userCode2 {
+    width: 240px;
+    height: 36px;
+    border: solid 1px #DDDDDD;
+    padding: 11px 13px;
+}
+
+.code-push {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 3px;
+    background: #ccc;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
+.remember-pas {
+    position: relative;
+    width: 324px;
+    color: #535353;
+    margin-bottom: 13px;
+}
+
+.remember-pas-r {
+    position: absolute;
+    right: 0;
+    color: #535353;
+}
+
+.remember-pas input {
+    margin-right: 4px;
+}
+
+.sub {
+    color: #fff;
+    background: #ccc;
+    width: 324px;
+    height: 36px;
+    margin-bottom: 13px;
+    border-radius: 4px;
+}
+
+.reg {
+    position: relative;
+    width: 324px;
+}
+
+.reg a {
+    position: absolute;
+    right: 0;
+    color: #535353;
+}

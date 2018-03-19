@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+input {
+    margin-bottom: 15px;
+}
+
+

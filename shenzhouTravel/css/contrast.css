@@ -1,0 +1,107 @@
+.content-basic {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.content-basic-block {
+    -webkit-box-flex: 1;
+        -webkit-flex: 1;
+                flex: 1;
+    text-align: center;
+    border-top: solid 3px #0D8FE5;
+    padding: 5px 0;
+    background: #E3EDF3;
+}
+
+.content-basic-block:hover {
+    cursor: pointer;
+    border-top: solid 3px #FEBE00;
+}
+
+/*默认选中*/
+
+.block1 {
+    cursor: pointer;
+    border-top: solid 3px #FEBE00;
+}
+
+.block-div {
+    color: #0D8FE5;
+    border-left: solid 1px #B3D0ED;
+}
+
+.content-table {
+    margin: 10px 0 20px 0;
+    border: solid 1px #D0D0D0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+tr {
+    border-bottom: solid 1px #D0D0D0;
+}
+
+tr:first-child {
+    background: #E3E3E3;
+}
+
+#tr1-td1 {
+    background: #257ADD;
+    color: #FFF;
+}
+
+.tr1-td2 {
+    color: #333;
+    font-weight: 700;
+}
+
+tr td:first-child {
+    width: 150px;
+}
+
+tr td:nth-child(2),
+tr td:last-child {
+    width: 415px;
+    padding: 5px 0;
+    border-left: solid 1px #D0D0D0;
+    color: #666;
+}
+
+.tr1~tr td:first-child {
+    color: #257ADD;
+    font-weight: 700;
+    position: relative;
+}
+
+#tr2-img1 {
+    padding: 20px 0;
+}
+
+.tr3-span {
+    font-size: 16px;
+    color: #F90;
+    font-weight: 700;
+    margin-right: 3px;
+}
+
+#tr9-td2,
+#tr9-td3 {
+    text-align: left;
+    padding: 15px;
+}
+
+#tr9-td2 dt,
+#tr9-td3 dt {
+    font-weight: 700;
+}
+
+.td1-span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -8px 0 0 -12px;
+}

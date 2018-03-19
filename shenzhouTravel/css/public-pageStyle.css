@@ -1,0 +1,165 @@
+/*页面定位*/
+
+.position-ul {
+    border-bottom: dashed 1px #979797;
+}
+
+.position-ul li {
+    display: inline-block;
+    line-height: 25px;
+}
+
+.position-ul li a {
+    font-size: 10px;
+}
+
+.nav-show {
+    background: url("../img/domestic-bg1.gif") 5px center no-repeat;
+    background-size: 12px;
+    padding-left: 20px;
+    color: #333;
+}
+
+.nav-red {
+    color: #C00;
+}
+
+/*热门目的地*/
+
+.left-box-title {
+    color: #FFF;
+    padding: 4px;
+    background: #0D8FE5;
+    text-align: center;
+}
+
+.rim {
+    background: #DCF2FF url("../img/domestic-bg3.gif") 240px center no-repeat;
+    padding: 5px;
+    color: #0D8FE5;
+    border: solid 1px #B9E3FF;
+}
+
+.content-left-box {
+    border: solid 2px #0D8FE5;
+    margin-bottom: 10px;
+}
+
+.title-center {
+    text-align: center;
+}
+
+.rim-site,
+.rim-ul li {
+    padding: 5px;
+}
+
+.rim-site a,
+.rim-ul li a {
+    margin: 0 5px 0 2px;
+    color: #333;
+}
+
+.rim-site-a1 {
+    font-weight: 700;
+}
+
+.rim-ul li {
+    border-bottom: dashed 1px #D4C3C3;
+}
+
+.rim-ul .rim-lastLi {
+    border: none;
+    padding-bottom: 15px;
+}
+
+.content-left-img {
+    margin-bottom: 10px;
+}
+
+/*主体内容底部4图片*/
+
+.content-bottom-img {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+/*行内新闻*/
+
+.content-left-boxPub {
+    border: solid 1px #0D8FE5;
+    margin-bottom: 10px;
+}
+
+.left-boxPub-title {
+    color: #FFF;
+    padding: 5px;
+    background: #0D8FE5;
+}
+
+.content-left-list {
+    padding: 0 10px;
+    margin-top: 10px;
+}
+
+.left-ul2 li {
+    position: relative;
+    line-height: 25px;
+    height: 25px;
+    border-bottom: dashed 1px #D5D5D5;
+}
+
+.left-ul2 li:hover {
+    cursor: pointer;
+}
+
+.li-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.li-left a {
+    color: #444;
+    font-size: 14px;
+}
+
+.li-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #F90;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.li-right span {
+    font-weight: 100;
+    font-size: 12px;
+    margin-left: 3px;
+}
+
+.left-ul2 .ul2-last-li {
+    border: none;
+    padding-bottom: 15px;
+}
+
+.journalism-img {
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

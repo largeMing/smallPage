@@ -1,0 +1,65 @@
+article{
+    display: block;
+    min-width: 1200px;
+    width: 100%;
+    height: 400px;
+    padding-top: 30px;
+    box-shadow: inset 0 3px 10px #EAEAEA;
+}
+
+.article-box {
+    margin: 0 auto;
+    width: 320px;
+    box-sizing: border-box;
+}
+input{
+    padding: 15px;
+}
+form{
+    margin-top: 20px;
+}
+form div{
+    margin-top: 10px;
+}
+h1{
+    text-align: center;
+}
+.form_input1,
+.form_input3,
+.form_input4{
+    width: 280px;
+}
+.form_input2{
+    width: 150px;
+}
+.form_a1{
+    background: #57565F;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 3px;
+    padding: 15px 20px;
+    margin-left: 8px;
+}
+/*服务协议*/
+.form_div5{
+    padding: 10px 0 0 10px;
+}
+.form_div5 span{
+    font-size: 12px;
+    color: #777;
+}
+.form_div5 a{
+    font-size: 12px;
+    color: #0C6FCF;
+    margin-left: 5px;
+}
+/*注册按钮*/
+.form_input5{
+    width: 320px;
+    border: none;
+    border-radius: 3px;
+    background: #FF3C3C;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+}

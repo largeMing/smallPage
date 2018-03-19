@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>酒店预订</title>
+    <script src="js/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/head&foot.css">
+    <link rel="stylesheet" href="css/reservation.css">
+    <script src="js/reservation.js"></script>
+</head>
+<body>
+<header class="header-box">
+    <div class="header-top">
+        <img src="img/logo.png" width="126" height="30" alt="">
+        <nav class="header-nav">
+            <a href="index.html">首页</a>
+            <a href="">企业差旅</a>
+            <a href="integral.html">积分商城</a>
+            <a href="">会员论坛</a>
+        </nav>
+        <div class="header-r">
+            <a href="login.html">登录</a>
+            <a href="register.html" id="register">注册</a>
+        </div>
+    </div>
+</header>
+<main class="main-box">
+    <div class="main-content">
+        <div class="main-content-t">
+            <div class="main-content-l">
+                <span>深圳</span>
+                <input type="text" placeholder="关键字" class="main-content-l-input">
+                <img src="img/del.png" alt="" class="main-content-l-del">
+            </div>
+            <div class="main-content-r">
+                <button class="main-content-r-date">
+                    <img src="img/arr-dow.png" alt="" class="main-content-r-date-rImg">
+                </button>
+                <input type="button" value="搜索" class="main-content-r-btn">
+            </div>
+        </div>
+        <div class="main-content-choice">
+            <ul>
+                <li>
+                    <div class="main-content-choice-li-l">
+                        <span class="first-span">位置</span>
+                        <span class="m-c-c-def opt">不限</span>
+                    </div>
+                    <div class="main-content-choice-li-r">
+                        <span>行政区</span>
+                        <span>商业区</span>
+                        <span>地铁线</span>
+                        <span>机场火车站</span>
+                        <span>景点</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="main-content-choice-li-l">
+                        <span class="first-span">价格</span>
+                        <span class="m-c-c-def opt">不限</span>
+                    </div>
+                    <div class="main-content-choice-li-r">
+                        <div><input type="radio" name="price" class="radio-def"><span>150以下</span></div>
+                        <div><input type="radio" name="price" class="radio-def"><span>150—300</span></div>
+                        <div><input type="radio" name="price" class="radio-def"><span>300—400</span></div>
+                        <div><input type="radio" name="price" class="radio-def"><span>400以上</span></div>
+                        <div><span class="decide-span">自定义</span><input type="text" class="decide"><span id="mid-border">—</span><input type="text" class="decide"><a
+                                href="javascript:void (0);" class="sure">确定</a></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="main-content-choice-li-l">
+                        <span class="first-span">品牌</span>
+                        <span class="m-c-c-def opt">不限</span>
+                    </div>
+                    <div class="main-content-choice-li-r">
+                        <div><input type="checkbox" name="price" class="check-def"><span>7天酒店</span></div>
+                        <div><input type="checkbox" name="price" class="check-def"><span>7天优品</span></div>
+                        <div><input type="checkbox" name="price" class="check-def"><span>全新7天</span></div>
+                        <div><input type="checkbox" name="price" class="check-def"><span>IU酒店</span></div>
+                        <div><input type="checkbox" name="price" class="check-def"><span>派酒店</span></div>
+                        <div><input type="checkbox" name="price" class="check-def"><span>麗枫酒店</span></div>
+                        <div><input type="checkbox" name="price" class="check-def"><span>喆啡酒店</span></div>
+                        <div><input type="checkbox" name="price" class="check-def"><span>潮漫酒店</span></div>
+                        <div><input type="checkbox" name="price" class="check-def"><span>铂涛菲诺酒店</span></div>
+                        <div><input type="checkbox" name="price" class="check-def"><span>希尔顿欢朋</span></div>
+                        <div><input type="checkbox" name="price" class="check-def"><span>希岸酒店</span></div>
+                        <div><input type="checkbox" name="price" class="check-def"><span>希岸-轻雅</span></div>
+                        <div><input type="checkbox" name="price" class="check-def"><span>铂乐精选</span></div>
+                        <div><input type="checkbox" name="price" class="check-def"><span>非繁-城品</span></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="main-content-choice-li-l">
+                        <span class="first-span">类型</span>
+                        <span class="m-c-c-def opt"> 不限</span>
+                    </div>
+                    <div class="main-content-choice-li-r">
+                        <div><input type="checkbox" name="price" class="check-def"><span>经济型</span></div>
+                        <div><input type="checkbox" name="price" class="check-def"><span>舒适型</span></div>
+                        <div><input type="checkbox" name="price" class="check-def"><span>品质型</span></div>
+                        <div><input type="checkbox" name="price" class="check-def"><span>高档型</span></div>
+                        <div><input type="checkbox" name="price" class="check-def"><span>豪华型</span></div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="hotel-result">
+            <h1 class="seek-result"><span>103</span>家酒店</h1>
+            <ul class="hotel-result-ul">
+                <li>
+                    <div class="h-r-u-first-l">
+                        <div class="h-r-u-first-l-div h-r-u-first-l-hove">综合</div>
+                        <div class="h-r-u-first-l-div"><span class="h-r-u-first-l-arr-top">价格</span></div>
+                        <div class="h-r-u-first-l-div"><span class="h-r-u-first-l-arr-down">评分</span></div>
+                    </div>
+                    <div class="h-r-u-first-r">
+                        <div class="h-r-u-first-r-div"><input type="checkbox" name="price" class="check-def"><span>促销</span></div>
+                        <div class="h-r-u-first-r-div"><input type="checkbox" name="price" class="check-def"><span>有房</span></div>
+                    </div>
+                </li>
+                <li>
+                    <div class="h-r-u-li-l">
+                        <div class="h-r-u-li-l-img">
+                            <img src="img/hotel-img1.jpg" alt="">
+                            <div class="h-r-u-li-l-img-jifen">
+                                <div class="max-top">最高</div>
+                                <div class="top-arr"></div>
+                                <p class="jifen-point">
+                                    <label>588</label><span>积分</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="h-r-u-li-l-intro">
+                            <h1>IU酒店·深圳葵涌店【互联网轻精品酒店】</h1>
+                            <p><span class="h-cbd">[葵涌]</span><span class="icon-map">地图</span><span></span></p>
+                            <p class="h-address">葵涌镇同富裕工业区8号</p>
+                            <ul class="equipment-ul">
+                                <li class="icon-park"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="h-r-u-li-r">
+                        <div class="h-r-u-li-r-grade">
+                            <p class="grade"><span>4.9分</span></p>
+                            <ul class="star-ul">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="hif-star"></li>
+                            </ul>
+                            <p class="h-comment"><span>2714</span><label>条点评</label></p>
+                        </div>
+                        <div class="h-r-u-li-r-price">
+                            <p class="h-price"><b>¥</b><label>125</label><span>起</span></p>
+                            <a href="javascript:void (0)" class="btn-grade">查看详情</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="h-r-u-li-l">
+                        <div class="h-r-u-li-l-img">
+                            <img src="img/hotel-img2.png" alt="">
+                            <div class="h-r-u-li-l-img-jifen">
+                                <div class="max-top">最高</div>
+                                <div class="top-arr"></div>
+                                <p class="jifen-point">
+                                    <label>800</label><span>积分</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="h-r-u-li-l-intro">
+                            <h1>7天优品·深圳科技园高新园地铁站店</h1>
+                            <p><span class="h-cbd">[世界之窗]</span><span class="icon-map">地图</span><span></span></p>
+                            <p class="h-address">科发路2号科技园30区4栋</p>
+                            <ul class="equipment-ul">
+                                <li class="icon-park"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="h-r-u-li-r">
+                        <div class="h-r-u-li-r-grade">
+                            <p class="grade"><span>4.9分</span></p>
+                            <ul class="star-ul">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="hif-star"></li>
+                            </ul>
+                            <p class="h-comment"><span>2423</span><label>条点评</label></p>
+                        </div>
+                        <div class="h-r-u-li-r-price">
+                            <p class="h-price"><b>¥</b><label>315</label><span>起</span></p>
+                            <a href="javascript:void (0)" class="btn-grade">查看详情</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="h-r-u-li-l">
+                        <div class="h-r-u-li-l-img">
+                            <img src="img/hotel-img3.jpg" alt="">
+                            <div class="h-r-u-li-l-img-jifen">
+                                <div class="max-top">最高</div>
+                                <div class="top-arr"></div>
+                                <p class="jifen-point">
+                                    <label>922</label><span>积分</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="h-r-u-li-l-intro">
+                            <h1>麗枫酒店·深圳宝安海雅缤纷城店</h1>
+                            <p><span class="h-cbd">[宝安中心区、前海]</span><span class="icon-map">地图</span><span></span></p>
+                            <p class="h-address">宝民一路18号</p>
+                        </div>
+                    </div>
+                    <div class="h-r-u-li-r">
+                        <div class="h-r-u-li-r-grade">
+                            <p class="grade"><span>4.9分</span></p>
+                            <ul class="star-ul">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="hif-star"></li>
+                            </ul>
+                            <p class="h-comment"><span>3479</span><label>条点评</label></p>
+                        </div>
+                        <div class="h-r-u-li-r-price">
+                            <p class="h-price"><b>¥</b><label>328</label><span>起</span></p>
+                            <a href="javascript:void (0)" class="btn-grade">查看详情</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="h-r-u-li-l">
+                        <div class="h-r-u-li-l-img">
+                            <img src="img/hotel-img1.jpg" alt="">
+                            <div class="h-r-u-li-l-img-jifen">
+                                <div class="max-top">最高</div>
+                                <div class="top-arr"></div>
+                                <p class="jifen-point">
+                                    <label>588</label><span>积分</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="h-r-u-li-l-intro">
+                            <h1>希岸酒店深圳机场航站楼店</h1>
+                            <p><span class="h-cbd">[固戌站]</span><span class="icon-map">地图</span><span></span></p>
+                            <p class="h-address">航城大道72号</p>
+                            <ul class="equipment-ul">
+                                <li class="icon-park"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="h-r-u-li-r">
+                        <div class="h-r-u-li-r-grade">
+                            <p class="grade"><span>4.9分</span></p>
+                            <ul class="star-ul">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="hif-star"></li>
+                            </ul>
+                            <p class="h-comment"><span>768</span><label>条点评</label></p>
+                        </div>
+                        <div class="h-r-u-li-r-price">
+                            <p class="h-price"><b>¥</b><label>290</label><span>起</span></p>
+                            <a href="javascript:void (0)" class="btn-grade">查看详情</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="h-r-u-li-l">
+                        <div class="h-r-u-li-l-img">
+                            <img src="img/hotel-img4.png" alt="">
+                            <div class="h-r-u-li-l-img-jifen">
+                                <div class="max-top">最高</div>
+                                <div class="top-arr"></div>
+                                <p class="jifen-point">
+                                    <label>846</label><span>积分</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="h-r-u-li-l-intro">
+                            <h1>麗枫酒店·深圳大学城地铁站店</h1>
+                            <p><span class="h-cbd">[西丽、大学城]</span><span class="icon-map">地图</span><span></span></p>
+                            <p class="h-address">桃园街道留仙大道平山一路1号</p>
+                            <ul class="equipment-ul">
+                                <li class="icon-park"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="h-r-u-li-r">
+                        <div class="h-r-u-li-r-grade">
+                            <p class="grade"><span>4.9分</span></p>
+                            <ul class="star-ul">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="hif-star"></li>
+                            </ul>
+                            <p class="h-comment"><span>3418</span><label>条点评</label></p>
+                        </div>
+                        <div class="h-r-u-li-r-price">
+                            <p class="h-price"><b>¥</b><label>289</label><span>起</span></p>
+                            <a href="javascript:void (0)" class="btn-grade">查看详情</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="h-r-u-li-l">
+                        <div class="h-r-u-li-l-img">
+                            <img src="img/hotel-img6.png" alt="">
+                            <div class="h-r-u-li-l-img-jifen">
+                                <div class="max-top">最高</div>
+                                <div class="top-arr"></div>
+                                <p class="jifen-point">
+                                    <label>904</label><span>积分</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="h-r-u-li-l-intro">
+                            <h1>麗枫酒店·深圳机场新航站楼店</h1>
+                            <p><span class="h-cbd">[深圳宝安国际机场]</span><span class="icon-map">地图</span><span></span></p>
+                            <p class="h-address">西乡街道宝安大道5009号三围1栋</p>
+                            <ul class="equipment-ul">
+                                <li class="icon-park"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="h-r-u-li-r">
+                        <div class="h-r-u-li-r-grade">
+                            <p class="grade"><span>4.8分</span></p>
+                            <ul class="star-ul">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="hif-star"></li>
+                            </ul>
+                            <p class="h-comment"><span>1303</span><label>条点评</label></p>
+                        </div>
+                        <div class="h-r-u-li-r-price">
+                            <p class="h-price"><b>¥</b><label>290</label><span>起</span></p>
+                            <a href="javascript:void (0)" class="btn-grade">查看详情</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="h-r-u-li-l">
+                        <div class="h-r-u-li-l-img">
+                            <img src="img/hotel-img7.jpg" alt="">
+                            <div class="h-r-u-li-l-img-jifen">
+                                <div class="max-top">最高</div>
+                                <div class="top-arr"></div>
+                                <p class="jifen-point">
+                                    <label>716</label><span>积分</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="h-r-u-li-l-intro">
+                            <h1>派酒店·深圳大浪商业中心店</h1>
+                            <p><span class="h-cbd"></span><span class="icon-map">地图</span><span></span></p>
+                            <p class="h-address">大浪办事处同胜社区华旺路同富裕工业园内第16栋</p>
+                            <ul class="equipment-ul">
+                                <li class="icon-park"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="h-r-u-li-r">
+                        <div class="h-r-u-li-r-grade">
+                            <p class="grade"><span>4.9分</span></p>
+                            <ul class="star-ul">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="hif-star"></li>
+                            </ul>
+                            <p class="h-comment"><span>2149</span><label>条点评</label></p>
+                        </div>
+                        <div class="h-r-u-li-r-price">
+                            <p class="h-price"><b>¥</b><label>231</label><span>起</span></p>
+                            <a href="javascript:void (0)" class="btn-grade">查看详情</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="h-r-u-li-l">
+                        <div class="h-r-u-li-l-img">
+                            <img src="img/hotel-img8.png" alt="">
+                            <div class="h-r-u-li-l-img-jifen">
+                                <div class="max-top">最高</div>
+                                <div class="top-arr"></div>
+                                <p class="jifen-point">
+                                    <label>526</label><span>积分</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="h-r-u-li-l-intro">
+                            <h1>7天深圳坂田五和地铁站华为店</h1>
+                            <p><span class="h-cbd">[坂田、平湖]</span><span class="icon-map">地图</span><span></span></p>
+                            <p class="h-address">坂田和东街23号</p>
+                            <ul class="equipment-ul">
+                                <li class="icon-park"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="h-r-u-li-r">
+                        <div class="h-r-u-li-r-grade">
+                            <p class="grade"><span>4.9分</span></p>
+                            <ul class="star-ul">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="hif-star"></li>
+                            </ul>
+                            <p class="h-comment"><span>4483</span><label>条点评</label></p>
+                        </div>
+                        <div class="h-r-u-li-r-price">
+                            <p class="h-price"><b>¥</b><label>151</label><span>起</span></p>
+                            <a href="javascript:void (0)" class="btn-grade">查看详情</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="h-r-u-li-l">
+                        <div class="h-r-u-li-l-img">
+                            <img src="img/hotel-img1.jpg" alt="">
+                            <div class="h-r-u-li-l-img-jifen">
+                                <div class="max-top">最高</div>
+                                <div class="top-arr"></div>
+                                <p class="jifen-point">
+                                    <label>588</label><span>积分</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="h-r-u-li-l-intro">
+                            <h1>IU酒店·深圳葵涌店【互联网轻精品酒店】</h1>
+                            <p><span class="h-cbd">[葵涌]</span><span class="icon-map">地图</span><span></span></p>
+                            <p class="h-address">葵涌镇同富裕工业区8号</p>
+                            <ul class="equipment-ul">
+                                <li class="icon-park"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="h-r-u-li-r">
+                        <div class="h-r-u-li-r-grade">
+                            <p class="grade"><span>4.9分</span></p>
+                            <ul class="star-ul">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="hif-star"></li>
+                            </ul>
+                            <p class="h-comment"><span>2714</span><label>条点评</label></p>
+                        </div>
+                        <div class="h-r-u-li-r-price">
+                            <p class="h-price"><b>¥</b><label>125</label><span>起</span></p>
+                            <a href="javascript:void (0)" class="btn-grade">查看详情</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="h-r-u-li-l">
+                        <div class="h-r-u-li-l-img">
+                            <img src="img/hotel-img1.jpg" alt="">
+                            <div class="h-r-u-li-l-img-jifen">
+                                <div class="max-top">最高</div>
+                                <div class="top-arr"></div>
+                                <p class="jifen-point">
+                                    <label>588</label><span>积分</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="h-r-u-li-l-intro">
+                            <h1>希岸酒店深圳机场航站楼店</h1>
+                            <p><span class="h-cbd">[固戌站]</span><span class="icon-map">地图</span><span></span></p>
+                            <p class="h-address">航城大道72号</p>
+                            <ul class="equipment-ul">
+                                <li class="icon-park"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="h-r-u-li-r">
+                        <div class="h-r-u-li-r-grade">
+                            <p class="grade"><span>4.9分</span></p>
+                            <ul class="star-ul">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="hif-star"></li>
+                            </ul>
+                            <p class="h-comment"><span>768</span><label>条点评</label></p>
+                        </div>
+                        <div class="h-r-u-li-r-price">
+                            <p class="h-price"><b>¥</b><label>290</label><span>起</span></p>
+                            <a href="javascript:void (0)" class="btn-grade">查看详情</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="h-r-u-li-l">
+                        <div class="h-r-u-li-l-img">
+                            <img src="img/hotel-img1.jpg" alt="">
+                            <div class="h-r-u-li-l-img-jifen">
+                                <div class="max-top">最高</div>
+                                <div class="top-arr"></div>
+                                <p class="jifen-point">
+                                    <label>588</label><span>积分</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="h-r-u-li-l-intro">
+                            <h1>希岸酒店深圳机场航站楼店</h1>
+                            <p><span class="h-cbd">[固戌站]</span><span class="icon-map">地图</span><span></span></p>
+                            <p class="h-address">航城大道72号</p>
+                            <ul class="equipment-ul">
+                                <li class="icon-park"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="h-r-u-li-r">
+                        <div class="h-r-u-li-r-grade">
+                            <p class="grade"><span>4.9分</span></p>
+                            <ul class="star-ul">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="hif-star"></li>
+                            </ul>
+                            <p class="h-comment"><span>768</span><label>条点评</label></p>
+                        </div>
+                        <div class="h-r-u-li-r-price">
+                            <p class="h-price"><b>¥</b><label>290</label><span>起</span></p>
+                            <a href="javascript:void (0)" class="btn-grade">查看详情</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="h-r-u-li-l">
+                        <div class="h-r-u-li-l-img">
+                            <img src="img/hotel-img4.png" alt="">
+                            <div class="h-r-u-li-l-img-jifen">
+                                <div class="max-top">最高</div>
+                                <div class="top-arr"></div>
+                                <p class="jifen-point">
+                                    <label>846</label><span>积分</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="h-r-u-li-l-intro">
+                            <h1>麗枫酒店·深圳大学城地铁站店</h1>
+                            <p><span class="h-cbd">[西丽、大学城]</span><span class="icon-map">地图</span><span></span></p>
+                            <p class="h-address">桃园街道留仙大道平山一路1号</p>
+                            <ul class="equipment-ul">
+                                <li class="icon-park"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="h-r-u-li-r">
+                        <div class="h-r-u-li-r-grade">
+                            <p class="grade"><span>4.9分</span></p>
+                            <ul class="star-ul">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="hif-star"></li>
+                            </ul>
+                            <p class="h-comment"><span>3418</span><label>条点评</label></p>
+                        </div>
+                        <div class="h-r-u-li-r-price">
+                            <p class="h-price"><b>¥</b><label>289</label><span>起</span></p>
+                            <a href="javascript:void (0)" class="btn-grade">查看详情</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="h-r-u-li-l">
+                        <div class="h-r-u-li-l-img">
+                            <img src="img/hotel-img4.png" alt="">
+                            <div class="h-r-u-li-l-img-jifen">
+                                <div class="max-top">最高</div>
+                                <div class="top-arr"></div>
+                                <p class="jifen-point">
+                                    <label>846</label><span>积分</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="h-r-u-li-l-intro">
+                            <h1>麗枫酒店·深圳大学城地铁站店</h1>
+                            <p><span class="h-cbd">[西丽、大学城]</span><span class="icon-map">地图</span><span></span></p>
+                            <p class="h-address">桃园街道留仙大道平山一路1号</p>
+                            <ul class="equipment-ul">
+                                <li class="icon-park"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="h-r-u-li-r">
+                        <div class="h-r-u-li-r-grade">
+                            <p class="grade"><span>4.9分</span></p>
+                            <ul class="star-ul">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="hif-star"></li>
+                            </ul>
+                            <p class="h-comment"><span>3418</span><label>条点评</label></p>
+                        </div>
+                        <div class="h-r-u-li-r-price">
+                            <p class="h-price"><b>¥</b><label>289</label><span>起</span></p>
+                            <a href="javascript:void (0)" class="btn-grade">查看详情</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="h-r-u-li-l">
+                        <div class="h-r-u-li-l-img">
+                            <img src="img/hotel-img6.png" alt="">
+                            <div class="h-r-u-li-l-img-jifen">
+                                <div class="max-top">最高</div>
+                                <div class="top-arr"></div>
+                                <p class="jifen-point">
+                                    <label>904</label><span>积分</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="h-r-u-li-l-intro">
+                            <h1>麗枫酒店·深圳机场新航站楼店</h1>
+                            <p><span class="h-cbd">[深圳宝安国际机场]</span><span class="icon-map">地图</span><span></span></p>
+                            <p class="h-address">西乡街道宝安大道5009号三围1栋</p>
+                            <ul class="equipment-ul">
+                                <li class="icon-park"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="h-r-u-li-r">
+                        <div class="h-r-u-li-r-grade">
+                            <p class="grade"><span>4.8分</span></p>
+                            <ul class="star-ul">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="hif-star"></li>
+                            </ul>
+                            <p class="h-comment"><span>1303</span><label>条点评</label></p>
+                        </div>
+                        <div class="h-r-u-li-r-price">
+                            <p class="h-price"><b>¥</b><label>290</label><span>起</span></p>
+                            <a href="javascript:void (0)" class="btn-grade">查看详情</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="h-r-u-li-l">
+                        <div class="h-r-u-li-l-img">
+                            <img src="img/hotel-img7.jpg" alt="">
+                            <div class="h-r-u-li-l-img-jifen">
+                                <div class="max-top">最高</div>
+                                <div class="top-arr"></div>
+                                <p class="jifen-point">
+                                    <label>716</label><span>积分</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="h-r-u-li-l-intro">
+                            <h1>派酒店·深圳大浪商业中心店</h1>
+                            <p><span class="h-cbd"></span><span class="icon-map">地图</span><span></span></p>
+                            <p class="h-address">大浪办事处同胜社区华旺路同富裕工业园内第16栋</p>
+                            <ul class="equipment-ul">
+                                <li class="icon-park"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="h-r-u-li-r">
+                        <div class="h-r-u-li-r-grade">
+                            <p class="grade"><span>4.9分</span></p>
+                            <ul class="star-ul">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="hif-star"></li>
+                            </ul>
+                            <p class="h-comment"><span>2149</span><label>条点评</label></p>
+                        </div>
+                        <div class="h-r-u-li-r-price">
+                            <p class="h-price"><b>¥</b><label>231</label><span>起</span></p>
+                            <a href="javascript:void (0)" class="btn-grade">查看详情</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="h-r-u-li-l">
+                        <div class="h-r-u-li-l-img">
+                            <img src="img/hotel-img4.png" alt="">
+                            <div class="h-r-u-li-l-img-jifen">
+                                <div class="max-top">最高</div>
+                                <div class="top-arr"></div>
+                                <p class="jifen-point">
+                                    <label>846</label><span>积分</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="h-r-u-li-l-intro">
+                            <h1>麗枫酒店·深圳大学城地铁站店</h1>
+                            <p><span class="h-cbd">[西丽、大学城]</span><span class="icon-map">地图</span><span></span></p>
+                            <p class="h-address">桃园街道留仙大道平山一路1号</p>
+                            <ul class="equipment-ul">
+                                <li class="icon-park"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="h-r-u-li-r">
+                        <div class="h-r-u-li-r-grade">
+                            <p class="grade"><span>4.9分</span></p>
+                            <ul class="star-ul">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="hif-star"></li>
+                            </ul>
+                            <p class="h-comment"><span>3418</span><label>条点评</label></p>
+                        </div>
+                        <div class="h-r-u-li-r-price">
+                            <p class="h-price"><b>¥</b><label>289</label><span>起</span></p>
+                            <a href="javascript:void (0)" class="btn-grade">查看详情</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="h-r-u-li-l">
+                        <div class="h-r-u-li-l-img">
+                            <img src="img/hotel-img6.png" alt="">
+                            <div class="h-r-u-li-l-img-jifen">
+                                <div class="max-top">最高</div>
+                                <div class="top-arr"></div>
+                                <p class="jifen-point">
+                                    <label>904</label><span>积分</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="h-r-u-li-l-intro">
+                            <h1>麗枫酒店·深圳机场新航站楼店</h1>
+                            <p><span class="h-cbd">[深圳宝安国际机场]</span><span class="icon-map">地图</span><span></span></p>
+                            <p class="h-address">西乡街道宝安大道5009号三围1栋</p>
+                            <ul class="equipment-ul">
+                                <li class="icon-park"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="h-r-u-li-r">
+                        <div class="h-r-u-li-r-grade">
+                            <p class="grade"><span>4.8分</span></p>
+                            <ul class="star-ul">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="hif-star"></li>
+                            </ul>
+                            <p class="h-comment"><span>1303</span><label>条点评</label></p>
+                        </div>
+                        <div class="h-r-u-li-r-price">
+                            <p class="h-price"><b>¥</b><label>290</label><span>起</span></p>
+                            <a href="javascript:void (0)" class="btn-grade">查看详情</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="h-r-u-li-l">
+                        <div class="h-r-u-li-l-img">
+                            <img src="img/hotel-img7.jpg" alt="">
+                            <div class="h-r-u-li-l-img-jifen">
+                                <div class="max-top">最高</div>
+                                <div class="top-arr"></div>
+                                <p class="jifen-point">
+                                    <label>716</label><span>积分</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="h-r-u-li-l-intro">
+                            <h1>派酒店·深圳大浪商业中心店</h1>
+                            <p><span class="h-cbd"></span><span class="icon-map">地图</span><span></span></p>
+                            <p class="h-address">大浪办事处同胜社区华旺路同富裕工业园内第16栋</p>
+                            <ul class="equipment-ul">
+                                <li class="icon-park"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="h-r-u-li-r">
+                        <div class="h-r-u-li-r-grade">
+                            <p class="grade"><span>4.9分</span></p>
+                            <ul class="star-ul">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="hif-star"></li>
+                            </ul>
+                            <p class="h-comment"><span>2149</span><label>条点评</label></p>
+                        </div>
+                        <div class="h-r-u-li-r-price">
+                            <p class="h-price"><b>¥</b><label>231</label><span>起</span></p>
+                            <a href="javascript:void (0)" class="btn-grade">查看详情</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="h-r-u-li-l">
+                        <div class="h-r-u-li-l-img">
+                            <img src="img/hotel-img8.png" alt="">
+                            <div class="h-r-u-li-l-img-jifen">
+                                <div class="max-top">最高</div>
+                                <div class="top-arr"></div>
+                                <p class="jifen-point">
+                                    <label>526</label><span>积分</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="h-r-u-li-l-intro">
+                            <h1>7天深圳坂田五和地铁站华为店</h1>
+                            <p><span class="h-cbd">[坂田、平湖]</span><span class="icon-map">地图</span><span></span></p>
+                            <p class="h-address">坂田和东街23号</p>
+                            <ul class="equipment-ul">
+                                <li class="icon-park"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="h-r-u-li-r">
+                        <div class="h-r-u-li-r-grade">
+                            <p class="grade"><span>4.9分</span></p>
+                            <ul class="star-ul">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li class="hif-star"></li>
+                            </ul>
+                            <p class="h-comment"><span>4483</span><label>条点评</label></p>
+                        </div>
+                        <div class="h-r-u-li-r-price">
+                            <p class="h-price"><b>¥</b><label>151</label><span>起</span></p>
+                            <a href="javascript:void (0)" class="btn-grade">查看详情</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="page-outer">
+                <ul class="page">
+                    <li><a class="prePage" href="javascript:;"></a></li>
+                    <li class="p-number on"><a href="javascript:;">1</a></li>
+                    <li class="p-number"><a href="javascript:;">2</a></li>
+                    <li class="p-number"><a href="javascript:;">3</a></li>
+                    <li class="p-number"><a href="javascript:;">4</a></li>
+                    <li class="p-number"><a href="javascript:;">5</a></li>
+                    <li class="p-number"><a href="javascript:;">6</a></li>
+                    <li class="p-number"><a href="javascript:;">7</a></li>
+                    <li class="p-number"><a href="javascript:;">8</a></li>
+                    <li class="p-number"><a href="javascript:;">9</a></li>
+                    <li class="p-number"><a href="javascript:;">10</a></li>
+                    <li><a class="nextPage" href="javascript:;"></a></li>
+                    <li class="inputLi"><input class="page-input" type="text"></li>
+                    <li class="toPageLi"><a class="toSomePage" href="javascript:;">跳转</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="footer-box">
+    <div class="footer-content">
+        <ul class="footer-content-t">
+            <li><img src="img/index-footer1.png" alt=""><span>3700+酒店随心选</span></li>
+            <li><img src="img/index-footer2.png" alt=""><span>8000+万会员信赖</span></li>
+            <li><img src="img/index-footer3.png" alt=""><span>金卡、白金享免单金牌</span></li>
+            <li><img src="img/index-footer4.png" alt=""><span>订贵了陪双倍差价</span></li>
+        </ul>
+        <div class="footer-content-m">
+            <div class="footer-content-m-l">
+                <ul>
+                    <li>
+                        <div>公司信息</div>
+                        <div>关于铂涛</div>
+                        <div>品牌介绍</div>
+                        <div>联系我们</div>
+                    </li>
+                    <li>
+                        <div>关注我们</div>
+                        <div>下载客户端</div>
+                        <div>官方微信</div>
+                        <div>官方微博</div>
+                    </li>
+                    <li>
+                        <div>投诉意见</div>
+                        <div>会员建议</div>
+                        <div>会员投诉</div>
+                    </li>
+                    <li>
+                        <div>招贤纳士</div>
+                        <div>工作机会</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-content-m-r">
+                <div class="show-look">
+                    <img src="img/ewm_wecha.png" alt="">
+                    <div>
+                        <p>立即关注</p>
+                        <span>铂涛旅行</span>
+                        <span>官方微信</span>
+                    </div>
+                </div>
+                <div class="show-download">
+                    <img src="img/ewm_app.png" alt="">
+                    <div>
+                        <p>立即下载</p>
+                        <p>铂涛旅行</p>
+                        <span>App</span>
+                    </div>
+                </div>
+                <span class="footer-content-m-r-phone">服务电话：400 874 0087</span>
+            </div>
+        </div>
+        <p class="footer-content-b">粤ICP备14062877号 丨 Copyright <img src="img/copy.png" alt=""><span>2013-2016 Plateno.com, All Rights reserved.</span><span
+                class="footer-content-b-span">七天四季酒店（广州）有限公司</span></p>
+    </div>
+</footer>
+</body>
+</html>

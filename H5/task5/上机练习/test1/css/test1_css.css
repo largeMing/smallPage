@@ -1,0 +1,17 @@
+.font_h{
+    font-size: 18px;
+    font-family: 楷体;
+    font-weight: bold;
+}
+.font_p{
+    font-size: 12px;
+    line-height: 20px;
+}
+.font_span{
+    font-family: 宋体;
+    font-weight: bold;
+    color: red;
+}
+.font_en{
+    font-family: "Times New Roman";
+}

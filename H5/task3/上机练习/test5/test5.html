@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QQ注册验证</title>
+</head>
+<body>
+<img src="img/bg_chs.png" height="109" width="1300"/>
+<h1>注册账号</h1>
+<form action="#" method="get">
+    <p><label for="name">昵称</label><input type="text" id="name" pattern="[-\w\u4E00-\u9FA5]{4,10}" required>长度为4-10个字符</p>
+    <p><label for="pass">密码</label><input type="password" id="pass" pattern="[\dA-Za-z]{6,16}" required>长度为6-16个字符</p>
+    <p><label for="upass">确认密码</label><input type="password" id="upass" required>长度为6-16个字符</p>
+    <p><label for="phone">手机号码</label><input type="text" id="phone" pattern="1[3578]\d{9}" required>手机号码应该以13|5|7|8开头的11位数</p>
+    <p><label for="email">邮箱</label><input type="text" id="email" required></p>
+    <p><label for="age">年龄</label><input type="text" id="age" pattern="\d|[1-9]\d|1[0-2]\d" required></p>
+    <input type="image" src="img/btn.bmp">
+</form>
+</body>
+</html>

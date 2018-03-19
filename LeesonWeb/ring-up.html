@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆</title>
+    <link rel="stylesheet" href="css/public-style.css">
+    <link rel="stylesheet" href="css/public-page.css">
+    <link rel="stylesheet" href="css/ring-up.css">
+    <script src="js/up-js.js"></script>
+</head>
+<body>
+<header>
+        <div class="header-box">
+            <div class="header-left">
+                <img src="img/img1.gif" alt="">
+                <span class="login">登陆</span>
+            </div>
+            <div class="header-right"><!--<input type="color" name="" value="" placeholder="">-->
+                <span>还没有雷哥网账号</span>
+                <input type="button" value="注册">
+            </div>
+        </div>
+    </header>
+<article>
+    <div class="article-box">
+        <div class="article-bg"></div>
+        <div class="form-box">
+            <div class="article-form">
+                <div class="title">雷哥网用户登陆</div>
+                <div class="article-form-note"><span>短信快捷登录</span></div>
+                <form action="ok.html" method="post" onsubmit="return checkForm()">
+                    <div class="form-name"><input type="text" id="up-name" class="name" placeholder="邮箱/用户名/已验证手机" onchange="changeName();"></div>
+                    <div class="accept-font"></div>
+                    <div class="form-pas"><input type="password" id="up-pas" class="pas" placeholder="密码" onchange="changePas();"></div>
+                    <div class="accept-font"></div>
+                    <div class="form-verification"><input type="text" id="verification" class="verification" placeholder="验证码" onchange="changeCode();"><input type="button" id="up-code" class="code" value="获取短信验证码" onclick="clickCode();"></div>
+                    <div class="accept-font"></div>
+                    <div class="form-rememberPas"><input type="checkbox" class="check"> 记住密码<span>忘记密码?</span></div>
+                    <div class="form-sub"><input type="submit" value="登录"></div>
+                    <div class="form-img"><img src="img/qq.gif" alt=""></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</article>
+<footer>
+        <div class="footer-box">
+            <ul class="footer-ul">
+                <li><a href="">雷哥网GMAT</a></li>
+                <li><a href="">雷哥网托福</a></li>
+                <li><a href="">雷哥网雅思</a></li>
+                <li><a href="">雷哥网留学</a></li>
+                <li><a href="">公开课</a></li>
+                <li><a href="" id="last-a">客服电话：<span>400-1816-180</span></a></li>
+            </ul>
+            <div class="footer-div">Copyright&copy;2016 All Right Reserved gmatonline 版权所有 京IDP备15001182号-1 京公网安备11010802017681 <a href="">免责声明</a></div>
+        </div>
+    </footer>
+</body>
+</html>

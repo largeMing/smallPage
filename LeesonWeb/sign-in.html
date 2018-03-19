@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/public-style.css">
+    <link rel="stylesheet" href="css/public-page.css">
+    <link rel="stylesheet" href="css/sign-in.css">
+    <script src="js/in-js.js"></script>
+</head>
+<body>
+<header>
+        <div class="header-box">
+            <div class="header-left">
+                <img src="img/img1.gif" alt="">
+                <span class="login">注册</span>
+            </div>
+            <div class="header-right">
+                <span>我已注册,现在就</span>
+                <input type="button" value="登录">
+            </div>
+        </div>
+    </header>
+<article>
+        <div class="article-box">
+            <div class="article-bg"></div>
+            <div class="form-box">
+                <div class="article-form" id="article-form">
+                    <div class="title">雷哥网注册</div>
+                    <div class="article-form-note"><div><input type="radio" name="up" onclick="checkRadioT()" checked><span>手机注册</span> <input type="radio" name="up" onclick="checkRadioT()"><span>邮箱注册</span></div></div>
+                    <!--手机注册-->
+                    <form action="ok.html" method="post" onsubmit="return checkForm();">
+                        <div class="form-name"><input type="text" id="in-name" class="name" placeholder="用户名:字母+数字" onchange="changeName();"></div>
+                        <div class="not-font"></div>
+                        <div class="form-phone"><input type="text" id="in-phone" class="phone" placeholder="手机号:13/14/15/17/18" onchange="changePhone();"></div>
+                        <div class="not-font"></div>
+                        <div class="form-pas"><input type="password" id="in-pas" class="pas" placeholder="密码长度6位以上,数字+字母" onchange="changePas();"></div>
+                        <div class="not-font"></div>
+                        <div class="form-verification"><input type="text" id="verification" class="verification" placeholder="验证码" onchange="changeVerification();"><input type="button" id="in-code" class="code" value="获取短信验证码" onclick="clickCode();"></div>
+                        <div class="not-font"></div>
+                        <div class="form-sub"><input type="submit" value="注册"></div>
+                    </form>
+                    <!--邮箱注册-->
+                    <form class="form2" action="ok.html" method="post" onsubmit="return checkForm2();">
+                        <div class="form-name" id="form-name2"><input type="text" id="in-name2" class="name" placeholder="请输入邮箱地址" onchange="changeName2();"></div>
+                        <div class="not-font2"></div>
+                        <div class="form-pas" id="form-pas2"><input type="password" id="in-pas2" class="pas" placeholder="密码长度6位以上,数字+字母" onchange="changePas2();"></div>
+                        <div class="not-font2"></div>
+                        <div class="form-verification"><input type="text" id="verification2" class="verification" placeholder="验证码" onchange="changeVerification2();"><input type="button" id="in-code2" class="code" value="获取短信验证码" onclick="clickCode2();"></div>
+                        <div class="not-font2"></div>
+                        <div class="form-sub"><input type="submit" value="注册"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </article>
+<footer>
+        <div class="footer-box">
+            <ul class="footer-ul">
+                <li><a href="">雷哥网GMAT</a></li>
+                <li><a href="">雷哥网托福</a></li>
+                <li><a href="">雷哥网雅思</a></li>
+                <li><a href="">雷哥网留学</a></li>
+                <li><a href="">公开课</a></li>
+                <li><a href="" id="last-a">客服电话：<span>400-1816-180</span></a></li>
+            </ul>
+            <div class="footer-div">Copyright&copy;2016 All Right Reserved gmatonline 版权所有 京IDP备15001182号-1 京公网安备11010802017681 <a href="">免责声明</a></div>
+        </div>
+    </footer>
+</body>
+</html>

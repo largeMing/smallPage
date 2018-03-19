@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>你是人间的四月天</title>
+    <script src="../../jQuery/jquery-3.2.1.js"></script>
+    <style>
+        a {
+            color: #000;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        .title-h1 {
+            color: blue;
+            font-size: 25px;
+        }
+
+        .intro {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<h1>你是人间的四月天</h1>
+<div>
+    <p>笑响亮了四面风</p>
+    <p>轻灵在纯的光焰中交舞看变</p>
+    <p>你是一月早天的月烟</p>
+    <p>黄昏吹着风的软</p>
+    <p>...</p>
+</div>
+<a>查看全部</a>
+<p class="intro">
+    内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介
+    内容简介内容简介内容简介内容简介内容简介内容简介内容简介
+    内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介
+    内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介
+    内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介
+    内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介
+    内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介内容简介
+</p>
+<script>
+    $("h1").click(function () {
+        $(this).addClass("title-h1");
+        $(this).next().css("color", "green");
+    });
+    $("a").click(function (){
+        $(this).next("p").show();
+    })
+</script>
+</body>
+</html>

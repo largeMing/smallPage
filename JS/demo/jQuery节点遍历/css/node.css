@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 100px;
+}
+
+ul {
+    margin-top: 50px;
+}
+
+li {
+    list-style: none;
+    line-height: 35px;
+}
+
+.orange {
+    background: orange;
+    color: #fff;
+}
+
+.black {
+    background: black;
+    color: #fff;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>人人网注册页面</title>
+    <link href="css/test2_css.css" rel="stylesheet">
+</head>
+<body>
+<div><img src="img/renren_titile.gif" height="69" width="258"/></div><br/>
+<div>人人网,中国 <strong>最真实、最有效</strong>的社会平台,加入人人网,找回老朋友,结交新朋友</div><br/>
+<div>电子邮箱:<input type="text" value="student@bdqn.cn" readonly maxlength="50"></div><br/>
+<div><label for="pass">设置密码</label>:<input type="text" id="pass" placeholder="请设置你的密码" maxlength="16"></div><br/>
+<div><label for="name">真实姓名</label>:<input type="text" id="name" placeholder="你的真实姓名" maxlength="8"></div><br/>
+<div>性别:<input type="radio" name="sex" id="man" checked><label for="man">男</label>
+            <input type="radio" id="woman" name="sex"><label for="woman">女</label>
+</div><br/>
+<div>生日:
+    <select name="year">
+        <option value="1991" selected>1991</option>
+        <option value="1992">1992</option>
+        <option value="1993">1993</option>
+    </select>年
+    <select name="month">
+        <option value="10">10</option>
+        <option value="11" selected>11</option>
+        <option value="12">12</option>
+    </select>月
+    <select name="day">
+        <option value="28">28</option>
+        <option value="29">29</option>
+        <option value="30" selected>30</option>
+    </select>日
+</div><br/>
+<div>为什么要填写我的生日?</div><br/>
+<div>我现在:
+    <select name="teacher" disabled>
+        <option value="1" selected>请选择身份</option>
+        <option value="2">医生</option>
+        <option value="3">老师</option>
+    </select>(非常重要)
+</div><br/>
+<div><img src="img/renren_code.gif" ><a href="#">看不清换一张?</a></div><br/>
+<div><label for="verify">验证:</label><input type="text" id="verify" placeholder="请输入验证码" maxlength="5" ></div><br/>
+<div><input type="image" src="img/renren.gif"></div>
+</body>
+</html>

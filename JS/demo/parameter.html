@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>有参函数</title>
+    <script>
+       /* function playByTwo(a,b,c){
+            var i,ar = [];
+            for (i = 0;i < 3;i++){
+                ar[i] = arguments[i] * 2;
+            }
+            return ar;
+        }
+        function addOne(a){
+            return a +1;
+        }
+        var myarr = [];
+        myarr = playByTwo(10,20,30);
+        for (var i = 0;i < 3;i++){
+            myarr[i] = addOne(myarr[i]);
+        }
+        myarr*/
+
+      /* function playByTwo(a,b,c,callback){
+           var i,ar = [];
+           for (i = 0;i < 3;i++){
+               ar[i] = callback(arguments[i] * 2);
+           }
+           return ar;
+       }
+       function addOne(a){
+           return a +1;
+       }
+       myarr = playByTwo(1,2,3,addOne)*/
+      function check(value){
+          alert(value);
+      }
+      function check1(value){
+          value = document.getElementById("text").value;
+          alert(value);
+      }
+
+    </script>
+</head>
+<body>
+<input type="button" value="测试" onclick="check(value)">
+<input type="text" id="text">
+<input type="button" value="测试文本" onclick="check1(value)">
+</body>
+</html>

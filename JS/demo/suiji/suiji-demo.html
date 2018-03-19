@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function check(){
+        var arr = ["红色1","黄色2","赤色3","橙色4","绿色5","青色6","蓝色7","紫色8"];
+        //var num = Math.floor(Math.random()*8);//用floor来随机
+        var num = Math.ceil(Math.random()*8)-1;//用ceil来随机
+        document.getElementById("span1").innerText = arr[num];
+        }
+    </script>
+</head>
+<body>
+本次选择的颜色是: <span id="span1"></span><br/>
+<input type="button" id="mybutton" onclick="check()" value="点我随机">
+</body>
+</html>

@@ -1,0 +1,76 @@
+.content {
+    position: relative;
+    margin-top: 10px;
+}
+
+.content-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 265px;
+}
+
+.content-right {
+    position: relative;
+    left: 280px;
+    top: 0;
+    width: 700px;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+/*右边内容*/
+
+.right-title {
+    color: #333;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 15px 10px;
+    border-bottom: dashed 1px #E8E8E8;
+}
+
+.right-font {
+    padding: 20px 10px 0 10px;
+    color: #666;
+    font-size: 13px;
+}
+
+.right-font p {
+    margin-bottom: 15px;
+    line-height: 20px;
+    text-indent: 2em;
+}
+
+.right-font-img {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.right-font-a {
+    position: relative;
+    margin-top: 30px;
+}
+
+.right-font-a a {
+    color: #4FA7FF;
+}
+
+.right-font-rightA {
+    position: absolute;
+    right: 0;
+}
+
+/*主体底部图片*/
+
+.content-img {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}

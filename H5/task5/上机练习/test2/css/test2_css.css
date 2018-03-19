@@ -1,0 +1,13 @@
+body{
+    color: #9c2f06;
+    font-size: 12px;
+    line-height: 20px;
+}
+.font_h2{
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: bold;
+}
+span>img{
+    vertical-align: middle;
+}

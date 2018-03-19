@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: #D5D5D5;
+}
+.box{
+    width: 230px;
+    background: #ffffff;
+}
+.top{
+    background: #000;
+    color: #ffffff;
+    line-height: 30px;
+    padding-left: 10px;
+}
+dl dt:nth-of-type(1){
+    background: url("../img/icon_01.gif") no-repeat left center;
+}
+dl dt:nth-of-type(2){
+    background: url("../img/icon_02.gif") no-repeat left center;
+}
+dl dt:nth-of-type(3){
+    background: url("../img/icon_03.gif") no-repeat left center;
+}
+dl dt:nth-of-type(4){
+    background: url("../img/icon_04.gif") no-repeat left center;
+}
+dl dt:nth-of-type(5){
+    background: url("../img/icon_05.gif") no-repeat left center;
+}
+dl dt:nth-of-type(6){
+    background: url("../img/icon_06.gif") no-repeat left center;
+}
+dl dt:nth-of-type(7){
+    background: url("../img/icon_07.gif") no-repeat left center;
+}
+dl dt:nth-of-type(8){
+    background: url("../img/icon_08.gif") no-repeat left center;
+}
+dl dt:nth-of-type(9){
+    background: url("../img/icon_09.gif") no-repeat left center;
+}
+dl > dd{
+    margin-left: 27px;
+    font-family: 楷体;
+    color: #727578;
+}
+dt h4:nth-of-type(1){
+    margin-left: 27px;
+    line-height: 30px;
+}
+.box_dt{
+    height: 30px;
+}

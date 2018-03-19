@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function show(){
+            var arr = ["苹果","橘子","香蕉","梨子","火龙果","栗子","榴莲"];
+            var num = Math.ceil(Math.random()*7)-1;
+            var sum = Math.floor(Math.random()*7);
+            document.getElementById("div1").innerHTML = arr[num];
+        }
+    </script>
+</head>
+<body>
+<input type="button" value="随机得水果" onclick="show()">
+<div id="div1"></div>
+</body>
+</html>

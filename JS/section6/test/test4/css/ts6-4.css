@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #000;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    width: 800px;
+    box-sizing: border-box;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 40px;
+}
+
+div {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.slector {
+    background: #9E6B9F;
+}
+
+.div1 {
+    flex: 3;
+}
+
+.div2,
+.div3 {
+    flex: 1;
+}
+
+.div4 {
+    flex: 2;
+}

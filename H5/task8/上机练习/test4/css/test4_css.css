@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-size: 12px;
+    font-family: "Verdana",宋体;
+    color: #000;
+}
+.box{
+    width: 1024px;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+/*将logo和超链接抱起来的盒子*/
+.header_box1{
+    position: relative;
+    height: 48px;
+}
+/*左边的logo*/
+.header_img{
+    position: absolute;
+    left: 0;
+}
+/*右边的超链接*/
+.header_right{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 8px;
+    border: solid 1px #CFEFE7;/*线条颜色*/
+    border-bottom: none;
+    background: #EAFFFA;/*背景颜色*/
+}
+.header_right > a{
+    text-decoration: none;
+}
+.header_right a:nth-of-type(2){
+    padding-left: 5px;
+}
+/*三折疯抢*/
+.img1{
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+}
+.header_box2{
+    background: #FE6915;
+    padding: 10px;
+    margin-top: 10px;
+}
+.header_box2 > a{
+    padding: 12px;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+/*当当图书榜图片*/
+.img2{
+    text-align: center;
+    margin-top: 10px;
+}
+.article_box{
+    border: solid 1px #C5E6A2;
+    position: relative;
+    width: 960px;
+    margin: 10px auto 0;
+    box-sizing: border-box;
+}
+/*图书畅销榜图片*/
+.img3{
+    position: absolute;
+    top: 20px;
+    left: -10px;
+}
+.box_left{
+    margin-top: 80px;
+}
+/*第一本书*/
+.book1No1{
+    position: absolute;
+    left: 20px;
+    top: 75px;
+}
+.book1_dl dt{
+    float: left;
+}
+.book1_dl{
+    width: 550px;
+    line-height: 28px;
+    font-weight: 700;
+    font-size: 12px;
+}
+.book1_dl span{
+    color: #890220;
+}
+/*第二本书*/
+.book2_left{
+    position: absolute;
+    left: 550px;
+    top: 80px;
+}
+.dd1{
+    color: #1965B3;
+    font-size: 14px;
+    font-weight: 700;
+}
+.book2_dl dt,
+.book3_dl dt{
+    float: left;
+}
+.book2_dl{
+    line-height: 22px;
+}
+.book1No2{
+    position: absolute;
+    top: -10px;
+}
+.dd4 span:first-of-type{
+    color: #85174C;
+    font-weight: 700;
+}
+.dd4 span:last-of-type{
+    margin-left: 10px;
+    color: #5BA491;
+}
+/*第三本书*/
+.book3_left{
+    position: absolute;
+    left: 550px;
+    top: 210px;
+    width: 408px;
+}
+.book3_dl{
+    line-height: 25px;
+}
+.dd2,
+.dd3{
+    font-weight: 700;
+}
+
+footer{
+    margin-top: 10px;
+    text-align: center;
+}
+footer img{
+    vertical-align: middle;
+}
+
+
+.book1_dl:after{
+    clear: both;
+    content: ".";
+    height: 0;
+    visibility: hidden;
+    display: block;
+}
+

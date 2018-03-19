@@ -1,0 +1,42 @@
+body{
+    font-size: 12px;
+}
+.font_1{
+    height: 40px;
+    background: url("../img/dress01.png")no-repeat;
+}
+.font_2{
+    height: 40px;
+    background: url("../img/dress02.png")no-repeat;
+}
+.font_3{
+    height: 40px;
+    background: url("../img/dress03.png")no-repeat;
+}
+.font_4{
+    height: 40px;
+    background: url("../img/dress04.png")no-repeat;
+}
+.font_5{
+    height: 40px;
+    background: url("../img/dress05.png")no-repeat;
+}
+.span_1{
+    margin-left: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+    line-height: 25px;
+}
+li>a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: #ff6600;
+    text-decoration: underline;
+}
+

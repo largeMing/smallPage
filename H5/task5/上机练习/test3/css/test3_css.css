@@ -1,0 +1,37 @@
+.font_h1{
+    text-align: center;
+    font-size: 22px;
+    color: #333;
+    color:rgba(0,0,0,0.5);
+    text-shadow:  2px 2px 2px;
+}
+.font_h2{
+    text-align: center;
+    font-size: 18px;
+    color: #999;
+    line-height: 30px;
+}
+.font_day{
+    display:block;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+}
+.span_red{
+    color: red;
+}
+.body_img{
+    text-align: center;
+}
+.font_p{
+    font-size: 14px;
+    color: #333;
+    line-height: 1.8;
+    text-indent: 2em;
+}
+.font_h3{
+    font-size: 15px;
+    color: black;
+    line-height: 1.8;
+    text-indent: 2em;
+}

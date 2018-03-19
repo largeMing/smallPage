@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鼠标移入移出</title>
+    <script src="../../../jQuery/jquery-3.2.1.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .myUl > li {
+            position: relative;
+            left: 100px;
+            top: 200px;
+            width: 150px;
+            line-height: 25px;
+            border: solid 1px #2B2B2B;
+            cursor: pointer;
+        }
+
+        .two-menu {
+            position: absolute;
+            width: 200px;
+            display: none;
+        }
+    </style>
+    <script>
+        $(function () {
+            $(".myUl>li span").hover(function () {
+                $(".two-menu").show();
+            }, function () {
+                $(".two-menu").hide();
+            });
+        });
+    </script>
+</head>
+<body>
+<div>
+    <ul class="myUl">
+        <li>
+            <span>当当图书网二级菜单</span>
+            <ul class="two-menu">
+                <li>阿斯利康的</li>
+                <li>阿昂首阿达</li>
+                <li>阿从在线充值</li>
+                <li>我科技局啊</li>
+            </ul>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

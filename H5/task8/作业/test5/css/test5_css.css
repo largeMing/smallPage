@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-size: 14px;
+}
+header{
+    background: url("../img/top_bg.gif")repeat;
+    width: 600px;
+    height: 27px;
+    position: relative;
+}
+.box_img{
+    float: left;
+    margin-left: 20px;
+}
+.box_a{
+    position: relative;
+    float: right;
+    line-height: 27px;
+    color: #7B7A7A;
+    padding-right: 20px;
+    right: 20px;
+}
+.box_a > a{
+    text-decoration: none;
+    color: #7B7A7A;
+}
+.box_img2{
+    position: absolute;
+    right: 8px;
+    top: -6px;
+}
+.box_ul{
+    position: absolute;
+    background: #fff;/*背景颜色*/
+    border: solid 1px #8D8E91;/*边框颜色*/
+    color: #8D8E91;/*字体颜色*/
+    padding: 10px;
+    width: 180px;
+    right: 20px;
+    top: 20px;
+    display: none;
+}
+ul{
+    list-style: none;
+}
+.box a:hover .box_ul{
+    display: block;
+}

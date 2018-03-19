@@ -1,0 +1,6 @@
+[
+    {"userid" : 1,"username" : "admin","address" : "北京市海淀区","mobile" : "12312345678"},
+    {"userid" : 2, "username" : "梅西","address" : "湖北省武汉市","mobile" : "12315263748"},
+    {"userid" : 3,"username" : "詹姆斯","address" : "四川省成都市","mobile" : "12313245768"},
+    {"userid" : 4,"username" : "梅西","address" : "广东省广州市","mobile" : "12343218765"}
+]

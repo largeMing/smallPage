@@ -1,0 +1,459 @@
+/*主体内容左边部分*/
+
+.content {
+    position: relative;
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 13px;
+}
+
+.content-left {
+    width: 265px;
+    box-sizing: border-box;
+}
+
+.content-left-box {
+    border: solid 2px #0D8FE5;
+    margin-bottom: 10px;
+}
+
+.left-Btitle-h3  {
+    color: #FFF;
+    padding: 5px;
+    background: #0D8FE5;
+}
+
+.left-ul1 {
+    background: #DCF2FF;
+}
+
+.left-ul1 a {
+    color: #0D8FE5;
+    font-weight: 700;
+    background: url("../img/index-bg6.gif") 10px center no-repeat;
+    padding-left: 25px;
+}
+
+.left-ul1 li {
+    padding: 8px 0;
+    background: url("../img/index-bg5.gif") 245px center no-repeat;
+    border-bottom: solid 1px #B9E3FF;
+}
+
+.price,
+.routeDay {
+    padding: 10px;
+    color: #0D8FE5;
+    background: #DCF2FF;
+    border: solid 1px #B9E3FF;
+}
+
+.money1,
+.money2,
+.day{
+    padding: 8px;
+    border-bottom: dashed 1px #DEF1FF;
+}
+
+.money2 {
+    border: none;
+}
+
+.money a,
+.day a{
+    color: #43B8FF;
+    padding: 5px 5px 0 5px;
+    margin-right: 26px;
+}
+
+.money a:hover,
+.day a:hover {
+    padding: 4px 4px 0 4px;
+    border: solid 1px #DCF2FF;
+    background: #F1FAFF;
+}
+
+.day2 {
+    border: none;
+    padding-bottom: 25px;
+}
+
+.content-left-3img {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    -webkit-justify-content: space-around;
+    -webkit-box-pack: justify;
+    padding-top: 10px;
+}
+
+.img-font {
+    text-align: center;
+    color: #333;
+    margin-top: 5px;
+}
+
+
+
+/*主体内容右边部分*/
+
+
+.content-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 700px;
+    box-sizing: border-box;
+}
+
+.right-ul1 {
+    display: -webkit-box;
+    display: flex;
+}
+
+.right-ul1 li {
+    -webkit-box-flex: 1;
+                flex: 1;
+    border-right: solid 1px #FFF;
+    background: #333;
+    line-height: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.right-ul1 li:hover {
+    cursor: pointer;
+    background: #53BFF1;
+}
+
+.right-ul1 li a {
+    color: #FFF;
+}
+
+.right-ul1 .right-ul1-li6 {
+    border: none;
+}
+
+.hot {
+    margin: 10px 0;
+}
+
+.hot-title {
+    position: relative;
+    border-bottom: solid 2px #1E74D8;
+}
+
+.hot-ul li {
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+}
+
+.hot-li1-span1 {
+    font-size: 20px;
+    color: #333;
+    font-weight: 700;
+}
+
+.hot-li1-span2 {
+    font-size: 20px;
+    color: #F60;
+    font-weight: 700;
+}
+
+.hot-ul-li2 a {
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 7px;
+}
+
+/*默认样式*/
+#defaultStyle {
+    background: #1E74D8;
+    color: #FFF;
+}
+
+.hot-ul-li2:hover a{
+    background: #1E74D8;
+    color: #FFF;
+}
+
+.hot-title-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #E3E3E3 url("../img/index-bg7.gif") 55px center no-repeat;
+    background-size: 12px;
+    color: #707070;
+    padding: 5px 25px 5px 10px;
+    font-size: 10px;
+}
+
+.hot-img-ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+}
+
+.hot-img-ul li {
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.img-ul-font1 {
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 3px 0;
+}
+
+.img-ul-font2 {
+    color: #FF7A17;
+}
+
+.img-ul-font3 {
+    margin-top: -5px;
+    color: #FF7A17;
+    font-size: 10px;
+}
+
+.ul-font3-span {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.travel {
+    margin-bottom: 20px;
+}
+
+.travel-title {
+    position: relative;
+    line-height: 25px;
+    border-bottom: solid 2px #FA0;
+    font-size: 18px;
+    color: #FA0;
+}
+
+.travel-ul {
+    position: absolute;
+    right: 5px;
+    top: 0;
+}
+
+.travel-ul li {
+    display: inline-block;
+}
+
+.travel-ul a {
+    color: #FA0;
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.travel-title2 {
+    border-bottom: solid 2px #63C;
+    color: #63C;
+}
+
+.travel-title2 a {
+    color: #63C;
+}
+
+.travel-title3 {
+    border-bottom: solid 2px #099;
+    color: #099;
+}
+
+.travel-title3 a {
+    color: #099;
+}
+
+.travel-title4 {
+    border-bottom: solid 2px #960;
+    color: #960;
+}
+
+.travel-title4 a {
+    color: #960;
+}
+
+.travel-img-ul,
+.travel-hot {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+}
+
+.travel-li-div2 {
+    font-weight: 700;
+    padding: 3px 0;
+}
+
+.travel-li-div3 {
+    width: 227px;
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.travel-hot-ul {
+    width: 335px;
+}
+
+.travel-hot-ul li {
+    position: relative;
+    height: 25px;
+    line-height: 25px;
+    border-bottom: dashed 1px #D5D5D5;
+}
+
+.travel-hot-ul a {
+    color: #1C86FB;
+    font-size: 10px;
+}
+
+.travel-div-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.travel-li1-bgA1 {
+    background: url("../img/index-bg2.gif") right center no-repeat;
+    background-size: contain;
+    padding-right: 35px;
+}
+
+.travel-div-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #F90;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.travel-div-right span {
+    font-size: 10px;
+    font-weight: 100;
+    margin-left: 5px;
+}
+
+.travel-li1-bgA2 {
+    background: url("../img/index-bg3.gif") right center no-repeat;
+    background-size: contain;
+    padding-right: 35px;
+}
+
+.travel-hot-ul .travel-hot-ul-li5 {
+    border: none;
+}
+
+.visa-box {
+    position: relative;
+}
+
+.visa {
+    width: 465px;
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+}
+
+.visa-ul {
+    width: 215px;
+}
+
+.visa-ul li {
+    position: relative;
+    padding: 10px 0 15px 10px;
+    line-height: 25px;
+    height: 25px;
+    border-bottom: dashed 1px #CECECE;
+}
+
+.visa-li-leftDiv {
+    width: 140px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.visa-li-leftDiv img {
+    vertical-align: middle;
+    border: solid 1px #D1BABB;
+}
+
+.visa-li-leftDiv a {
+    font-size: 10px;
+}
+
+.visa-li-rightDiv {
+    position: absolute;
+    left: 175px;
+    top: 10px;
+    color: #F71;
+    font-weight: 700;
+}
+
+.visa-li-rightDiv span {
+    position: relative;
+    top: -1px;
+    font-size: 8px;
+    font-weight: 100;
+}
+
+.visa-ul .visa-ul-li4 {
+    border: none;
+}
+
+.visa-hot {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    border: solid 1px #DFDFDF;
+}
+
+.visa-hot-title {
+    background: linear-gradient(to bottom,#FAFAFA,#FFF);
+    padding: 5px 10px;
+    border-bottom: solid 1px #DFDFDF;
+}
+
+.visa-hot-content {
+    position: relative;
+    padding: 10px 0 0 10px;
+}
+
+.visa-hot-content-right {
+    position: absolute;
+    top: 10px;
+    left: 115px;
+}
+
+.visa-hot-li {
+    margin-bottom: 3px;
+}
+
+.visa-hot-a {
+    margin-left: -3px;
+    color: #0896FF;
+    vertical-align: middle;
+}
+
+
+

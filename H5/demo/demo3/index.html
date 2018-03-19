@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS制作三角形</title>
+    <style type="text/css">
+        .myUl li {
+            position: relative;
+            list-style: none;
+            width: 300px;
+            height: 200px;
+            border-right: solid 10px #E5E5E5;
+        }
+
+        .myUl li:after {
+            content: "";
+            position: absolute;
+            left: 310px;
+            top: 50%;
+            border: solid 10px transparent;
+            border-left-color: #E5E5E5;
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+    </style>
+</head>
+<body>
+<ul class="myUl">
+    <li>我擦啊撒大声地按时打</li>
+</ul>
+</body>
+</html>

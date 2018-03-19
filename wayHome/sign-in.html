@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <script src="jQuery-3.2.1/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="css/public-style.css">
+    <link rel="stylesheet" href="css/sign-in.css">
+    <link rel="stylesheet" href="css/jquery.idcode.css">
+</head>
+<body>
+<div class="bg">
+    <div class="t-r-a"><a href="index.html"><span>&lt;</span>返回首页</a></div>
+    <div class="logo"><img src="img/tujia-log.png" alt=""></div>
+    <div class="center-box">
+        <div class="member-in"><span class="member-in-l">普通会员注册</span><span class="member-in-r">企业会员注册</span></div>
+        <form action="">
+            <div>
+                <input type="text" class="name" placeholder="请输入手机号"><span class="receive-text"></span>
+            </div>
+            <div>
+                <input type="text" placeholder="请输入验证码" class="input-code txtVerification" id="Txtidcode"><span
+                    id="idcode"></span>
+            </div>
+            <div>
+                <input type="text" class="input-code" placeholder="输入手机验证码"><input type="text" value="获取手机验证码"
+                                                                                   class="get-code">
+            </div>
+            <div class="form-pass">
+                <input type="password" class="pass" placeholder="登录密码"><img src="img/sing-img.png"
+                                                                            alt=""><span class="receive-text"></span>
+            </div>
+            <div>
+                <input type="text" placeholder="邀请码(选填)" class="invite-code"><span class="receive-text">使用好友给您的邀请码注册</span>
+            </div>
+            <div>
+                <input type="text" placeholder="常用邮箱(可做登录账号)" class="email"><span class="receive-text"></span>
+            </div>
+            <div class="form-checkbox">
+                <input type="checkbox"><a href="">《途家网服务协议》</a>
+            </div>
+            <div>
+                <input type="submit" id="butn" value="注册">
+            </div>
+        </form>
+        <img src="img/app-download300.png" class="center-r-img" alt="">
+    </div>
+</div>
+<script src="js/jquery.idcode.js"></script>
+<script>
+    $.idcode.setCode();   //加载生成验证码方法
+    $("#butn").click(function () {
+        var IsBy = $.idcode.validateCode();  //调用返回值，返回值结果为true或者false
+        if (IsBy) {
+            alert("验证码输入正确")
+        } else {
+            alert("请重新输入")
+        }
+    })
+</script>
+<footer>
+    <div class="footer-box">
+        <ul class="footer-ul">
+            <li><a href="">关于我们</a></li>
+            <li><a href="">我是房客</a></li>
+            <li><a href="">加入途家</a></li>
+            <li><a href="" id="footer-last-a">网站地图</a></li>
+        </ul>
+        <div class="footer-font"><span class="copy-size">&copy;</span>Copyright2017tujia.com途家版权所有 京ICP证120277号<span>京公网安备11010502027120</span>
+        </div>
+        <div class="footer-img">
+            <img src="img/footer-img1.gif" alt="">
+            <img src="img/footer-img2.gif" alt="">
+            <img src="img/footer-img3.gif" alt="">
+        </div>
+    </div>
+</footer>
+</body>
+</html>

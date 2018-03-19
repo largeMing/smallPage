@@ -1,0 +1,123 @@
+.content {
+    position: relative;
+    margin-top: 10px;
+}
+
+.content-left {
+    width: 700px;
+}
+
+.content-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 265px;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+/*个人签证*/
+
+.personage {
+    margin-top: 10px;
+    border: solid 3px #FFC242;
+    padding: 10px 15px;
+}
+
+.personage-title {
+    color: #333;
+    font-size: 16px;
+}
+
+.personage-content-box {
+    margin-top: 10px;
+    position: relative;
+}
+
+.content-img {
+    width: 297px;
+}
+
+.reserve {
+    margin: 15px 0;
+}
+
+.reserve-span1 {
+    color: #666;
+}
+
+.reserve-span2 {
+    color: #F90;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.reserve-span3 {
+    color: #F90;
+}
+
+.reserve-span4 {
+    margin-left: 60px;
+    background: #F90;
+    color: #FFF;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.content-font {
+    position: absolute;
+    left: 330px;
+    top: 0;
+}
+
+.content-font-ul li {
+    line-height: 30px;
+}
+
+.content-font-ul li span {
+    display: inline-block;
+}
+
+.font-li-span1 {
+    width: 80px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #333;
+}
+
+.font-li-span2 {
+    margin-left: 10px;
+    color: #666;
+}
+
+/*所需材料*/
+
+.materials,
+.notice {
+    margin-top: 20px;
+    border-bottom: solid 3px #257ADD;
+}
+
+.materials-title,
+.notice-title {
+    width: 90px;
+    padding: 3px 0;
+    text-align: center;
+    background: #257ADD;
+    color: #FFF;
+}
+
+.materials-dl,
+.notice-dl {
+    color: #666;
+    line-height: 20px;
+    margin: 15px 10px 5px 15px;
+}
+
+.materials-dl dt{
+    font-weight: 700;
+
+}

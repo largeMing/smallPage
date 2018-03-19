@@ -1,0 +1,177 @@
+.content {
+    position: relative;
+    margin-top: 10px;
+}
+
+.content-left {
+    width: 700px;
+    box-sizing: border-box;
+}
+
+.content-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 265px;
+    box-sizing: border-box;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+/*搜索*/
+
+.seek {
+    position: relative;
+    margin-top: 10px;
+    height: 40px;
+    padding: 8px 10px 8px 60px;
+    background: #257ADD url("../img/visa-bg1.gif") 15px center no-repeat;
+}
+
+.seek-input {
+    width: 300px;
+    height: 40px;
+    padding: 8px;
+}
+
+.seek-button {
+    width: 90px;
+    height: 40px;
+    font-size: 14px;
+    color: #FFF;
+    background: #F90;
+    margin: 0 15px 0 5px;
+}
+
+.seek-ul {
+    position: absolute;
+    top: 7px;
+    right: 30px;
+    width: 170px;
+}
+
+.seek-ul li {
+    display: inline-block;
+    color: #FFF;
+    line-height: 20px;
+}
+
+.seek-ul a {
+    white-space: nowrap;
+    color: #FFF;
+}
+
+/*热门签证...常见问题*/
+
+.hot-visa-title,
+.nation-img-title {
+    margin-top: 20px;
+    border-bottom: solid 3px #257ADD;
+}
+
+.hot-visa-title>h3,
+.nation-img-title>h3 {
+    width: 90px;
+    padding: 3px 0;
+    text-align: center;
+    background: #257ADD;
+    color: #FFF;
+}
+
+/*签证列表*/
+
+.visa-list {
+    margin-top: 10px;
+    position: relative;
+}
+
+.nation-name {
+    width: 349px;
+    display: inline-block;
+    color: #333;
+}
+
+#nation-name {
+    position: absolute;
+}
+
+.list-head {
+    background: #DCF2FF;
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+.nation-name li {
+    margin-bottom: 8px;
+}
+
+.nation-name li>span {
+    display: inline-block;
+    min-width: 90px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.money {
+    color: #F90;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.money span {
+    font-weight: 100;
+    margin-left: 3px;
+    font-size: 11px;
+}
+
+.hot-visa-title-img {
+    position: absolute;
+    left: 50%;
+    margin-left: -2px;
+    bottom: 10px;
+}
+
+/*国家图片*/
+
+.nation-img-liD {
+    display: inline-block;
+    text-align: center;
+    width: 65px;
+    margin: 13px 9px 5px 8px;
+}
+
+.nation-img-liD span {
+    position: relative;
+    top: 5px;
+}
+
+/*常见问题*/
+
+.issue-ul {
+    position: relative;
+    margin-top: 10px;
+}
+
+.issue-ul li {
+    width: 349px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.issue-ul-li1 {
+    border-right: solid 1px #EBEBEB;
+}
+
+.issue-ul-li2 {
+    position: absolute;
+}
+
+.issue-ul li div {
+    margin-bottom: 15px;
+}
+
+.issue-ul li a {
+    color: #333;
+}

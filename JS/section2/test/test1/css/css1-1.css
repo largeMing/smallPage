@@ -1,0 +1,17 @@
+.number {
+    width: 40px;
+    text-align: center;
+}
+
+table {
+    text-align: center;
+}
+
+td {
+    width: 200px;
+    height: 30px;
+}
+
+.dom:hover span {
+    cursor: pointer;
+}

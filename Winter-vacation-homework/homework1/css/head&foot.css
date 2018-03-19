@@ -1,0 +1,153 @@
+.header-box {
+    position: relative;
+    min-width: 1070px;
+    width: 100%;
+    height: 72px;
+    background: #333;
+}
+
+.header-top {
+    position: absolute;
+    left: 50%;
+    top: 22px;
+    width: 1070px;
+    height: 32px;
+    line-height: 32px;
+    z-index: 10;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.header-nav {
+    position: absolute;
+    top: 0;
+    left: 126px;
+}
+
+.header-nav a {
+    margin-left: 43px;
+    color: #fff;
+    font-size: 14px;
+}
+
+.header-r {
+    position: absolute;
+    top: -22px;
+    right: 0;
+}
+
+.header-r a {
+    float: left;
+    width: 58px;
+    height: 72px;
+    text-align: center;
+    line-height: 72px;
+    color: #fff;
+    border-left: solid 1px #555;
+    border-right: solid 1px #555;
+}
+
+#register {
+    border-left: none;
+}
+
+.footer-box {
+    min-width: 1070px;
+    width: 100%;
+    height: 320px;
+}
+
+.footer-content {
+    width: 1070px;
+    margin: 0 auto;
+}
+
+.footer-content-t {
+    display: flex;
+    justify-content: space-between;
+    height: 84px;
+    line-height: 84px;
+    border-bottom: solid 1px #E0E0E0;
+    color: #666;
+    box-sizing: border-box;
+}
+
+.footer-content-t span {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.footer-content-m {
+    padding-top: 38px;
+    position: relative;
+}
+
+.footer-content-m-l li {
+    float: left;
+    margin-right: 75px;
+}
+
+.footer-content-m-l li div {
+    margin-bottom: 20px;
+    color: #7C7C7C;
+}
+
+.footer-content-m-r {
+    position: absolute;
+    top: 38px;
+    right: 0;
+    width: 354px;
+    height: 81px;
+    padding: 13px 0 0 18px;
+    border: solid 1px #DDDDDD;
+    color: #666;
+    box-sizing: border-box;
+}
+
+.footer-content-m-r img {
+    float: left;
+    margin-right: 10px;
+    width: 54px;
+    height: 55px;
+}
+
+.show-look {
+    width: 155px;
+    margin-right: 31px;
+}
+
+.show-download {
+    position: absolute;
+    right: 35px;
+    top: 13px;
+    width: 115px;
+}
+
+.footer-content-m-r-phone {
+    position: absolute;
+    right: 0;
+    top: 95px;
+}
+
+.footer-content-b {
+    margin-top: 22px;
+    font-size: 14px;
+    color: #999;
+}
+
+.footer-content-b span {
+    vertical-align: middle;
+}
+
+.footer-content-b-span {
+    color: #C0C0C0;
+    font-size: 16px;
+}
+
+.footer-content-m-l:after {
+    clear: both;
+    height: 0;
+    content: ".";
+    display: block;
+    visibility: hidden;
+}

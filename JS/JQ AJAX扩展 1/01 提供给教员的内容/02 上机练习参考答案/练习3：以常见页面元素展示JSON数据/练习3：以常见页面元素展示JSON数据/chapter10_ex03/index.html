@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>注册</title>
+<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	
+	var userArray = [ {
+		"userid" : 1,
+		"username" : "admin",
+		"address" : "北京市海淀区",
+		"mobile" : "12312345678"
+	}, {
+        "userid" : 2,
+        "username" : "梅西",
+        "address" : "湖北省武汉市",
+        "mobile" : "12315263748"
+    }, {
+		"userid" : 3,
+		"username" : "詹姆斯",
+		"address" : "四川省成都市",
+		"mobile" : "12313245768"
+	}, {
+		"userid" : 4,
+		"username" : "梅西",
+		"address" : "广东省广州市",
+		"mobile" : "12343218765"
+	} ];
+	var $userArray = $(userArray);
+	
+	var $table = $("<table border='1'></table>").append(
+	       "<tr><th>ID</th><th>姓名</th><th>住址</th><th>手机</th></tr>")
+	       .appendTo($("#objectArrayDiv"));
+	$userArray.each(function() {
+	   $table.append("<tr><td>" + this.userid + "</td><td>"
+                    + this.username + "</td><td>"
+                    + this.address + "</td><td>"
+                    + this.mobile + "</td></tr>");
+	});
+	
+	var $sel = $("#arraySel");
+	$userArray.each(function(i) {
+	   $sel.append("<option value='"+(i+1)+"'>"
+	       + this.username + " - " + this.address
+	       + " - " + this.mobile + "</option>");
+	});
+	
+
+});
+</script>
+</head>
+<body>
+<div id="objectArrayDiv"></div><br />
+<select id="arraySel"></select>
+</body>
+</html>

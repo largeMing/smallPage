@@ -1,0 +1,22 @@
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 767px)  {
+    .nav-box {
+        background: #808080;
+        line-height: 35px;
+        padding: 0;
+        color: #f8f8f8;
+    }
+}
+@media (min-width: 768px)  {
+    .nav-box {
+        background: #808080;
+        line-height: 35px;
+        padding: 0 105px;
+        color: #f8f8f8;
+    }
+}
+

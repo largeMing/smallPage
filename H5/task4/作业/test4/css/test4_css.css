@@ -1,0 +1,18 @@
+body{
+    font-size: 12px;
+}
+.title1{
+    font-size: 18px;
+}
+.em{
+    font-size: 16px;
+    color: blue;
+}
+.p_number{
+    color: red;
+    font-weight: bold;
+
+}
+.em{
+    font-style: italic;
+}

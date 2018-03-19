@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    position: fixed;
+    right: 0;
+    top: 60%;
+}
+
+li {
+    position: relative;
+    list-style: none;
+    line-height: 30px;
+    background: #5e5e5e;
+    margin-top: 5px;
+}
+
+p {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    width: 80px;
+    text-align: center;
+    color: #fff;
+    background: #5e5e5e;
+    border-radius: 5px 0 0 5px;
+    display: none;
+}
+
+span {
+    padding: 15px 15px;
+}
+
+.span1 {
+    background: url("../img/toolbar_05.png") no-repeat center;
+}
+
+.span2 {
+    background: url("../img/toolbar_10.png") no-repeat center;
+}
+
+.span3 {
+    background: url("../img/toolbar_15.png") no-repeat center;
+}
+
+.span4 {
+    background: url("../img/toolbar_19.png") no-repeat center;
+}

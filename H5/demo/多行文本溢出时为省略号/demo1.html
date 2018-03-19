@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>多行文本溢出  用CSS实现</title>
+</head>
+<body>
+<div>我是文字我是文字我是文字我是文字我是文字我是文字我是文字</div>
+</body>
+</html>
+<style>
+    div {
+        position: relative;
+        width: 100px;
+        height: 50px;
+        border: solid 1px red;
+        overflow:hidden;
+        background: #32B16C;
+        word-wrap: break-word;
+        word-break: break-all;
+        line-height: 25px;
+        /* 因为这是webkit的CSS属性扩展，
+    所以兼容浏览器范围是PC端的webkit内核的浏览器：
+    chrome/safari/QQ浏览器/360/猎豹等以及绝大多数的移动端浏览器*/
+
+        /*display: -webkit-box;!*对象作为弹性伸缩盒子模型显示 *!
+        -webkit-box-orient: vertical;!*设置或检索伸缩盒对象的子元素的排列方式 *!
+        -webkit-line-clamp: 2;!*溢出省略的界限*!*/
+    }
+    div:after {
+        color: #fff;
+        background: url("ellipsis_bg01.png")repeat-y;
+        content: "...";
+        font-weight: bold;
+        position: absolute;
+        bottom: 3px;
+        right: 0;
+        padding: 0 20px 1px 45px;
+    }
+</style>

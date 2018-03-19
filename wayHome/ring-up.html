@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <script src="jQuery-3.2.1/jquery-3.2.1.js"></script>
+    <link rel="stylesheet" href="css/public-style.css">
+    <link rel="stylesheet" href="css/ring-up.css">
+    <link rel="stylesheet" href="css/jquery.idcode.css">
+</head>
+<body>
+<div class="bg">
+    <div class="t-r-a"><a href="index.html"><span>&lt;</span>返回首页</a></div>
+    <div class="logo"><img src="img/tujia-log.png" alt=""></div>
+    <div class="center-box">
+        <div class="center-cont-l">
+            <div class="login-way"><span class="l-login">普通方式登录</span><span class="r-login">手机动态密码登录</span></div>
+            <form action="" class="form-menu">
+                <input type="text" placeholder="邮箱/手机号/用户名" class="name">
+                <input type="password" placeholder="密码" class="pass">
+                <input type="text" placeholder="请输入验证码" class="input-code txtVerification" id="Txtidcode"><span
+                    id="idcode"></span>
+                <div class="n-pass">
+                    <input type="checkbox"><span>保存登录时长一个月</span><a href="" class="r-a">忘记密码</a>
+                </div>
+                <input type="submit" id="butn" value="登录">
+            </form>
+        </div>
+        <div class="center-cont-r">
+            <div class="login-font">合作网站账号登录</div>
+            <div class="login-img">
+                <img src="img/qq.png" width="47" alt="">
+                <img src="img/weixin.png" width="50" alt="">
+                <img src="img/xinlang.png" width="50" alt="">
+            </div>
+            <div class="member-up">还不是途家会员?<a href="">立即注册>></a></div>
+            <div class="center-cont-r-img"><img src="img/up-img.jpg" alt=""></div>
+            <div class="r-app">下载手机APP,随时随地订房!</div>
+            <div class="app-down">
+                <div class="code-img"><img src="img/up-code.gif" alt=""></div>
+                <div class="down">
+                    <div class="down-div1">Android版下载</div>
+                    <div class="down-div2">iPhone版下载</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery.idcode.js"></script>
+<script>
+    $.idcode.setCode();   //加载生成验证码方法
+    $("#butn").click(function () {
+        var IsBy = $.idcode.validateCode();  //调用返回值，返回值结果为true或者false
+        if (IsBy) {
+            alert("验证码输入正确")
+        } else {
+            alert("请重新输入")
+        }
+    })
+</script>
+<footer>
+    <div class="footer-box">
+        <ul class="footer-ul">
+            <li><a href="">关于我们</a></li>
+            <li><a href="">我是房客</a></li>
+            <li><a href="">加入途家</a></li>
+            <li><a href="" id="footer-last-a">网站地图</a></li>
+        </ul>
+        <div class="footer-font"><span class="copy-size">&copy;</span>Copyright2017tujia.com途家版权所有 京ICP证120277号<span>京公网安备11010502027120</span>
+        </div>
+        <div class="footer-img">
+            <img src="img/footer-img1.gif" alt="">
+            <img src="img/footer-img2.gif" alt="">
+            <img src="img/footer-img3.gif" alt="">
+        </div>
+    </div>
+</footer>
+</body>
+</html>

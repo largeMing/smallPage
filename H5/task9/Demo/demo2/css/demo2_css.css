@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+li{
+    float: left;
+    list-style: none;
+    width: 80px;
+    line-height: 40px;
+    border-radius: 5px;
+    background: #D73765;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+    height: 40px;
+}
+li a:hover{
+    background: #0D7DAC;
+    border-radius: 5px;
+    /*设置a元素在鼠标移入时放大1.5倍显示*/
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+         -o-transform: scale(1.5);
+       -moz-transform: scale(1.5);
+}

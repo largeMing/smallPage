@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>美联英语在线VIP轮播图</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/test3.css">
+</head>
+<body>
+<div class="nav nav-box">
+    <div id="login" class="modal fade">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header"><h4 style="color: #333;">欢迎登录 SIGN IN</h4></div>
+                <div class="media-body">
+                    <form action="" style="padding: 0 35px">
+                        <input type="text" class="form-control" style="margin-top: 20px" placeholder="手机/邮箱/用户名">
+                        <input type="password" class="form-control" style="margin-top: 20px" placeholder="密码">
+                        <div style="margin-top: 20px;color: #333;"><input type="checkbox">下次自动登录</div>
+                    </form>
+                    <div style="margin: 20px 0 30px 0;padding: 0 15px 20px 15px;border-bottom: solid 1px #EDEDED"><button type="button" class="btn btn-danger form-control">登录</button></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-xs-6">
+                <span class="glyphicon glyphicon-phone-alt" style="margin-right: 5px"></span>400-777-8828
+                <span style="margin-left: 22px">中文</span>
+                <span style="margin-left: 22px">英文</span>
+            </div>
+            <div class="col-md-6 col-xs-6 text-right">
+                <button class="btn btn-danger">免费注册</button>
+                <button class="btn btn-default"  data-toggle="modal" data-target="#login">登录</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="userCarousel" class="carousel" data-ride="carousel" data-interval="2000">
+    <ul class="carousel-inner">
+        <li class="item active">
+            <img src="img/img1.jpg" alt="">
+        </li>
+        <li class="item">
+            <img src="img/img2.jpg" alt="">
+        </li>
+        <li class="item">
+            <img src="img/img3.jpg" alt="">
+        </li>
+    </ul>
+    <ol class="carousel-indicators">
+        <li data-target="#userCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#userCarousel" data-slide-to="1"></li>
+        <li data-target="#userCarousel" data-slide-to="2"></li>
+    </ol>
+    <a href="#userCarousel" class="left carousel-control" data-slide="prev"></a>
+    <a href="#userCarousel" class="right carousel-control" data-slide="prev"></a>
+</div>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

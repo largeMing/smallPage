@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-size: 14px;
+}
+.top_box{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+.top_left{
+    float: left;
+}
+.top_right{
+    float: right;
+}
+.top_a{
+    text-decoration: none;
+    color: black;
+}
+.main_box{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 150px;
+}
+table{
+    width: auto;
+    height: 500px;
+}
+.table_td1{
+    text-align: right;
+}
+.middle{
+    vertical-align: middle;
+}
+.footer_box{
+    position: fixed;
+    bottom: 0;
+
+}
+.footer_img{
+    width: 80%;
+    margin: 0 auto;
+}

@@ -1,0 +1,401 @@
+.today {
+    position: relative;
+    min-height: 50px;
+    margin-top: 10px;
+    background: #E6F2FF;
+    border: solid 1px #BEDCF3;
+    padding: 5px 0;
+}
+
+.today-left {
+    background: url("../img/domestic-bg2.gif") 5px center no-repeat;
+    background-size: 30px;
+    width: 70px;
+    color: #FF7A00;
+    font-size: 22px;
+    line-height: 50px;
+    padding-left: 40px;
+    border-right: solid 1px #BEDCF3;
+}
+
+.today-right {
+    position: absolute;
+    top: 0;
+    left: 120px;
+    width: 850px;
+    padding-top: 10px;
+}
+
+.recommend,
+.subject {
+    position: relative;
+    margin-bottom: 8px;
+}
+
+.recommend-ul {
+    position: absolute;
+    top: 0;
+    left: 60px;
+}
+
+.recommend-ul li {
+    display: inline-block;
+}
+
+.recommend-ul li a {
+    color: #666;
+    padding-right: 5px;
+    border-right: solid 1px #666;
+    white-space: nowrap;
+}
+
+.recommend-ul li a:hover {
+    color: #FF6602;
+}
+
+.recommend-ul .recommend-last-a {
+    border: none;
+}
+
+/*主体内容左右布局*/
+
+.content {
+    position: relative;
+    margin-top: 10px;
+}
+
+.content-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 265px;
+    box-sizing: border-box;
+}
+
+.content-right {
+    position: relative;
+    left: 280px;
+    top: 0;
+    width: 700px;
+    box-sizing: border-box;
+}
+
+/*主体内容左边*/
+
+h3 {
+    font-size: 13px;
+}
+
+.left-Btitle-h3 {
+    color: #FFF;
+    padding: 5px;
+    background: #0D8FE5;
+}
+
+.price,
+.routeDay {
+    padding: 5px;
+    color: #0D8FE5;
+    background: #DCF2FF;
+    border: solid 1px #B9E3FF;
+}
+
+.money1,
+.money2,
+.day{
+    padding: 8px;
+    border-bottom: dashed 1px #DEF1FF;
+}
+
+.money2 {
+    border: none;
+}
+
+.money a,
+.day a{
+    color: #43B8FF;
+    padding: 5px 5px 0 5px;
+    margin-right: 26px;
+}
+
+.money a:hover,
+.day a:hover {
+    padding: 4px 4px 0 4px;
+    border: solid 1px #DCF2FF;
+    background: #F1FAFF;
+}
+
+.day2 {
+    border: none;
+    padding-bottom: 25px;
+}
+
+/*行内新闻*/
+
+.content-left-list {
+    padding: 0 10px;
+}
+
+.left-ul2 li {
+    position: relative;
+    line-height: 25px;
+    height: 25px;
+    border-bottom: dashed 1px #D5D5D5;
+}
+
+.left-ul2 li:hover {
+    cursor: pointer;
+}
+
+.li-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.li-left a {
+    color: #828282;
+    font-size: 14px;
+}
+
+.li-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #F90;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.li-right span {
+    font-weight: 100;
+    font-size: 12px;
+    margin-left: 3px;
+}
+
+.left-ul2 .ul2-last-li {
+    border: none;
+    padding-bottom: 15px;
+}
+
+.journalism-img {
+    padding: 5px;
+}
+
+/*主体内容右边*/
+
+.hot-recommend {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.hot-recommend-block {
+    -webkit-box-flex: 1;
+        -webkit-flex: 1;
+                flex: 1;
+    text-align: center;
+    border-top: solid 3px #E6E6E6;
+    padding: 5px 0;
+}
+
+.hot-recommend-block:hover {
+    cursor: pointer;
+    border-top: solid 3px #FEBE00;
+}
+
+/*默认样式*/
+
+.block1 {
+    border-top: solid 3px #FEBE00;
+}
+
+.hot-recommend-block img {
+    position: relative;
+    top: -2px;
+    right: 3px;
+}
+
+.block-div {
+    color: #0D8FE5;
+    border-left: solid 1px #E6E6E6;
+}
+
+.travel-img-ul {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: dashed 1px #D4E6FF;
+}
+
+.travel-img-ul2 {
+    border: none;
+}
+
+.travel-li-div2 {
+    font-weight: 700;
+    padding: 3px 0;
+}
+
+.travel-li-div3 {
+    width: 227px;
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.travel-li-div4 {
+    color: #FF7A17;
+    font-size: 10px;
+}
+
+.travel-li-div4 span {
+    font-size: 16px;
+}
+
+/*热门目的地推荐*/
+
+.recommend-site {
+    position: relative;
+    background: #0D8FE5;
+    padding: 10px 0 5px 10px;
+}
+
+.recommend-site>span {
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+.recommend-site-ul {
+    position: absolute;
+    top: 10px;
+    left: 130px;
+}
+
+.recommend-site-ul li {
+    display: inline-block;
+}
+
+.recommend-site-ul a {
+    padding: 8px 12px 10px 12px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFF;
+}
+
+/*默认样式*/
+
+.recommend-site-li1 a{
+    padding: 8px 12px 10px 12px;
+    border-radius: 3px 3px 0 0;
+    background: #FFF;
+    color: #0D8FE5;
+}
+
+.recommend-site-ul li a:hover {
+    padding: 8px 12px 10px 12px;
+    border-radius: 3px 3px 0 0;
+    background: #FFF;
+    color: #0D8FE5;
+}
+
+/*云南...湖南*/
+
+.site-box {
+    margin-bottom: 15px;
+}
+
+.site {
+    position: relative;
+    padding: 0 10px;
+    margin-top: 10px;
+    border-bottom: solid 2px #0D8FE5;
+    line-height: 20px;
+}
+
+.site-left {
+    font-size: 18px;
+    font-weight: 700;
+    color: #0D8FE5;
+}
+
+.site-right {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 10px;
+    color: #0D8FE5;
+}
+
+.site-ul {
+    margin-top: 10px;
+}
+
+.site-ul li {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    line-height: 25px;
+    padding: 0 10px;
+    font-size: 11px;
+}
+
+.site-li-div2 {
+    -webkit-box-flex: 1;
+        -webkit-flex: 4;
+                flex: 4;
+    color: #333;
+}
+
+.site-li-div1 {
+    width: 101px;
+        -webkit-flex: 1;
+                flex: 1;
+    text-align: center;
+}
+
+.site-ul-li1 {
+    background: #E6F2FF;
+    font-weight: 700;
+    color: #333;
+}
+
+.site-ul-li2 {
+    border-bottom: dashed 1px #0090FF;
+}
+
+.li-div1-style1 {
+    color: #0D8FE5;
+    text-align: center;
+}
+
+.li-div1-style2 {
+    color: #F90;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.li-div1-style2 span {
+    font-weight: 100;
+    margin-left: 3px;
+    font-size: 11px;
+}
+
+.site-li-div1-a {
+    background: #72C2ED url("../img/domestic-bg8.gif") 4px center no-repeat;
+    color: #FFF;
+    padding: 2px 5px 2px 20px;
+    border-radius: 3px;
+}
+
+
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1号店注册页面</title>
+    <link rel="stylesheet" href="css/login_public_css.css">
+    <link rel="stylesheet" href="css/sing-in.css">
+</head>
+<body>
+<!--页首-->
+<header>
+    <div class="header_right_list">
+        <ul class="header_right_ul">
+            <li><span>您好,欢迎光临1号店!</span></li>
+            <li><a href="sing-up.html">请登录</a></li>
+            <li>
+                <a href="">帮助中心</a>
+                <img src="img/runbun.png" alt="" class="header_right_li3_img1">
+                <img src="img/turnb.png" alt="" class="header_right_li3_img2">
+            </li>
+        </ul>
+    </div>
+</header>
+<!--主体内容-->
+<article>
+    <div class="article-box">
+        <h1>1号店注册</h1>
+        <!--表单初步验证,
+        1.所有表单非空
+        2.手机号 以13|5|7|8开头的11位数
+        3.密码长度为6-16个字符
+        -->
+        <form action="sing-up.html" method="post">
+            <div><input type="text" placeholder="手机号 以13|5|7|8开头的11位数" pattern="1[3578]\d{9}" class="form_input1" required></div>
+            <div><input type="text" placeholder="验证码" class="form_input2"><a href="" class="form_a1">获取验证码</a></div>
+            <div><input type="password" placeholder="设置密码 长度为6-16个字符" pattern="[\dA-Za-z]{6,16}" class="form_input3" required></div>
+            <div><input type="password" placeholder="确认密码 与设置的密码相同" pattern="[\dA-Za-z]{6,16}" class="form_input4" required></div>
+            <div class="form_div5"><span>点击注册,表示您同意1号店</span><a href="">《服务协议》</a></div>
+            <div><input type="submit" value="同意协议并注册" class="form_input5"></div>
+        </form>
+    </div>
+</article>
+<!--页尾-->
+<footer>
+    <div>沪ICP备13044278号 | 合字B1.B2-20130004 | 营业执照</div>
+    <div>Copyright&copy;1号店网上超市2007-2016,All Rights Reserved</div>
+</footer>
+</body>
+</html>

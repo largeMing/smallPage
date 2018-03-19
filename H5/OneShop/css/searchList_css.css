@@ -1,0 +1,228 @@
+/*页面定位栏*/
+.page_position{
+    line-height: 40px;
+}
+.page_position a{
+    color: #747172;
+    font-size: 13px;
+    font-weight: 700;
+}
+.page_position span{
+    font-size: 10px;
+    color: #747172;
+    font-weight: 700;
+}
+.page_position a span:last-of-type{
+    font-style: italic;
+    color: #FF641F;
+    font-size: 13px;
+    font-weight: 700;
+}
+.page_position a:last-of-type{
+    border: dashed 2px #FF641F;
+    padding: 5px;
+}
+/*商品分类列表*/
+table {
+    border: solid 1px #C4C4C4;
+    border-collapse: collapse;
+    font-size: 12px;
+    line-height: 45px;
+    margin-top: 15px;
+}
+tr {
+    border-bottom: solid 1px #C4C4C4;
+}
+
+.choice td:first-of-type{
+    color: #555;
+}
+.choice-tr1-td1 {
+    position: relative;
+}
+
+.choice-tr1-td1 span {
+    position: absolute;
+    top: 0;
+}
+.td_a a{
+    color: #72748D;
+}
+.td_a .a_red{
+    color: #FF5F26;
+}
+.td_a a {
+    white-space: nowrap;
+    margin-left: 10px;
+}
+/*浏览历史*/
+.cate_list{
+    width: 982px;
+}
+.BrowseHistory{
+    line-height: 30px;
+    padding: 5px;
+    height: 40px;
+    width: 210px;
+    border:solid 1px #EBEBEB;
+    box-sizing: border-box;
+    margin-top: 20px;
+    position: relative;
+}
+.BrowseHistory span:first-of-type{
+    position: absolute;
+    background: url("../img/h_t.gif") left center no-repeat;
+    color: #FF4D00;
+    font-size: 16px;
+    padding-left: 10px;
+}
+.BrowseHistory span:last-of-type{
+    position: absolute;
+    right: 5px;
+    font-size: 14px;
+    color: #959596;
+}
+.cate_list_left1{
+    float: left;
+    width: 210px;
+}
+/*迪奥香水两件套*/
+.cate_list_left1_ul li{
+    padding: 10px 0;
+    border: solid 1px #EBEBEB;
+    border-top: none;
+}
+.cate_list_left_name,
+.cate_list_left_price{
+    text-align: center;
+    line-height: 25px;
+}
+.cate_list_left_name > a{
+    color: #645D58;
+    font-size: 12px;
+}
+.cate_list_left_price{
+    color: #AF0300;
+    font-size: 18px;
+}
+/*默认  销量   价格   新品*/
+.default{
+    position: relative;
+    line-height: 40px;
+    color: #696254;
+}
+.default div{
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #696254;
+    font-size: 12px;
+}
+.default span{
+    padding: 5px 30px 5px 10px;
+    border: solid 1px #D4D4D4;
+    border-left: none;
+}
+.default span:nth-of-type(1){
+    background: #FF4E00;
+    color: #fff;
+}
+.default span:nth-of-type(1)~span{
+    margin-left: -7px;
+}
+/*默认栏里上下两个箭头*/
+.default img{
+    position: absolute;
+}
+.default_img1{
+    left: 125px;
+    top: 13px;
+}
+.default_img2{
+    left: 125px;
+    top: 22px;
+}
+.default_img3{
+    left: 195px;
+    top: 13px;
+}
+.default_img4{
+    left: 195px;
+    top: 22px;
+}
+/*商品信息展示列表*/
+.cate_list_left2{
+    float: left;
+    position: relative;
+    width: 760px;
+    margin-top: 20px;
+    height: 1670px;
+}
+.cate_list_left2_ul{
+    border-top: solid 1px #D3D3D3;
+    margin-top: -1px;
+}
+.cate_list_left2_ul li{
+    line-height: 30px;
+    text-align: center;
+    width: 180px;
+    margin: 30px 0 0 10px;
+    float: left;
+}
+.list_left2_price{
+    font-size: 18px;
+    color: #FF4D00;
+}
+.list_left2_name a{
+    color: #645D58;
+    font-size: 10px;
+}
+.list_left2_bottom{
+    border: solid 1px #D3D3D3;
+}
+.collect{
+    background: url("../img/heart.png") 10px center no-repeat;
+    padding: 5px 5px 5px 30px;
+    font-size: 12px;
+    color: #9B9B9B;
+}
+.shop{
+    background: url("../img/cars.png") 15px center no-repeat;
+    padding: 5px 10px 5px 40px;
+    color: #FF6623;
+    font-size: 12px;
+    border-left: solid 1px #D3D3D3;
+}
+/*鼠标移入li列表出现阴影效果*/
+.cate_list_left2_ul li:hover{
+    background: #fff;
+    -webkit-box-shadow: 0 0 5px #E0E0E0;
+    -moz-box-shadow: 0 0 5px #E0E0E0;
+    box-shadow: 0 0 5px #E0E0E0;
+}
+/*页码*/
+.cate_list_bottom{
+    float: right;
+}
+.cate_list_bottom a{
+    border: solid 1px #D3D3D3;
+    border-radius: 5px;
+    color: #5F6473;
+    padding: 10px;
+}
+.cate_list_bottom a:nth-of-type(2){
+    background: #FF4E00;
+    color: #fff;
+}
+.footer_ul{
+    margin-top: 100px;
+}
+/*清除浮动*/
+.cate_list_bottom:after,
+.cate_list:after{
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0;
+    visibility: hidden;
+}

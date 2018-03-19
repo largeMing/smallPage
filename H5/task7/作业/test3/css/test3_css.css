@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+.box{
+    width: 600px;
+    height: 200px;
+    border: solid 1px #DDDDDD;
+    margin: 50px auto 0;
+    padding: 10px;
+}
+/*图片+ul的盒子*/
+.box_left{
+    float: left;
+    margin-top: 20px;
+    width: 200px;
+}
+/*右上角标题*/
+.box_top{
+    font-size: 15px;
+    font-weight: bold;
+}
+/*无序列表*/
+.box_ul{
+    list-style: none;
+}
+/*图片*/
+.li_img{
+    padding: 2px;
+    border: solid 1px #DDDDDD;
+    border-radius: 5px;
+}
+.img_left{
+    float: left;
+}
+/*小标题*/
+ul li:nth-of-type(1){
+    color: #397EC1;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 75px;
+}
+/*成员*/
+ul li:nth-of-type(2){
+    font-size: 12px;
+    color: #A69DB2;
+    padding-left: 75px;
+    margin-top: 10px;
+}
+/*作品*/
+ul li:nth-of-type(3){
+    font-size: 12px;
+    color: #A69DB2;
+    padding-left: 75px;
+    padding-top: 5px;
+}
+

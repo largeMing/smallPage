@@ -1,0 +1,66 @@
+body{
+    width: 300px;
+    height: auto;
+}
+.div1{
+    font-size: 16px;
+    color: #ffffff;
+    text-indent: 1em;
+    line-height: 30px;
+    background: #518700 url("../img/bang.gif") 100px no-repeat;
+    background-size: contain;
+}
+.body_ul{
+    list-style:none;
+    text-indent: 2em;
+    font-size: 12px;
+    line-height: 28px;
+    background: -webkit-gradient(linear, 0% 0%, 0% bottom, from(#F9FBCB), to(#F8F8F3));
+}
+li a{
+    color: #1a66b3;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+ul li:nth-child(1){
+    background: url("../img/book_no01.gif") no-repeat left center;
+    background-size: 18px;
+}
+ul li:nth-child(2){
+    background: url("../img/book_no02.gif")no-repeat left center;
+    background-size: 18px;
+}
+ul li:nth-child(3){
+    background: url("../img/book_no03.gif")no-repeat left center;
+    background-size: 18px;
+}
+ul li:nth-child(4){
+    background: url("../img/book_no04.gif")no-repeat left center;
+    background-size: 15px;
+}
+ul li:nth-child(5){
+    background: url("../img/book_no05.gif")no-repeat left center;
+    background-size: 15px;
+}
+ul li:nth-child(6){
+    background: url("../img/book_no06.gif")no-repeat left center;
+    background-size: 15px;
+}
+ul li:nth-child(7){
+    background: url("../img/book_no07.gif")no-repeat left center;
+    background-size: 15px;
+}
+ul li:nth-child(8){
+    background: url("../img/book_no08.gif")no-repeat left center;
+    background-size: 15px;
+}
+ul li:nth-child(9){
+    background: url("../img/book_no09.gif")no-repeat left center;
+    background-size: 15px;
+}
+ul li:nth-child(10){
+    background: url("../img/book_no10.gif")no-repeat left center;
+    background-size: 15px;
+}
