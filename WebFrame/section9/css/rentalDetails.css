@@ -1,0 +1,284 @@
+.position img {
+    position: relative;
+    top: -.01rem;
+    width: .075rem;
+    height: .15rem;
+    vertical-align: middle;
+    margin: 0 .09rem;
+}
+
+.home-img {
+    position: relative;
+    width: 100%;
+    height: 1.85rem;
+}
+
+.home-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.share {
+    position: absolute;
+    right: 0;
+    bottom: .12rem;
+    width: .6rem;
+    height: .4rem;
+    line-height: .4rem;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    border-radius: .2rem 0 0 .2rem;
+}
+
+.home-intro-box {
+    position: relative;
+    width: 100%;
+    height: .71rem;
+    background: #F9F9F9;
+    border-bottom: solid .01rem #DFDFDF;
+}
+
+.home-intro-box-l {
+    width: 2.5rem;
+    height: .71rem;
+    border-right: solid .01rem #DCDCDC;
+    font-size: .15rem;
+    padding: .18rem .15rem 0 .15rem;
+}
+
+.home-intro-box-r {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: .7rem;
+    height: .71rem;
+    text-align: center;
+    color: #575757;
+}
+
+.home-intro-box-r img {
+    width: .19rem;
+    height: .19rem;
+    margin-bottom: .06rem;
+}
+
+.home-intro-box-r-cont {
+    margin-top: .175rem;
+}
+
+.home-price {
+    display: flex;
+    width: 100%;
+    height: .69rem;
+    padding: .16rem 0;
+    border-bottom: solid .01rem #DCDCDC;
+}
+
+.home-price li {
+    flex: 1;
+    text-align: center;
+    font-size: .15rem;
+}
+
+.home-price li:not(:last-child) {
+    border-right: solid .01rem #E2E2E2;
+}
+
+.home-price li span {
+    margin-bottom: .08rem;
+}
+
+.home-price li p {
+    color: #FF8A00;
+}
+
+.home-price li p label {
+    font-weight: bold;
+}
+
+.detail {
+    border-bottom: solid .01rem #E2E2E2;
+    padding-left: .18rem;
+}
+
+.detail li {
+    display: flex;
+    padding: .17rem 0;
+    font-size: .15rem;
+    color: #626262;
+}
+
+.detail li > div {
+    flex: 1;
+}
+
+.detail li:not(:last-child) {
+    border-bottom: solid .01rem #E2E2E2;
+}
+
+.detail li span {
+    color: #000;
+}
+
+.cj-history-box,
+.address-box,
+.record-box,
+.evaluate-box {
+    padding: .09rem .09rem 0;
+    background: #f6f6f6;
+}
+
+.cj-history-box {
+    padding-bottom: .09rem;
+}
+
+.cj-history-cont,
+.address-cont,
+.record-cont,
+.evaluate-cont {
+    background: #fff;
+    border: solid .01rem #E0E0E0;
+}
+
+.cj-history-title,
+.address-title,
+.record-title,
+.evaluate-title {
+    position: relative;
+    color: #FF8A00;
+    font-size: .15rem;
+    padding: .15rem;
+    border-bottom: solid .01rem #E0E0E0;
+}
+
+.cj-history-title img,
+.address-title img,
+.record-title img,
+.evaluate-title img {
+    position: absolute;
+    top: 50%;
+    right: .15rem;
+    transform: translateY(-50%);
+    width: .07rem;
+    height: .145rem;
+}
+
+.cj-history-font,
+.address-font,
+.record-font,
+.evaluate-font {
+    color: #626262;
+    font-size: .15rem;
+    padding: .1rem .15rem .15rem;
+}
+
+.record-font label {
+    color: #DE6843;
+}
+
+.map-box {
+    position: relative;
+    width: 2.805rem;
+    height: 1.83rem;
+    border: solid .01rem #DBDBDB;
+}
+
+.map-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.map-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: .33rem;
+    line-height: .33rem;
+    padding-left: .08rem;
+    color: #626262;
+    font-size: .13rem;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 .01rem .05rem #DBD8D5;
+}
+
+.cj-history-cont .cj-history-title {
+    color: #000;
+}
+
+.cj-history-font {
+    font-size: .13rem;
+    color: #626262;
+}
+
+.cj-history-font label {
+    font-weight: bold;
+}
+
+.cj-history-font .price {
+    color: #DE6843;
+}
+
+.first-p {
+    margin-bottom: .18rem;
+}
+
+.contact-box {
+    padding-bottom: .45rem;
+    background: #F6F6F6;
+}
+
+.contact {
+    position: relative;
+    width: 100%;
+    padding: .09rem;
+    box-shadow: .01rem .01rem .15rem #DADADA;
+    background: #fff;
+}
+
+.man-img {
+    width: .4rem;
+    height: .4rem;
+}
+
+.contact-mid {
+    position: absolute;
+    left: .565rem;
+    top: .13rem;
+    color: #626262;
+}
+
+.contact-mid span {
+    font-size: .15rem;
+    color: #000;
+    margin-bottom: .09rem;
+    font-weight: bold;
+}
+
+.contact-r {
+    position: absolute;
+    right: .2rem;
+    top: .07rem;
+}
+
+.contact-r div {
+    display: inline-block;
+    text-align: center;
+    font-size: .11rem;
+}
+
+.icon1-div {
+    color: #5DCB96;
+    margin-right: .2rem;
+}
+
+.icon2-div {
+    color: #5BAEDE;
+}
+
+.contact-r img {
+    width: .3rem;
+    height: .3rem;
+    margin-bottom: .04rem;
+}

@@ -1,0 +1,212 @@
+.publicity-img {
+    position: relative;
+    width: 3.2rem;
+    height: 2.25rem;
+    background: url("../img/banner.png") no-repeat;
+    background-size: cover;
+}
+
+.seach {
+    position: absolute;
+    left: 50%;
+    bottom: .18rem;
+    transform: translateX(-50%);
+    width: 2.9rem;
+    height: .35rem;
+    padding-left: .3rem;
+    background: #fff url("../img/seach.jpg") no-repeat .11rem;
+    background-size: .13rem .13rem;
+    border-radius: .05rem;
+    box-shadow: inset 0 .03rem .1rem #B7B7B7,0 .03rem .1rem #B7B7B7;
+}
+
+.used-home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 3.2rem;
+    height: 1.11rem;
+    background: #FF8A00;
+}
+
+.used-home a {
+    color: #fff;
+}
+
+.used-home img {
+    width: .54rem;
+    height: .54rem;
+    margin-bottom: .095rem;
+}
+
+.used-home p {
+    text-align: center;
+}
+
+.publicity-img2 {
+    padding: .12rem 0;
+    border-bottom: solid .01rem #E5E5E5;
+    border-top: solid .01rem #E5E5E5;
+    background: #F5F5F5;
+}
+
+.publicity-img2 img {
+    width: 100%;
+}
+
+.hot-house {
+    margin-top: .095rem;
+}
+
+.hot-house-title {
+    position: relative;
+    width: 3.2rem;
+    height: .46rem;
+    background: #FF8A00;
+    padding-left: .2rem;
+    color: #fff;
+    font-size: .14rem;
+}
+
+.hot-house-title h4 {
+    font-size: .18rem;
+    line-height: .18rem;
+}
+
+.h-t-cont {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hot-house-ul {
+    padding: 0 .2rem;
+}
+
+.hot-house-ul li {
+    padding: .2rem 0;
+}
+
+.hot-house-ul li:after {
+    clear: both;
+    content: ".";
+    display: block;
+    visibility: hidden;
+    height: 0;
+}
+
+.hot-house-ul li:not(:last-child) {
+    border-bottom: solid .01rem #FF8A00;
+}
+
+.hot-house-img-l {
+    width: .81rem;
+    height: .75rem;
+    margin-right: .12rem;
+    float: left;
+}
+
+.hot-house-r {
+    float: left;
+    width: 1.87rem;
+}
+
+.hot-house-r h4 {
+    width: 1.87rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: .16rem;
+    margin-bottom: .05rem;
+}
+
+.square {
+    position: relative;
+    top: -.02rem;
+    font-size: .08rem;
+}
+
+.price1 {
+    float: right;
+    color: #FF8A00;
+    font-size: .1rem;
+}
+
+.price1 label {
+    font-size: .15rem;
+    font-weight: bold;
+}
+
+.hot-house-r p {
+    margin-bottom: .05rem;
+}
+
+.address {
+    color: #8B8B8B;
+}
+
+.price2 {
+    color: #999;
+    float: right;
+}
+
+.home-class a {
+    color: #849AAE;
+    background: #F4F7F9;
+    padding: .02rem .035rem;
+    margin-right: .05rem;
+}
+
+.null {
+    width: 3.2rem;
+    height: .065rem;
+    background: #F5F5F5;
+    border-bottom: solid .05rem #E5E5E5;
+    border-top: solid .05rem #E5E5E5;
+}
+
+.hot-now {
+    width: 3.2rem;
+    height: .55rem;
+    display: flex;
+    border-bottom: solid .01rem #FF8A00;
+}
+
+.hot-now li {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    font-size: .16rem;
+    font-weight: bold;
+}
+
+.hot-now .check-now {
+    color: #FF8A00;
+    border-bottom: solid .02rem #FF8A00;
+}
+
+.classify {
+    display: flex;
+    width: 3.2rem;
+}
+
+.classify li {
+    flex: 1;
+    padding: .2rem 0 .2rem .2rem;
+}
+
+.classify li a {
+    color: #666;
+    font-size: .12rem;
+    display: block;
+    width: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.classify li div:not(:last-child) {
+    margin-bottom: .16rem;
+}

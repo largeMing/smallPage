@@ -1,0 +1,129 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 625%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: .16rem;
+    background: #F2F2F2;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: .5rem;
+    line-height: .5rem;
+    background: #F8F8F8;
+    border-bottom: solid 1px #E2E2E2;
+    color: #0077FF;
+    font-size: .2rem;
+}
+
+.header-box img {
+    width: .14rem;
+    height: .24rem;
+    margin-right: .1rem;
+    margin-left: .18rem;
+    vertical-align: middle;
+}
+
+.article-box {
+    margin-top: .5rem;
+    background: #fff;
+}
+
+.app-icon {
+    position: relative;
+    padding: .15rem .13rem;
+    border-bottom: solid 1px #E2E2E2;
+    color: #666;
+}
+
+.app-icon img {
+    float: left;
+    margin-right: .13rem;
+    width: .7rem;
+    height: .7rem;
+}
+
+.app-icon:after {
+    display: block;
+    clear: both;
+    content: ".";
+    visibility: hidden;
+    height: 0;
+}
+
+.app-name {
+    margin: .05rem 0;
+}
+
+.app-v {
+    font-weight: bold;
+}
+
+.app-icon a {
+    position: absolute;
+    right: .08rem;
+    bottom: .15rem;
+    width: .52rem;
+    line-height: .3rem;
+    text-align: center;
+    color: #0078FF;
+    border: solid 1px #0078FF;
+    border-radius: 5px;
+}
+
+.intro {
+    padding: .2rem .12rem .2rem .1rem;
+}
+
+.intro-title {
+    color: #222;
+    font-size: .16rem;
+    margin-bottom: .2rem;
+}
+
+.intro p {
+    color: #666;
+}
+
+.footer-box {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #F8F8F8;
+    border-top: solid 1px #ccc;
+    height: .5rem;
+    font-size: .12rem;
+    color: #999;
+}
+
+.footer-box img {
+    width: .25rem;
+    height: .24rem;
+}
+
+.first-div {
+    color: #0077FF;
+}
+
+.footer-box > div {
+    text-align: center;
+}

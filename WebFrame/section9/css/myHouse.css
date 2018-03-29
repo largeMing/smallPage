@@ -1,0 +1,53 @@
+.attention-list {
+    padding: 0 .13rem;
+}
+
+.attention-list li {
+    padding: .13rem 0;
+}
+
+.attention-list li:not(:last-child) {
+    border-bottom: solid .01rem #FF8A00;
+}
+
+.attention-list li:after {
+    clear: both;
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+}
+
+.attention-list li img {
+    width: 1rem;
+    height: .75rem;
+    margin-right: .09rem;
+    float: left;
+}
+
+.attention-list-r {
+    float: left;
+    width: 1.85rem;
+}
+
+.attention-list-r .attention-list-title {
+    color: #111;
+    font-size: .15rem;
+    margin-bottom: .04rem;
+}
+
+.attention-list-r p {
+    margin-bottom: .02rem;
+    color: #626262;
+}
+
+.attention-list-r p span {
+    float: right;
+    margin-right: .1rem;
+    color: #FF8A00;
+}
+
+.attention-list-r p span label {
+    font-weight: bold;
+    font-size: .16rem;
+}

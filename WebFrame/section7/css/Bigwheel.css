@@ -1,0 +1,101 @@
+body{
+	margin:0 auto;
+	padding:0;
+	 
+	background-size:100% 100%;
+	max-width:640px;
+	width:100%;
+	 
+}
+p{
+	margin:0;
+	padding:0;
+}
+a:link { text-decoration: none;color:black;}
+a:active { text-decoration:none;color:black;}
+a:hover { text-decoration:none;color:black;} 
+a:visited { text-decoration: none;color:black;}
+#body{
+	width:285px;
+	margin:0 auto;
+	 
+}
+#tmp{
+	width:100%;
+	height:60px;
+}
+ 
+ 
+.main{
+	margin:0 auto;
+	 
+	 
+}
+.main .pointer{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -16px;
+	width: 285px;
+	height: 42px;
+	background: url(../image/1.png) no-repeat;
+	background-size: 100% 100%;
+	z-index: 999;
+	position: absolute;
+}
+.main .cj-bg{
+	height:283px;
+	width:283px;
+	background: url(../image/3.png) no-repeat;
+	background-size:100% 100%;
+}
+.main .cj-bg{
+	-webkit-transition: -webkit-transform 2000ms;
+	-webkit-transform: rotate(0deg);
+	-moz-transition:-moz-transform 2000ms;
+	-moz-transform: rotate(0deg);
+	/*transition:transition 2000ms;
+	transform:rotate(0deg);*/
+}
+.main .open{
+	-webkit-transform: rotate(980deg);
+}
+.main .cj-bg .tmp{
+	width:100%;
+	height:100px;
+}
+.main .cj-bg .start{
+	height:79px;
+	width:79px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../image/2.png) no-repeat;
+	background-size:100% 100%;
+}
+.main .cj-bg .start{
+	height:79px;
+	width:79px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../image/2.png) no-repeat;
+	background-size:100% 100%;
+}
+.main  .start{
+	height: 79px;
+	width: 79px;
+	margin-left: 105px;
+	background: url(../image/2.png) no-repeat;
+	background-size: 100% 100%;
+	margin-top: -180px;
+	z-index: 100;
+	position: absolute;
+}
+.date{
+	width: 100%;
+	margin-top: 26px;
+	margin-bottom: 30px;
+}
+.date p{
+	text-align:center;
+	color:white;
+	font-weight: bold;
+} 

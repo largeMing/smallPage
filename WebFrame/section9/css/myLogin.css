@@ -1,0 +1,69 @@
+body {
+    background: #F0EFED;
+}
+
+.login-box {
+    position: relative;
+    width: 100%;
+    height: 1.4rem;
+    background: url("../img/bg2.png") no-repeat;
+    background-size: cover;
+}
+
+.login-cont {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    text-align: center;
+    font-size: .15rem;
+}
+
+.login-cont img {
+    width: .53rem;
+    height: .53rem;
+    margin-bottom: .285rem;
+}
+
+.option-ul {
+    padding-left: .13rem;
+    border-bottom: solid .01rem #CACACA;
+    border-top: solid .01rem #CACACA;
+    font-size: .15rem;
+    background: #fff;
+}
+
+.option-ul li {
+    position: relative;
+    padding: .15rem 0;
+}
+
+.option-ul li:not(:last-child) {
+    border-bottom: solid .01rem #E2E2E2;
+}
+
+.option-ul li img {
+    position: absolute;
+    right: .23rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: .07rem;
+    height: .15rem;
+}
+
+.out-login {
+    margin: .3rem .1rem 0;
+    border: solid .01rem #D5D5D5;
+    background: #fff;
+    text-align: center;
+}
+
+.out-login a {
+    width: 100%;
+    height: .4rem;
+    line-height: .4rem;
+    display: block;
+    color: #FF8A00;
+    font-size: .15rem;
+}

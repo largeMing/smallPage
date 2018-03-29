@@ -1,0 +1,124 @@
+.header-box {
+    position: relative;
+    width: 3.2rem;
+    height: .415rem;
+    background: #FF8A00;
+    padding: 0 .4rem;
+}
+
+.header-l {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: .4rem;
+}
+
+.header-l .logo1 {
+    width: 1rem;
+    height: .34rem;
+}
+
+.header-l .logo2 {
+    width: .49rem;
+    height: .18rem;
+    margin-right: .175rem;
+}
+
+.header-l span {
+    color: #fff;
+    font-size: .14rem;
+    padding-right: .12rem;
+    background: url("../img/DetailsSmall.png") no-repeat right;
+    background-size: .08rem .04rem;
+}
+
+.header-r {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: .4rem;
+}
+
+.header-r img {
+    width: .25rem;
+    height: .3rem;
+    margin-left: .12rem;
+}
+
+.position {
+    padding-left: .13rem;
+    height: .35rem;
+    line-height: .35rem;
+    border-bottom: solid .01rem #C5C5C5;
+    font-size: .14rem;
+    color: #575757;
+    background: #fff;
+}
+
+.position img {
+    width: .09rem;
+    height: .35rem;
+    margin-left: .07rem;
+    margin-right: .09rem;
+    vertical-align: top;
+}
+
+.footer-box {
+    width: 3.2rem;
+    background: #2F3130;
+    padding: 0 .115rem;
+    color: #939494;
+}
+
+.footer-position {
+    padding: .12rem 0 .11rem 0;
+    font-size: .1rem;
+    font-weight: bold;
+    border-bottom: solid .01rem #3E403F;
+}
+
+.footer-position span {
+    vertical-align: middle;
+}
+
+.footer-position img {
+    margin: 0 .03rem;
+}
+
+.footer-btm {
+    position: relative;
+    margin-top: .12rem;
+}
+
+.client-side {
+    margin-left: .58rem;
+    margin-bottom: .14rem;
+}
+
+.client-side:after {
+    content: '.';
+    visibility: hidden;
+    height: 0;
+    display: block;
+    clear: both;
+}
+
+.client-side img {
+    float: left;
+    width: .185rem;
+    height: .215rem;
+}
+
+.client-side-l img {
+    margin-right: .095rem;
+}
+
+.client-side-r img {
+    margin-right: .075rem;
+    margin-left: .375rem;
+}
+
+.font {
+    float: left;
+    color: #727373;
+}

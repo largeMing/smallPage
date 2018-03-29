@@ -1,0 +1,163 @@
+/*reset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 625%;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: .16rem;
+    background: #eee;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: .9rem;
+    line-height: .9rem;
+    background: #E6071A;
+    border-bottom: solid 1px #AA0009;
+    color: #FFFEFF;
+    font-size: .16rem;
+    text-align: center;
+}
+
+.header-box img {
+    position: absolute;
+    top: 50%;
+    left: .12rem;
+    width: .5rem;
+    height: .5rem;
+    transform: translateY(-50%);
+    vertical-align: middle;
+}
+
+.header-mid {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: .6rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.header-mid li {
+    width: .7rem;
+    height: .6rem;
+    line-height: .6rem;
+    box-sizing: border-box;
+}
+
+.header-mid .h-m-l {
+    border-radius: 5px 0 0 5px;
+    border: solid 1px #fff;
+}
+
+.header-mid .h-m-r {
+    border-radius: 0 5px 5px 0;
+    background: #fff;
+    color: #E6071A;
+}
+
+.h-b-r {
+    position: absolute;
+    right: .12rem;
+}
+
+.article-box {
+    margin-top: .9rem;
+    padding: 0 .12rem;
+    background: #fff;
+}
+
+.article-box li {
+    position: relative;
+    padding: .22rem 0;
+}
+
+.article-box li:after {
+    clear: both;
+    display: block;
+    content: ".";
+    visibility: hidden;
+    height: 0;
+}
+
+.article-box li:not(:last-child) {
+    border-bottom: solid 1px #DBDBDB;
+}
+
+.a-b-img {
+    position: absolute;
+    left: .52rem;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: .8rem;
+    height: .8rem;
+}
+
+.task-img {
+    width: 100%;
+    height: 100%;
+}
+
+.position-img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: .6rem;
+    height: .6rem;
+}
+
+.a-b-r {
+    position: relative;
+    float: left;
+    margin-left: 1rem;
+    font-size: .14rem;
+}
+
+.a-b-r p {
+    color: #333;
+    font-size: .16rem;
+    font-weight: 600;
+    margin-bottom: .2rem;
+}
+
+.price {
+    color: #666;
+}
+
+.price label {
+    font-size: .2rem;
+}
+
+.price .del {
+    text-decoration: line-through;
+}
+
+.similarity {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: .75rem;
+    height: .25rem;
+    line-height: .25rem;
+    border: solid 1px #D8D8D8;
+    border-radius: 5px;
+    color: #666;
+    text-align: center;
+}

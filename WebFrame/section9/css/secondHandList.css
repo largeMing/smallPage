@@ -1,0 +1,119 @@
+.seach-box {
+    width: 3.2rem;
+    height: .625rem;
+    background: #F5F5F5;
+    padding: .105rem .15rem;
+}
+
+.seach-case {
+    position: relative;
+    width: 2.9rem;
+    height: .42rem;
+    border: solid .01rem #ccc;
+    border-radius: .04rem;
+    background: #fff;
+    padding: .055rem 0;
+}
+
+.seach-input {
+    border-right: solid .01rem #E5E5E5;
+    width: 2.35rem;
+    height: .3rem;
+    padding-left: .1rem;
+}
+
+.seach-case img {
+    position: absolute;
+    right: .18rem;
+    top: .1rem;
+    width: .2rem;
+    height: .2rem;
+}
+
+.area-box {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+    height: .4rem;
+    border-bottom: solid .01rem #ccc;
+    border-top: solid .01rem #ccc;
+    padding: .11rem 0;
+}
+
+.area-box li {
+    position: relative;
+    flex: 1;
+    color: #252525;
+    font-size: .14rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.area-box li span {
+    position: relative;
+    padding-right: .18rem;
+}
+
+.area-box li span:after {
+    position: absolute;
+    right: 0;
+    top: .04rem;
+    content: "";
+    width: 0;
+    height: 0;
+    border: .06rem;
+    border-style: solid;
+    border-color: #ccc transparent transparent transparent;
+}
+
+.area-box li:not(:last-child) {
+    border-right: solid .01rem #E5E5E5;
+}
+
+.area-box .active {
+    color: #FF9B24;
+}
+
+.area-box .active span:after {
+    border-color: #FF9B24 transparent transparent transparent;
+}
+
+.home-source {
+    padding: 0 .2rem;
+}
+
+.home-source li {
+    padding: .2rem 0;
+    display: flex;
+}
+
+.home-source li:not(:last-child) {
+    border-bottom: solid .01rem #FF9C28;
+}
+
+.home-source img {
+    width: .81rem;
+    height: .81rem;
+    margin-right: .115rem;
+}
+
+.home-source-r h4{
+    font-size: .15rem;
+    margin-bottom: .05rem;
+}
+
+.home-source-r p {
+    color: #aaa;
+    margin-bottom: .05rem;
+}
+
+.home-source-r p span {
+    color: #FF8A00;
+    font-size: .15rem;
+    margin-left: .16rem;
+    font-weight: bold;
+}
+
+.home-source-r .orientation {
+    color: #222;
+}

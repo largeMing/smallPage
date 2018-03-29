@@ -1,0 +1,100 @@
+body {
+    background: #F5F5F5;
+}
+
+.header-box {
+    position: relative;
+    width: 100%;
+    height: 1.86rem;
+    background: url("../img/bg1.png") no-repeat;
+    background-size: cover;
+}
+
+.header-r {
+    position: absolute;
+    right: .15rem;
+    top: .09rem;
+    display: flex;
+    color: #fff;
+}
+
+.header-r div {
+    margin-left: .2rem;
+    text-align: center;
+}
+
+.header-r img {
+    width: .15rem;
+    height: .15rem;
+    margin-bottom: .03rem;
+}
+
+.header-r .userImg {
+    width: .135rem;
+    height: .15rem;
+}
+
+.header-login {
+    position: absolute;
+    left: 50%;
+    bottom: .29rem;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.header-login img {
+    width: .53rem;
+    height: .53rem;
+    margin-bottom: .125rem;
+}
+
+.header-login a {
+    display: block;
+    color: #fff;
+    width: .74rem;
+    height: .3rem;
+    line-height: .3rem;
+    border: solid .01rem #fff;
+    border-radius: .04rem;
+    text-align: center;
+    font-size: .16rem;
+}
+
+.option-ul {
+    width: 100%;
+    padding-left: .5rem;
+    margin-top: .125rem;
+    background: #fff;
+    border-top: solid .01rem #E5E5E5;
+    border-bottom: solid .01rem #E5E5E5;
+}
+
+.option-ul li {
+    position: relative;
+    padding: .18rem 0;
+    font-size: .15rem;
+    color: #222;
+    font-weight: bold;
+}
+
+.option-ul li .option-ul-rImg {
+    position: absolute;
+    right: .2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: .065rem;
+    height: .115rem;
+}
+
+.option-ul .option-ul-lImg {
+    position: absolute;
+    top: 50%;
+    left: -.3rem;
+    transform: translateY(-50%);
+    width: .16rem;
+    height: .165rem;
+}
+
+.option-ul li:not(:last-child) {
+    border-bottom: solid .01rem #E5E5E5;
+}

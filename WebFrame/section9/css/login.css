@@ -1,0 +1,90 @@
+body {
+    background: #F0EFED;
+}
+
+.login-way {
+    display: flex;
+    width: 100%;
+    height: .42rem;
+    line-height: .42rem;
+    font-size: .15rem;
+    font-weight: bold;
+    background: #fff;
+}
+
+.login-way li {
+    flex: 1;
+    text-align: center;
+    border-bottom: solid .04rem #D1D1D1;
+    cursor: pointer;
+}
+
+.login-way .active {
+    border-bottom: solid .04rem #FF8A00;
+}
+
+.form1 {
+    padding-left: .13rem;
+    border-bottom: solid .01rem #C7C7C7;
+    background: #fff;
+}
+
+.form1 input {
+    padding: .15rem 0;
+    font-size: .15rem;
+    width: 100%;
+}
+
+.form1 div:not(:last-child) {
+    position: relative;
+    border-bottom: solid .01rem #E6E6E6;
+}
+
+.form1 .code {
+    position: absolute;
+    top: 50%;
+    right: .18rem;
+    transform: translateY(-50%);
+    width: .83rem;
+    height: .35rem;
+    line-height: .35rem;
+    border: solid .01rem #BABABA;
+    border-radius: .03rem;
+    text-align: center;
+}
+
+.sub-box {
+    margin: .15rem .1rem;
+}
+
+.sub-box button {
+    width: 100%;
+    height: .47rem;
+    line-height: .47rem;
+    background: #FF8A00;
+    color: #fff;
+    text-align: center;
+    font-size: .18rem;
+    border: 0;
+}
+
+.go-reg {
+    width: 3rem;
+    position: relative;
+    margin: 0 .1rem;
+}
+
+.go-reg a {
+    font-size: .14rem;
+    color: #FF8A00;
+}
+
+.go-reg .go-reg-r {
+    position: absolute;
+    right: 0;
+    color: #4B4B4B;
+}
+
+#form2 {
+    display: none;
+}

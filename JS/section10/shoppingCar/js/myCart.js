@@ -105,6 +105,7 @@ $(document).ready(function () {
                 myCheck.eq(i).parent().parent().remove();
             }
         }
+        totalFun()
     });
 
 

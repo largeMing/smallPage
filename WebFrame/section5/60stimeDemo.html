@@ -4,27 +4,47 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <script src="js/jquery-3.2.1.js"></script>
+    <style>
+        a {
+            text-decoration: none;
+            color: #fff;
+            padding: 5px;
+            background: #0d7114;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <script>
-    var countdown = 60;
-    function settime(obj) {
-        if (countdown == 0) {
-            obj.removeAttribute("disabled");
-            obj.value = "免费获取验证码";
-            countdown = 60;
+    /*var num = 60;
+
+    function setTime(obj) {
+        if (num == 0) {
+            obj.innerText = "免费获取验证码";
+            num = 60;
             return;
         } else {
-            obj.setAttribute("disabled", true);
-            obj.value = "重新发送(" + countdown + ")";
-            countdown--;
+            obj.innerText = num;
+            num--;
         }
         setTimeout(function () {
-                settime(obj)
+                setTime(obj)
             }
             , 1000)
-    }
+    }*/
+    var setTime;
+    $(document).ready(function(){
+        var time=60;
+        setTime=setInterval(function(){
+            if(time<=0){
+                clearInterval(setTime);
+                return;
+            }
+            time--;
+            $("#time").text(time);
+        },1000);
+    });
 </script>
 <body>
-<input type="button" id="btn" value="免费获取验证码" onclick="settime(this)"/>
+<a href="javascript:;" id="time">获取验证码</a>
 </body>
 </html>

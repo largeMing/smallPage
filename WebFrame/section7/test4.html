@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<link rel="stylesheet" href="css/style.css">
+<title>移动端触摸滑动幻灯</title>
+</head>
+<body>
+<!--slider-->
+<div id="slider-box">
+	<ul id="slider">
+		<li><img src="image/task4-1.jpg" alt="" /></li>
+		<li><img src="image/task4-2.jpg" alt="" /></li>
+		<li><img src="image/task4-3.jpg" alt="" /></li>
+	</ul>
+</div>
+
+<!--js-->
+<script src="js/zepto.min.js"></script>
+<script src="js/zepto.touchSlider.js"></script>
+<script>
+	$(function(){
+//		$('#slider-box').touchSlider();
+		$('#slider-box').touchSlider({
+			box: '#slider-box',
+			arrow: false,
+			auto: true,
+			autoTime: 2000
+		});
+	});
+</script>
+</body>
+</html>
