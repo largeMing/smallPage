@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=UTF-8>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>title</title>
+    <style>
+        .delete {
+            border: solid 1px #a1a5a6;
+            padding: 4px 8px;
+            background: #d5dbd6;
+            font-size: 14px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+<ul id="items">
+    <li>新闻全文<span class="delete">DELETE</span></li>
+    <li>奥运会<span class="delete">DELETE</span></li>
+</ul>
+<script src="js/zepto.js" type="text/javascript"></script>
+<script src="js/touch.js"></script>
+<script>
+    $('#items li').swipe(function () {
+        $(".delete").hide();
+        $(".delete",this).show()
+    })
+    $('.delete').tap(function () {
+        $(this).parent("li").remove()
+    })
+</script>

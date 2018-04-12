@@ -13,6 +13,6 @@
         clearTimeout(timeoutId);
         timeoutId = setTimeout(function () {
             setRem();
-        }, 300);
+        });
     }, false);
 })();

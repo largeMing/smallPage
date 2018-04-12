@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.header-box {
+    background: #1A88C9;
+    font-size: .32rem;
+    line-height: .85rem;
+    color: #fff;
+}
+
+.header-box img {
+    width: .53rem;
+    height: .53rem;
+    margin-left: .15rem;
+    margin-right: .18rem;
+    vertical-align: middle;
+}
+
+.article-box {
+    display: flex;
+    padding-top: .04rem;
+    color: #fff;
+    background: #222;
+    font-size: .16rem;
+    margin-bottom: 1rem;
+}
+
+.article-box h4 {
+    font-size: .32rem;
+}
+
+.article-box-l {
+    flex: 1;
+}
+
+.a-b-l-item1 {
+    position: relative;
+    width: 100%;
+    height: 2.66rem;
+    background: #FB667B;
+}
+
+.a-b-l-item1 h4 {
+    position: absolute;
+    left: .21rem;
+    top: .22rem;
+}
+
+.a-b-l-item1 img {
+    position: absolute;
+    top: .75rem;
+    left: .62rem;
+    width: 1.37rem;
+    height: 1.3rem;
+}
+
+.a-b-l-item2 {
+    margin-top: .04rem;
+    position: relative;
+    width: 100%;
+    height: 2.66rem;
+    background: #F48221;
+}
+
+.a-b-l-item2 h4 {
+    position: absolute;
+    left: .21rem;
+    top: .23rem;
+}
+
+.a-b-l-item2 img {
+    position: absolute;
+    top: .76rem;
+    left: .74rem;
+    width: 1.13rem;
+    height: 1.33rem;
+}
+
+.a-b-l-item3,
+.a-b-l-item4 {
+    margin-top: .04rem;
+    position: relative;
+    width: 100%;
+    height: 1.3rem;
+    background: #22BBE9;
+}
+
+.a-b-l-item3 h4 {
+    position: absolute;
+    top: .48rem;
+    left: 1.03rem;
+}
+
+.a-b-l-item3 img {
+    position: absolute;
+    left: .13rem;
+    top: .25rem;
+    width: .75rem;
+    height: .74rem;
+}
+
+.a-b-l-item4 h4 {
+    position: absolute;
+    top: .38rem;
+    left: 1.03rem;
+}
+
+.a-b-l-item4 img {
+    position: absolute;
+    left: .13rem;
+    top: .17rem;
+    width: .73rem;
+    height: .64rem;
+}
+
+.article-box-r {
+    flex: 1;
+    margin-left: .04rem;
+}
+
+.a-b-r-item1 {
+    position: relative;
+    width: 100%;
+    height: 1.3rem;
+    background: #DD455A;
+}
+
+.a-b-r-item1 .mfont {
+    position: absolute;
+    top: .3rem;
+    left: 1.07rem;
+    margin-bottom: .12rem;
+}
+
+.a-b-r-item1 img {
+    position: absolute;
+    top: .28rem;
+    left: .18rem;
+    width: .72rem;
+    height: .68rem;
+}
+
+.a-b-r-item2 {
+    margin-top: .05rem;
+    position: relative;
+    width: 100%;
+    height: 2.66rem;
+    background: #01CAD4;
+}
+
+.a-b-r-item2 h4 {
+    position: absolute;
+    top: .28rem;
+    left: .2rem;
+}
+
+.a-b-r-item2 img {
+    position: absolute;
+    top: .9rem;
+    left: .76rem;
+    width: 1.11rem;
+    height: 1.11rem;
+}
+
+.a-b-r-item2 p {
+    position: absolute;
+    bottom: .25rem;
+    left: .22rem;
+}
+
+.a-b-r-item3 {
+    margin-top: .05rem;
+    position: relative;
+    width: 100%;
+    height: 1.3rem;
+    background: #1BC266;
+}
+
+.a-b-r-item3 h4 {
+    position: absolute;
+    top: .48rem;
+    left: 1.09rem;
+}
+
+.a-b-r-item3 img {
+    position: absolute;
+    top: .28rem;
+    left: .23rem;
+    width: .71rem;
+    height: .75rem;
+}
+
+.a-b-r-item4 {
+    margin-top: .05rem;
+    position: relative;
+    width: 100%;
+    height: 2.64rem;
+    background: #498CFF;
+}
+
+.a-b-r-item4 h4 {
+    position: absolute;
+    top: .25rem;
+    left: .22rem;
+}
+
+.a-b-r-item4 img {
+    position: absolute;
+    top: .86rem;
+    left: .86rem;
+    width: .96rem;
+    height: .84rem;
+}
+
+
+.footer-box {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1rem;
+    background: #fff;
+    font-size: .22rem;
+    color: #666;
+    display: flex;
+    align-items: center;
+}
+
+.footer-box .active {
+    color: #1A88C9;
+}
+
+.footer-box li {
+    flex: 1;
+    text-align: center;
+}
+
+.footer-box li:nth-of-type(1) img {
+    width: .35rem;
+    height: .45rem;
+}
+
+.footer-box li:nth-of-type(2) img {
+    width: .45rem;
+    height: .45rem;
+}
+
+.footer-box li:nth-of-type(3) img {
+    width: .51rem;
+    height: .45rem;
+}
+
+.footer-box li:nth-of-type(4) img {
+    width: .50rem;
+    height: .44rem;
+}
+
+.footer-box li:nth-of-type(5) img {
+    width: .35rem;
+    height: .48rem;
+}

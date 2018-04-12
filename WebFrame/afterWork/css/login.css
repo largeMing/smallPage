@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background: #1A88C9;
+}
+
+.header-box {
+    position: relative;
+    width: 4rem;
+    height: .7rem;
+    margin: 1.65rem auto 0;
+}
+
+.header-box img {
+    width: .68rem;
+    height: .68rem;
+    vertical-align: top;
+    margin-top: .08rem;
+}
+
+.header-r {
+    position: absolute;
+    top: 0;
+    left: .88rem;
+    font-size: .12rem;
+    color: #fff;
+}
+
+.header-r h4 {
+    font-size: .42rem;
+}
+
+.list-type-box {
+    position: relative;
+    margin-top: .91rem;
+    margin-bottom: .23rem;
+    height: .15rem;
+}
+
+.list-type {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.list-type li {
+    list-style: none;
+    float: left;
+    width: .15rem;
+    height: .15rem;
+    border-radius: 50%;
+    background: #1F99E2;
+}
+
+.userForm > div:after,
+.list-type:after {
+    clear: both;
+    content: ".";
+    visibility: hidden;
+    height: 0;
+    display: block;
+}
+
+.list-type li:not(:last-child) {
+    margin-right: .22rem;
+}
+
+.list-type .active {
+    background: #F7AD00;
+}
+
+.userForm {
+    margin: 0 auto;
+    width: 4.8rem;
+    padding: 0 .15rem;
+    border-radius: .05rem;
+    background: #fff;
+}
+
+.userForm input {
+    border: 0;
+    float: left;
+    font-size: .24rem;
+    padding-top: .1rem;
+}
+
+.userForm > div:not(:last-child) {
+    border-bottom: dashed .01rem #ddd;
+}
+
+.user {
+    padding-top: .2rem;
+    padding-bottom: .15rem;
+}
+
+.user-l {
+    float: left;
+    font-size: .36rem;
+    color: #747474;
+    margin-right: .26rem;
+}
+
+.user-l img {
+    width: .36rem;
+    height: .36rem;
+    margin-right: .12rem;
+    vertical-align: middle;
+}
+
+.userForm .sub {
+    width: 4.8rem;
+    height: .64rem;
+    margin: .45rem auto 0;
+    color: #fff;
+    font-size: .32rem;
+    background: #1778B3;
+    border-radius: .05rem;
+    padding: 0;
+}
+
+.footer-font {
+    position: fixed;
+    bottom: .25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: .15rem;
+    color: #fff;
+}

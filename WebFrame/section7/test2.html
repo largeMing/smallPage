@@ -40,15 +40,12 @@
         </div>
     </div>
 </div>
-<script type="text/javascript" src="js/zepto.min.js"></script>
+<script type="text/javascript" src="js/zepto.js"></script>
 <script type="text/javascript">
     $(".chest-close").click(function(){
-
         $(this).addClass("shake");
         var that=this;
-
         this.addEventListener("webkitAnimationEnd", function(){
-
             $(that).closest(".open-has").addClass("opened");
             setTimeout(function(){
                 $(that).removeClass("show");
@@ -56,9 +53,6 @@
             },200)
         }, false);
     })
-
 </script>
-
-
 </body>
 </html>

@@ -63,7 +63,6 @@ li {
 
 .footer-box {
     width: 100%;
-    height: 688px;
     background: #222;
     padding: 150px 0;
     box-sizing: border-box;
@@ -72,12 +71,12 @@ li {
 .footer-content {
     margin: 0 auto;
 }
+
 @media (min-width: 768px) {
     .nav-box {
         padding: 0 125px 0 140px;
         color: #fff;
     }
-
 }
 
 @media (max-width: 767px) {
@@ -88,5 +87,9 @@ li {
 
     .nav-tog {
         margin: 16px 0;
+    }
+
+    .footer-btn {
+        margin-top: 20px;
     }
 }

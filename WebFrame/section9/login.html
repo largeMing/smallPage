@@ -26,8 +26,8 @@
                                                                            alt=""><span>登录</span>
     </div>
     <ul class="login-way">
-        <li class="active">普通登录</li>
-        <li>验证码快捷登录</li>
+        <li class="pt-login active">普通登录</li>
+        <li class="code-login">验证码快捷登录</li>
     </ul>
     <div id="form1">
         <form action="" class="form1">
@@ -56,6 +56,19 @@
         </div>
     </div>
 </article>
+<script src="js/zepto.js"></script>
 <script src="js/resize.js"></script>
+<script>
+    $(".pt-login").tap(function () {
+        $("#form1").show();
+        $("#form2").hide();
+        $(this).addClass("active").siblings().removeClass("active")
+    })
+    $(".code-login").tap(function () {
+        $("#form2").show();
+        $("#form1").hide();
+        $(this).addClass("active").siblings().removeClass("active")
+    })
+</script>
 </body>
 </html>
