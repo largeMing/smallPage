@@ -12,7 +12,7 @@
 <body>
 <header class="header-box">
     <div class="header-l">
-        <img src="img/logo2.png" class="logo2">
+        <a href="index.html"><img src="img/logo2.png" class="logo2"></a>
         <span>北京</span>
     </div>
     <div class="header-r">
@@ -22,8 +22,7 @@
 </header>
 <article>
     <div class="position">
-        <span>首页</span><img src="img/right.png" alt=""><span>我的</span><img src="img/right.png"
-                                                                           alt=""><span>登录</span>
+        <span>首页</span><span>我的</span><span>登录</span>
     </div>
     <ul class="login-way">
         <li class="pt-login active">普通登录</li>
@@ -31,25 +30,27 @@
     </ul>
     <div id="form1">
         <form action="" class="form1">
-            <div><input type="text" placeholder="请输入手机号码"></div>
-            <div><input type="password" placeholder="请输入密码"></div>
+            <div><input type="text" placeholder="请输入手机号码" required></div>
+            <div><input type="password" placeholder="请输入密码" required></div>
+            <div class="sub-box">
+                <button type="submit">立即登录</button>
+            </div>
         </form>
-        <div class="sub-box">
-            <button>立即登录</button>
-        </div>
         <div class="go-reg">
-            <a href="">立即注册</a>
-            <a href="" class="go-reg-r">忘记密码</a>
+            <a href="register.html">立即注册</a>
+            <a href="findPassword.html" class="go-reg-r">忘记密码</a>
         </div>
     </div>
     <div id="form2">
         <form action="" class="form1">
-            <div><input type="text" placeholder="请输入手机号码"><div class="code">发送验证码</div></div>
-            <input type="password" placeholder="请输入短信中的验证码">
+            <div><input type="text" placeholder="请输入手机号码" required>
+                <input type="button" value="发送验证码" class="code" onclick="setTime(this)">
+            </div>
+            <input type="password" placeholder="请输入短信中的验证码" required>
+            <div class="sub-box">
+                <button type="submit">验证并登录</button>
+            </div>
         </form>
-        <div class="sub-box">
-            <button>验证并登录</button>
-        </div>
         <div class="go-reg">
             <a href="register.html">立即注册</a>
             <a href="findPassword.html" class="go-reg-r">忘记密码</a>
@@ -57,18 +58,20 @@
     </div>
 </article>
 <script src="js/zepto.js"></script>
+<script src="js/touch.js"></script>
 <script src="js/resize.js"></script>
+<script src="js/60stime.js"></script>
 <script>
     $(".pt-login").tap(function () {
         $("#form1").show();
         $("#form2").hide();
         $(this).addClass("active").siblings().removeClass("active")
-    })
+    });
     $(".code-login").tap(function () {
         $("#form2").show();
         $("#form1").hide();
         $(this).addClass("active").siblings().removeClass("active")
-    })
+    });
 </script>
 </body>
 </html>

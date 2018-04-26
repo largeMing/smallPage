@@ -5,20 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="566c3a39-9808-42b5-ace8-60c51425c6dd" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section7/js/touch.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section7/tap-demo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section7/transform-demo.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/WebFrame/section9/js/zepto.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/WebFrame/section4/.idea/workspace.xml" afterPath="$PROJECT_DIR$/WebFrame/section4/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/WebFrame/section4/css/test4.css" afterPath="$PROJECT_DIR$/WebFrame/section4/css/test4.css" />
-      <change beforePath="$PROJECT_DIR$/WebFrame/section4/test4.html" afterPath="$PROJECT_DIR$/WebFrame/section4/test4.html" />
-      <change beforePath="$PROJECT_DIR$/WebFrame/section5/css/index.css" afterPath="$PROJECT_DIR$/WebFrame/section5/css/index.css" />
-      <change beforePath="$PROJECT_DIR$/WebFrame/section5/index.html" afterPath="$PROJECT_DIR$/WebFrame/section5/index.html" />
-      <change beforePath="$PROJECT_DIR$/WebFrame/section7/js/zepto.js" afterPath="$PROJECT_DIR$/WebFrame/section7/js/zepto.js" />
-      <change beforePath="$PROJECT_DIR$/WebFrame/section7/test2.html" afterPath="$PROJECT_DIR$/WebFrame/section7/test2.html" />
-      <change beforePath="$PROJECT_DIR$/WebFrame/section7/test4.html" afterPath="$PROJECT_DIR$/WebFrame/section7/test4.html" />
+      <change beforePath="$PROJECT_DIR$/AJAX-demo/js/city.js" afterPath="$PROJECT_DIR$/AJAX-demo/js/city.js" />
+      <change beforePath="$PROJECT_DIR$/AJAX-demo/json/userData" afterPath="$PROJECT_DIR$/AJAX-demo/json/userData" />
+      <change beforePath="$PROJECT_DIR$/H5/.idea/workspace.xml" afterPath="$PROJECT_DIR$/H5/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/H5/TR/.idea/workspace.xml" afterPath="$PROJECT_DIR$/H5/TR/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/LiZhen/第八章/css/wuba.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/LiZhen/第八章/html/58.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/LiZhen/第八章/image/1_01.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/LiZhen/第八章/image/2_02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/LiZhen/第八章/image/3_05.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/LiZhen/第八章/image/4_08.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/LiZhen/第八章/image/5_02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/LiZhen/第八章/image/6_08.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/LiZhen/第八章/image/8_02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/LiZhen/第八章/image/9_14.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/LiZhen/第八章/js/htmlFontSize.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/.idea/workspace.xml" afterPath="$PROJECT_DIR$/WebFrame/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section9/css/findPassword.css" afterPath="$PROJECT_DIR$/WebFrame/section9/css/findPassword.css" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section9/css/index.css" afterPath="$PROJECT_DIR$/WebFrame/section9/css/index.css" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section9/css/login.css" afterPath="$PROJECT_DIR$/WebFrame/section9/css/login.css" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section9/css/myHouse.css" afterPath="$PROJECT_DIR$/WebFrame/section9/css/myHouse.css" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section9/css/public.css" afterPath="$PROJECT_DIR$/WebFrame/section9/css/public.css" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section9/css/rentalDetails.css" afterPath="$PROJECT_DIR$/WebFrame/section9/css/rentalDetails.css" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section9/css/rentalList.css" afterPath="$PROJECT_DIR$/WebFrame/section9/css/rentalList.css" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section9/css/reset.css" afterPath="$PROJECT_DIR$/WebFrame/section9/css/reset.css" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section9/css/secondHandDetails.css" afterPath="$PROJECT_DIR$/WebFrame/section9/css/secondHandDetails.css" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section9/css/secondHandList.css" afterPath="$PROJECT_DIR$/WebFrame/section9/css/secondHandList.css" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section9/findPassword.html" afterPath="$PROJECT_DIR$/WebFrame/section9/findPassword.html" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section9/img/Apple-Logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section9/img/ok.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section9/index.html" afterPath="$PROJECT_DIR$/WebFrame/section9/index.html" />
       <change beforePath="$PROJECT_DIR$/WebFrame/section9/login.html" afterPath="$PROJECT_DIR$/WebFrame/section9/login.html" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section9/my.html" afterPath="$PROJECT_DIR$/WebFrame/section9/my.html" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section9/myHouse.html" afterPath="$PROJECT_DIR$/WebFrame/section9/myHouse.html" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section9/myLogin.html" afterPath="$PROJECT_DIR$/WebFrame/section9/myLogin.html" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section9/register.html" afterPath="$PROJECT_DIR$/WebFrame/section9/register.html" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section9/rentalDetails.html" afterPath="$PROJECT_DIR$/WebFrame/section9/rentalDetails.html" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section9/rentalList.html" afterPath="$PROJECT_DIR$/WebFrame/section9/rentalList.html" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section9/secondHandDetails.html" afterPath="$PROJECT_DIR$/WebFrame/section9/secondHandDetails.html" />
+      <change beforePath="$PROJECT_DIR$/WebFrame/section9/secondHandList.html" afterPath="$PROJECT_DIR$/WebFrame/section9/secondHandList.html" />
+      <change beforePath="$PROJECT_DIR$/wayHome/.idea/workspace.xml" afterPath="$PROJECT_DIR$/wayHome/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/wayHome/js/index.js" afterPath="$PROJECT_DIR$/wayHome/js/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,28 +62,7 @@
     <favorites_list name="web10-2" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="test1.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebFrame/section6/test1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test1.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebFrame/section6/css/test1.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -107,8 +114,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WebFrame/section7/demo3.html" />
-        <option value="$PROJECT_DIR$/WebFrame/section5/60stimeDemo.html" />
         <option value="$PROJECT_DIR$/WebFrame/section7/css/global.css" />
         <option value="$PROJECT_DIR$/WebFrame/section2/test2.html" />
         <option value="$PROJECT_DIR$/WebFrame/section2/demo.html" />
@@ -158,6 +163,8 @@
         <option value="$PROJECT_DIR$/WebFrame/section7/js/zepto.js" />
         <option value="$PROJECT_DIR$/WebFrame/section5/index.html" />
         <option value="$PROJECT_DIR$/WebFrame/section5/css/index.css" />
+        <option value="$PROJECT_DIR$/AJAX-demo/js/city.js" />
+        <option value="$PROJECT_DIR$/WebFrame/section9/js/60stime.js" />
       </list>
     </option>
   </component>
@@ -174,8 +181,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="193" />
-    <option name="y" value="16" />
+    <option name="x" value="236" />
+    <option name="y" value="19" />
     <option name="width" value="1584" />
     <option name="height" value="997" />
   </component>
@@ -219,7 +226,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,13 +243,13 @@
               <item name="web10-2" type="b2602c69:ProjectViewProjectNode" />
               <item name="web10-2" type="462c0819:PsiDirectoryNode" />
               <item name="WebFrame" type="462c0819:PsiDirectoryNode" />
-              <item name="section6" type="462c0819:PsiDirectoryNode" />
+              <item name="section9" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -505,11 +512,13 @@
       <workItem from="1522639212556" duration="248000" />
       <workItem from="1522651538961" duration="95000" />
       <workItem from="1522652654064" duration="713000" />
+      <workItem from="1523696591930" duration="29000" />
+      <workItem from="1524729893218" duration="2938000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1543494000" />
+    <option name="totallyTimeSpent" value="1546461000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -521,9 +530,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="193" y="16" width="1584" height="997" extended-state="1" />
+    <frame x="236" y="19" width="1584" height="997" extended-state="1" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1989597" sideWeight="0.48513675" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1989597" sideWeight="0.48513675" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32920793" sideWeight="0.497669" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32839224" sideWeight="0.502331" order="9" side_tool="true" content_ui="tabs" />
@@ -574,36 +583,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebFrame/section9/img/xiazai.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebFrame/section9/img/xin.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebFrame/section9/img/ok.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebFrame/section9/img/my.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebFrame/section9/img/map.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebFrame/section9/img/logo.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebFrame/section4/test2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -815,13 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebFrame/section9/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1325">
-          <caret line="68" column="27" lean-forward="true" selection-start-line="68" selection-start-column="27" selection-end-line="68" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebFrame/section7/js/touch.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6397">
@@ -875,9 +847,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="119" column="64" lean-forward="true" selection-start-line="119" selection-start-column="64" selection-end-line="119" selection-end-column="64" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#article#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -885,22 +854,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
           <caret line="1117" column="1" lean-forward="false" selection-start-line="1117" selection-start-column="1" selection-end-line="1117" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/H5/TR/new-index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1728">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section6/test1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebFrame/section6/css/test1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
+        <state relative-caret-position="698">
           <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebFrame/section6/test1.html">
+    <entry file="file://$PROJECT_DIR$/AJAX-demo/ajax.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AJAX-demo/city.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AJAX-demo/js/city.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section5/60stimeDemo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section9/js/60stime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebFrame/section9/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
           <folding />
         </state>
       </provider>

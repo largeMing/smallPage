@@ -16,6 +16,17 @@
         <a href="my.html"><img src="img/my.jpg"></a>
         <img src="img/xiazai.jpg">
     </div>
+    <div class="gg">
+        <img src="img/close.png" alt="" class="close">
+        <a href="" class="down">免费下载</a>
+        <div class="gg-middle">
+            <img src="img/download.png" alt="">
+            <div class="gg-middle-r">
+                <span>找房无忧</span>
+                <p>市场行情，一手掌握！</p>
+            </div>
+        </div>
+    </div>
 </header>
 <article>
     <!--宣传图-->
@@ -58,7 +69,7 @@
                 <img src="img/img1.jpg" class="hot-house-img-l">
                 <div class="hot-house-r">
                     <h4>文化部最T中间层 一层带各种东西啊实打实大</h4>
-                    <p>2室1厅<label>96</label>m<span class="square">2</span>南北 <span
+                    <p>2室1厅<label>96</label>㎡南北 <span
                             class="price1"><label>1105</label>万</span></p>
                     <p class="address"><span>红庙北里</span><span class="price2"><label>14268</label>元/平</span></p>
                     <p class="home-class"><a href="">学区房</a><a href="">独家</a></p>
@@ -68,7 +79,7 @@
                 <img src="img/img2.png" class="hot-house-img-l">
                 <div class="hot-house-r">
                     <h4>光大水墨 精装复式 稀缺各种东西啊实打实大</h4>
-                    <p>2室1厅<label>96</label>m<span class="square">2</span>南北 <span
+                    <p>2室1厅<label>96</label>㎡南北 <span
                             class="price1"><label>280</label>万</span></p>
                     <p class="address"><span>光大水墨</span><span class="price2"><label>14268</label>元/平</span></p>
                     <p class="home-class"><a href="">学区房</a><a href="">独家</a><a href="">满五唯一</a></p>
@@ -78,7 +89,7 @@
                 <img src="img/img3.png" class="hot-house-img-l">
                 <div class="hot-house-r">
                     <h4>南北通透两居 精装修 无各种东西啊实打实大</h4>
-                    <p>2室1厅<label>96</label>m<span class="square">2</span>南北 <span
+                    <p>2室1厅<label>96</label>㎡南北 <span
                             class="price1"><label>320</label>万</span></p>
                     <p class="address"><span>北京新天地</span><span class="price2"><label>14268</label>元/平</span></p>
                     <p class="home-class"><a href="">地铁房</a><a href="">独家</a></p>
@@ -114,7 +125,7 @@
     <div class="footer-btm">
         <div class="client-side">
             <div class="client-side-l">
-                <img src="img/Apple-Logo.png" alt="">
+                <img src="img/apple.png" alt="">
                 <div class="font">
                     <div>iphone</div>
                     <div>客户端</div>
@@ -128,10 +139,18 @@
                 </div>
             </div>
         </div>
-        <p style="text-align: center;margin-bottom: .08rem">北京找房无忧房地产经纪有限公司</p>
-        <p style="text-align: center;padding-bottom: .14rem">网络经营许可证 京ICP备20160812号-12</p>
+        <p>北京找房无忧房地产经纪有限公司</p>
+        <p>网络经营许可证 京ICP备20160812号-12</p>
+
     </div>
 </footer>
 <script src="js/resize.js"></script>
+<script src="js/zepto.js"></script>
+<script src="js/touch.js"></script>
+<script>
+    $(".close").tap(function () {
+        $(".gg").hide()
+    })
+</script>
 </body>
 </html>

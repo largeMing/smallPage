@@ -17,7 +17,7 @@ $(function () {
         error: function () {
             alert("AJAX请求失败!")
         }
-    })
+    });
 
     function userAJAX(cont) {
         $.each(cont, function (i) {

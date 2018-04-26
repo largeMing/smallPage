@@ -12,7 +12,7 @@
 <body>
 <header class="header-box">
     <div class="header-l">
-        <img src="img/logo2.png" class="logo2">
+        <a href="index.html"><img src="img/logo2.png" class="logo2"></a>
         <span>北京</span>
     </div>
     <div class="header-r">
@@ -29,12 +29,123 @@
         </div>
     </div>
     <!--区域,价格等列表-->
-    <ul class="area-box">
-        <li class="active"><span>区域</span></li>
-        <li><span>价格</span></li>
-        <li><span>房型</span></li>
-        <li><span>更多</span></li>
-    </ul>
+    <div id="areaBox" class="">
+        <ul class="area-list">
+            <li><span>区域</span></li>
+            <li><span>价格</span></li>
+            <li><span>房型</span></li>
+            <li><span>更多</span></li>
+        </ul>
+        <!--区域的 点击列表-->
+        <div class="child-area-box">
+            <div class="child-left">
+                <div class="active">区域</div>
+                <div>地铁</div>
+            </div>
+            <ul class="child-middle">
+                <li>附近</li>
+                <li class="active">不限</li>
+                <li>朝阳</li>
+                <li>海淀</li>
+                <li>昌平</li>
+                <li>丰台</li>
+                <li>石景山</li>
+            </ul>
+            <ul class="child-right">
+                <li class="active">不限</li>
+            </ul>
+        </div>
+        <!--价格的 点击列表-->
+        <ul class="child-price-list">
+            <li>不限</li>
+            <li>100万以下</li>
+            <li>100万-150万</li>
+            <li>150万-200万</li>
+            <li>200万-250万</li>
+            <li>250万-300万</li>
+            <li>
+                自定义价格
+                <div class="custom-price">
+                    <input type="text" class="price-input" placeholder="最小"><i>-</i>
+                    <input type="text" class="price-input" placeholder="最大">
+                    <input type="button" class="confirm-input" value="确定">
+                </div>
+            </li>
+        </ul>
+        <!--房型的 点击列表-->
+        <div class="child-houseType-box">
+            <ul class="child-houseType-list">
+                <li>不限</li>
+                <li>1室<input type="checkbox" class="def-check"></li>
+                <li>2室<input type="checkbox"  class="def-check"></li>
+                <li>3室<input type="checkbox"  class="def-check"></li>
+                <li>4室<input type="checkbox"  class="def-check"></li>
+                <li>5室<input type="checkbox"  class="def-check"></li>
+            </ul>
+            <div><button class="sure-btn">确定</button></div>
+        </div>
+        <!--更多的 点击列表-->
+        <div class="child-more-box">
+            <ul class="child-more-list">
+                <li>
+                    <p>区域</p>
+                    <div class="c-m-area">
+                        <span>南</span>
+                        <span>南北</span>
+                        <span>东</span>
+                        <span>西</span>
+                        <span>北</span>
+                    </div>
+                </li>
+                <li>
+                    <p>面积（平米）</p>
+                    <div class="c-m-area">
+                        <span>50以下</span>
+                        <span>50-70</span>
+                        <span>70-90</span>
+                        <span>90-110</span>
+                        <span>110-130</span>
+                        <span>130-150</span>
+                        <span>150-200</span>
+                        <span>200以上</span>
+                    </div>
+                </li>
+                <li>
+                    <p>标签</p>
+                    <div class="c-m-area">
+                        <span>学区房</span>
+                        <span>地铁房</span>
+                        <span>不限购</span>
+                        <span>不限购</span>
+                        <span>满五唯一</span>
+                        <span>降价</span>
+                        <span>新上</span>
+                        <span>独家</span>
+                        <span>有钥匙</span>
+                    </div>
+                </li>
+                <li>
+                    <p>楼龄</p>
+                    <div class="c-m-area">
+                        <span>5年以内</span>
+                        <span>10年以内</span>
+                        <span>10-20年</span>
+                        <span>20年以上</span>
+                    </div>
+                </li>
+                <li>
+                    <p>楼层</p>
+                    <div class="c-m-area">
+                        <span>低楼层</span>
+                        <span>中楼层</span>
+                        <span>高楼层</span>
+                    </div>
+                </li>
+            </ul>
+            <button class="empty-btn">清空条件</button>
+            <button class="confirm-btn">确定</button>
+        </div>
+    </div>
     <!--房源-->
     <ul class="home-source">
         <li>
@@ -42,7 +153,7 @@
             <div class="home-source-r">
                 <h4>西便门外大街 2室1厅 89平</h4>
                 <p class="orientation">南北 高楼层/6层</p>
-                <p>签约价格：<label>13244</label>元/平<span><label>1105</label>万</span></p>
+                <p>签约价格：<label>13244</label>元/平<span class="home-source-price"><label>1105</label>万</span></p>
                 <p>签约日期：2015年11月10日</p>
             </div>
         </li>
@@ -73,7 +184,7 @@
     <div class="footer-btm">
         <div class="client-side">
             <div class="client-side-l">
-                <img src="img/Apple-Logo.png" alt="">
+                <img src="img/apple.png" alt="">
                 <div class="font">
                     <div>iphone</div>
                     <div>客户端</div>
@@ -87,10 +198,14 @@
                 </div>
             </div>
         </div>
-        <p style="text-align: center;margin-bottom: .08rem">北京找房无忧房地产经纪有限公司</p>
-        <p style="text-align: center;padding-bottom: .14rem">网络经营许可证 京ICP备20160812号-12</p>
+        <p>北京找房无忧房地产经纪有限公司</p>
+        <p>网络经营许可证 京ICP备20160812号-12</p>
     </div>
 </footer>
 <script src="js/resize.js"></script>
+<script src="js/zepto.js"></script>
+<script src="js/touch.js"></script>
+<script src="js/ajax.js"></script>
+<script src="js/secondHandList.js"></script>
 </body>
 </html>

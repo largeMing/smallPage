@@ -2,7 +2,7 @@ ul {
     margin-bottom: 0;
 }
 
-#userCarousel {
+.userCarousel-box {
     position: relative;
 }
 
@@ -55,6 +55,7 @@ ul {
 .introduce p {
     color: #aaa;
     margin-bottom: .1rem;
+    font-size: .12rem;
 }
 
 .null {
@@ -77,6 +78,7 @@ ul {
 .home-source li div {
     flex: 1;
     color: #222;
+    font-size: .15rem;
 }
 
 .home-source li div .h-s-l {
@@ -239,8 +241,9 @@ ul {
 }
 
 .recommend-title {
-    padding: .15rem;
+    padding: .15rem 0;
     border-bottom: solid .01rem #E5E5E5;
+    font-size: .16rem;
 }
 
 .recommend-ul img {
@@ -286,6 +289,7 @@ ul {
 
 .intro-box-r .price-l {
     font-weight: 600;
+    font-size: .12rem;
 }
 
 .intro-box-r .price-r label {
@@ -295,6 +299,12 @@ ul {
 .intro-box-r .address {
     color: #8B8B8B;
     font-size: .11rem;
+    position: relative;
+    top: -.04rem;
+}
+
+.address label {
+    font-weight: inherit;
 }
 
 .intro-box-r .address span {

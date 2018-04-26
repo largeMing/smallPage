@@ -26,8 +26,11 @@
 }
 
 .attention-list-r {
+    position: relative;
+    top: -.03rem;
     float: left;
-    width: 1.85rem;
+    width: 1.8rem;
+    font-size: .12rem;
 }
 
 .attention-list-r .attention-list-title {

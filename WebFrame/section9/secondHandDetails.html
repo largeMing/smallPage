@@ -13,7 +13,7 @@
 <body>
 <header class="header-box">
     <div class="header-l">
-        <img src="img/logo2.png" class="logo2">
+        <a href="index.html"><img src="img/logo2.png" class="logo2"></a>
         <span>北京</span>
     </div>
     <div class="header-r">
@@ -23,29 +23,39 @@
 </header>
 <article>
     <!--轮播图-->
-    <div id="userCarousel" class="carousel" data-ride="carousel" data-interval="2000">
-        <ul class="carousel-inner" style="margin-bottom: 0">
-            <li class="item active">
-                <a href=""><img src="img/shl-img.png" alt=""></a>
-            </li>
-            <li class="item">
-                <a href=""><img src="img/shl-img.png" alt=""></a>
-            </li>
-            <li class="item">
-                <a href=""><img src="img/shl-img.png" alt=""></a>
-            </li>
-            <li class="item">
-                <a href=""><img src="img/shl-img.png" alt=""></a>
-            </li>
-            <li class="item">
-                <a href=""><img src="img/shl-img.png" alt=""></a>
-            </li>
-        </ul>
-        <p class="num">1/5</p>
+    <div class="userCarousel-box">
+        <div id="userCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+            <ul class="carousel-inner" style="margin-bottom: 0">
+                <li class="item active">
+                    <img src="img/shl-img.png" alt="">
+                </li>
+                <li class="item">
+                    <img src="img/banner.png" alt="">
+                </li>
+                <li class="item">
+                    <img src="img/banner2.png" alt="">
+                </li>
+                <li class="item">
+                    <img src="img/shl-img1.png" alt="">
+                </li>
+                <li class="item">
+                    <img src="img/banner.png" alt="">
+                </li>
+            </ul>
+        </div>
+        <div id="userCarouse2" class="carousel" data-ride="carousel" data-interval="2000">
+            <ul class="carousel-inner num">
+                <li class="item active"><span>1/5</span></li>
+                <li class="item"><span>2/5</span></li>
+                <li class="item"><span>3/5</span></li>
+                <li class="item"><span>4/5</span></li>
+                <li class="item"><span>5/5</span></li>
+            </ul>
+        </div>
     </div>
     <div class="introduce">
         <h4>天鹅湾小区精装两居，满五唯一，业主换房急售</h4>
-        <div class="introduce-price"><label>576</label> 万元  (单价：46327元/平)<img src="img/phone.png" alt=""></div>
+        <div class="introduce-price"><label>576</label> 万元 (单价：46327元/平)<img src="img/phone.png" alt=""></div>
         <p>挂牌时间2015年6月20日</p>
         <div><a href="">学区房</a><a href="">独家</a><a href="">满五唯一</a></div>
     </div>
@@ -70,7 +80,7 @@
         </li>
         <li>
             <div><span class="h-s-l">首付：</span>123万</div>
-            <div><span class="h-s-l">月供：</span>15683元 </div>
+            <div><span class="h-s-l">月供：</span>15683元</div>
         </li>
         <li>
             <div><span class="h-s-l">地铁：</span>离西二旗地铁站800米</div>
@@ -171,7 +181,7 @@
     <div class="footer-btm">
         <div class="client-side">
             <div class="client-side-l">
-                <img src="img/Apple-Logo.png" alt="">
+                <img src="img/apple.png" alt="">
                 <div class="font">
                     <div>iphone</div>
                     <div>客户端</div>
@@ -185,23 +195,12 @@
                 </div>
             </div>
         </div>
-        <p style="text-align: center;margin-bottom: .08rem">北京找房无忧房地产经纪有限公司</p>
-        <p style="text-align: center;padding-bottom: .14rem">网络经营许可证 京ICP备20160812号-12</p>
+        <p>北京找房无忧房地产经纪有限公司</p>
+        <p>网络经营许可证 京ICP备20160812号-12</p>
     </div>
 </footer>
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/resize.js"></script>
-<script>
-  /*  $(function () {
-        function setNum() {
-            $(".num").html(($(".carousel-inner .active").index()+1)+"/5");
-            setInterval(function () {
-                setNum()
-            },1000)
-        }
-        setNum()
-    })*/
-</script>
 </body>
 </html>

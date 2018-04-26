@@ -23,6 +23,7 @@
     width: 2.4rem;
     height: .3rem;
     border-right: solid .01rem #CFCFCF;
+    font-size: .18rem;
 }
 
 .search img {
@@ -60,7 +61,7 @@
 .area-ul li span:after {
     position: absolute;
     right: 0;
-    top: .04rem;
+    top: .08rem;
     content: "";
     width: 0;
     height: 0;
@@ -88,8 +89,8 @@
 .renting-intro img {
     width: 1rem;
     float: left;
-    height: .74rem;
-    margin-right: .09rem;
+    height: 100%;
+    margin-right: .07rem;
 }
 
 .renting-intro li {
@@ -109,26 +110,33 @@
 }
 
 .renting-intro-r {
-    width: 1.8rem;
+    width: 1.85rem;
     float: left;
 }
 
 .renting-intro-r h4 {
+    position: relative;
+    top: -.04rem;
     color: #111;
     font-size: .15rem;
     margin-bottom: .04rem;
+    font-weight: inherit;
 }
 
 .renting-intro-r p {
+    position: relative;
+    top: -.05rem;
     color: #626262;
     margin-bottom: .01rem;
+    font-size: .12rem;
 }
 
 .renting-intro-r .style-span {
-    border: solid .01rem #6DA719;
+    border: solid .005rem #6DA719;
     color: #6DA719;
-    padding: .025rem .04rem;
-    border-radius: .04rem;
+    padding: .02rem .04rem;
+    border-radius: .02rem;
+    font-size: .1rem;
 }
 
 .renting-intro-r-btm {

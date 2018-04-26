@@ -24,12 +24,20 @@ body {
 }
 
 .form1 {
+    position: relative;
     padding-left: .13rem;
     border-bottom: solid .01rem #C7C7C7;
     background: #fff;
 }
 
-.form1 input {
+.form1 input[type=text],
+.form1 input[type=password] {
+    padding: .15rem 0;
+    font-size: .15rem;
+    width: 100%;
+}
+
+.form1 input:not(input[type=button]) {
     padding: .15rem 0;
     font-size: .15rem;
     width: 100%;
@@ -45,16 +53,22 @@ body {
     top: 50%;
     right: .18rem;
     transform: translateY(-50%);
-    width: .83rem;
-    height: .35rem;
+    padding: 0 .1rem;
     line-height: .35rem;
     border: solid .01rem #BABABA;
-    border-radius: .03rem;
-    text-align: center;
+    border-radius: .01rem;
+    font-size: .13rem;
+    box-sizing: border-box;
+    background: #fff;
 }
 
 .sub-box {
-    margin: .15rem .1rem;
+    position: absolute;
+    bottom: -.6rem;
+    background: #F0EFED;
+    width: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .sub-box button {
@@ -69,9 +83,10 @@ body {
 }
 
 .go-reg {
+    float: left;
     width: 3rem;
     position: relative;
-    margin: 0 .1rem;
+    margin: .75rem .1rem 0;
 }
 
 .go-reg a {

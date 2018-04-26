@@ -12,25 +12,26 @@
 <body>
 <header class="header-box">
     <div class="header-l">
-        <img src="img/logo2.png" class="logo2">
+        <a href="index.html"><img src="img/logo2.png" class="logo2"></a>
         <span>北京</span>
     </div>
     <div class="header-r">
-        <img src="img/my.jpg">
+        <a href="my.html"><img src="img/my.jpg"></a>
         <img src="img/xiazai.jpg">
     </div>
 </header>
 <article>
     <div class="position">
-        <span>首页</span><img src="img/right.png" alt=""><span>我的</span><img src="img/right.png" alt=""><span>注册</span>
+        <span>首页</span><span>我的</span><span>注册</span>
     </div>
     <form action="" class="userForm">
-        <div><input type="text" placeholder="请输入手机号码"><div class="code">发送验证码</div></div>
-        <div><input type="text" placeholder="请输入短信中的验证码"></div>
-        <div><input type="text" placeholder="输入新密码"></div>
+        <div><input type="text" placeholder="请输入手机号码" required><input type="button" value="发送验证码" class="code" onclick="setTime(this)"></div>
+        <div><input type="text" placeholder="请输入短信中的验证码" required></div>
+        <div><input type="text" placeholder="输入新密码" required></div>
+        <button href="register.html" class="sub-btn">立即注册</button>
     </form>
-    <a href="login.html" class="sub-btn">立即注册</a>
 </article>
 <script src="js/resize.js"></script>
+<script src="js/60stime.js"></script>
 </body>
 </html>

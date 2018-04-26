@@ -57,14 +57,28 @@
     color: #575757;
 }
 
-.home-intro-box-r img {
+/*.home-intro-box-r img {
     width: .19rem;
     height: .19rem;
     margin-bottom: .06rem;
-}
+}*/
 
 .home-intro-box-r-cont {
     margin-top: .175rem;
+}
+
+.home-intro-box-r-cont .def-xin {
+    margin-left: .25rem;
+    width: .19rem;
+    height: .19rem;
+    background: url("../img/rent-xin.png") no-repeat center;
+    background-size: .19rem .19rem;
+    margin-bottom: .06rem;
+}
+
+.home-intro-box-r-cont .check-xin {
+    background: url("../img/xin2.png") no-repeat center;
+    background-size: .19rem .19rem;
 }
 
 .home-price {

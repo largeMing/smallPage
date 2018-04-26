@@ -14,6 +14,7 @@
     width: 2.9rem;
     height: .35rem;
     padding-left: .3rem;
+    font-size: .13rem;
     background: #fff url("../img/seach.jpg") no-repeat .11rem;
     background-size: .13rem .13rem;
     border-radius: .05rem;
@@ -41,6 +42,7 @@
 
 .used-home p {
     text-align: center;
+    font-size: .12rem;
 }
 
 .publicity-img2 {
@@ -112,6 +114,8 @@
 }
 
 .hot-house-r h4 {
+    position: relative;
+    top: -.04rem;
     width: 1.87rem;
     white-space: nowrap;
     overflow: hidden;
@@ -120,25 +124,31 @@
     margin-bottom: .05rem;
 }
 
-.square {
-    position: relative;
-    top: -.02rem;
-    font-size: .08rem;
-}
-
 .price1 {
-    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
     color: #FF8A00;
-    font-size: .1rem;
+    font-size: .11rem;
 }
 
 .price1 label {
-    font-size: .15rem;
     font-weight: bold;
+    font-size: .15rem;
 }
 
 .hot-house-r p {
+    position: relative;
+    top: -.04rem;
     margin-bottom: .05rem;
+}
+
+.hot-house-r p:nth-of-type(1) {
+    font-size: .12rem;
+}
+
+.hot-house-r p:nth-of-type(2) {
+    font-size: .11rem;
 }
 
 .address {
@@ -146,8 +156,10 @@
 }
 
 .price2 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
     color: #999;
-    float: right;
 }
 
 .home-class a {
@@ -155,6 +167,7 @@
     background: #F4F7F9;
     padding: .02rem .035rem;
     margin-right: .05rem;
+    font-size: .11rem;
 }
 
 .null {
@@ -209,4 +222,62 @@
 
 .classify li div:not(:last-child) {
     margin-bottom: .16rem;
+}
+
+.gg {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: .5rem;
+    background: rgba(0,0,0,.5);
+    z-index: 100;
+}
+
+.close {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: .15rem;
+    height: .15rem;
+}
+
+.down {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1.1rem;
+    line-height: .5rem;
+    text-align: center;
+    background: #FF8A00;
+    color: #fff;
+    font-size: .18rem;
+}
+
+.gg-middle {
+    position: absolute;
+    left: .2rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.gg-middle img {
+    width: .3rem;
+    height: .3rem;
+}
+
+.gg-middle-r {
+    position: absolute;
+    top: 50%;
+    left: .36rem;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: .14rem;
+    width: 1.4rem;
+}
+
+.gg-middle-r p {
+    font-size: .1rem;
+    color: #D3D3D3;
+    margin-bottom: 0;
 }

@@ -42,6 +42,7 @@ $(function () {
         curIndex = (curIndex < imgLen - 1) ? (++curIndex) : 0;
         changeTo(curIndex);
     });
+
     /*5.定义一个重新自动播放函数*/
     function autoChangeAgain() {
         autoChange = setInterval(function () {
@@ -54,6 +55,7 @@ $(function () {
             changeTo(curIndex);
         }, 3000);
     };
+
     /*6.定义一个切换图片的函数*/
     function changeTo(num) {
         $(".img-box-ul").find("li").css("display", "none").eq(num).css("display", "block");

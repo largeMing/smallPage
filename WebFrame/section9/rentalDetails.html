@@ -12,7 +12,7 @@
 <body>
 <header class="header-box">
     <div class="header-l">
-        <img src="img/logo2.png" class="logo2">
+        <a href="index.html"><img src="img/logo2.png" class="logo2"></a>
         <span>北京</span>
     </div>
     <div class="header-r">
@@ -22,8 +22,7 @@
 </header>
 <article>
     <div class="position">
-        <span>首页</span><img src="img/right.png" alt=""><span>北京租房</span><img src="img/right.png"
-                                                                             alt=""><span>房源信息</span>
+        <div>首页</div><div>北京租房</div><div>房源信息</div>
     </div>
     <!--图片-->
     <div class="home-img">
@@ -34,7 +33,7 @@
         <div class="home-intro-box-l">天鹅湾西北3.8米高厅两居，业主换房急售</div>
         <div class="home-intro-box-r">
             <div class="home-intro-box-r-cont">
-                <img src="img/rent-xin.png" alt="">
+                <div class="def-xin"></div>
                 <p>关 注</p>
             </div>
         </div>
@@ -133,7 +132,7 @@
     <div class="footer-btm">
         <div class="client-side">
             <div class="client-side-l">
-                <img src="img/Apple-Logo.png" alt="">
+                <img src="img/apple.png" alt="">
                 <div class="font">
                     <div>iphone</div>
                     <div>客户端</div>
@@ -147,10 +146,19 @@
                 </div>
             </div>
         </div>
-        <p style="text-align: center;margin-bottom: .08rem">北京找房无忧房地产经纪有限公司</p>
-        <p style="text-align: center;padding-bottom: .14rem">网络经营许可证 京ICP备20160812号-12</p>
+        <p>北京找房无忧房地产经纪有限公司</p>
+        <p>网络经营许可证 京ICP备20160812号-12</p>
     </div>
 </footer>
 <script src="js/resize.js"></script>
+<script src="js/zepto.js"></script>
+<script src="js/touch.js"></script>
+<script>
+    $(function () {
+        $(".def-xin").tap(function () {
+            $(this).toggleClass("check-xin")
+        })
+    })
+</script>
 </body>
 </html>
